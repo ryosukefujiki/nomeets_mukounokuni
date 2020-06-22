@@ -1,0 +1,21 @@
+{
+  "name": "lp_template",
+  "version": "1.0.0",
+  "description": "LP_Template Page",
+  "author": "ryosukefujiki",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "gsap": "^3.3.4",
+    "nuxt": "^2.0.0",
+    "nuxt-webfontloader": "^1.1.0"
+  },
+  "devDependencies": {
+    "@nuxt/typescript-build": "^0.6.0"
+  }
+}
