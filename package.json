@@ -13,7 +13,8 @@
   "dependencies": {
     "gsap": "^3.3.4",
     "nuxt": "^2.0.0",
-    "nuxt-webfontloader": "^1.1.0"
+    "nuxt-webfontloader": "^1.1.0",
+    "vue-tweet-embed": "^2.4.0"
   },
   "devDependencies": {
     "@nuxt/typescript-build": "^0.6.0"

@@ -2,7 +2,14 @@
   <div class="TheIndex">
     <div class="TheIndex_Hero"></div>
     <div class="TheIndex_Twitter">
-
+      <div class="TheIndex_Twitter_Container">
+        <Tweet id="1264568146251243520" class="TheIndex_Twitter_Tweet"></Tweet>
+        <Tweet id="1264576131140730881" class="TheIndex_Twitter_Tweet"></Tweet>
+        <Tweet id="1264471053838856193" class="TheIndex_Twitter_Tweet"></Tweet>
+        <Tweet id="1264205612419739648" class="TheIndex_Twitter_Tweet"></Tweet>
+        <Tweet id="1264576842037485568" class="TheIndex_Twitter_Tweet"></Tweet>
+        <Tweet id="1264118909285707777" class="TheIndex_Twitter_Tweet"></Tweet>
+      </div>
     </div>
     <div class="TheIndex_Message">
       <div class="TheIndex_Message_Container">
@@ -113,13 +120,15 @@
 <script lang="ts">
 import Vue from 'vue'
 import Logo from '~/components/Logo.vue'
+import { Tweet, Moment, Timeline } from 'vue-tweet-embed'
 
 import { mapGetters } from "vuex";
 import { TweenMax, Elastic, Expo, Back, Linear } from "gsap";
 
 export default Vue.extend({
   components: {
-    Logo
+    Logo,
+    Tweet,
   },
   data() {
     return {
@@ -196,8 +205,19 @@ export default Vue.extend({
   background: red;
 }
 .TheIndex_Twitter{
+  width: 100%;
   background: #04abff;
+  padding: 80px 120px;
 }
+.TheIndex_Twitter_Container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.TheIndex_Twitter_Tweet{
+  width: 400px;
+}
+
 
 .TheIndex_Message{
   padding: 80px 0px;
