@@ -1,6 +1,9 @@
 <template>
   <div class="TheIndex">
     <div class="TheIndex_Hero"></div>
+    <div class="TheIndex_Goods">
+
+    </div>
     <div class="TheIndex_Twitter">
       <div class="TheIndex_Twitter_Container">
         <Tweet id="1264568146251243520" class="TheIndex_Twitter_Tweet"></Tweet>
@@ -119,8 +122,8 @@
 
 <script lang="ts">
 import Vue from 'vue'
-import Logo from '~/components/Logo.vue'
-import { Tweet, Moment, Timeline } from 'vue-tweet-embed'
+// import Logo from '~/components/Logo.vue'
+import { Tweet } from 'vue-tweet-embed'
 
 import { mapGetters } from "vuex";
 import { TweenMax, Elastic, Expo, Back, Linear } from "gsap";
