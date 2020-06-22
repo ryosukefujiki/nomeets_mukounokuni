@@ -1,8 +1,93 @@
 <template>
   <div class="TheIndex">
     <div class="TheIndex_Hero"></div>
+    <div class="TheIndex_Twitter">
+
+    </div>
+    <div class="TheIndex_Message">
+      <div class="TheIndex_Message_Container">
+         <p class="TheIndex_Message_Text">
+          この時代だからこそ生まれる物語」を書きました。<br>
+          その物語を実際に会ったことのない座組みで、<br>
+          画面を隔てたコミュニケーションで立ち上げていきます。<br>
+          きっと映画でも演劇でもない新しい何かが生まれるのだと思いますが、<br>
+          逆境に負けない人間の強さが滲んだたくましいエンタメにしていきたいです。
+        </p>
+        <p class="TheIndex_Message_Name">
+          劇団ノーミーツ主宰、脚本・演出 小御門優一郎
+        </p>
+      </div>
+    </div>
+     <div class="TheIndex_Song">
+      <p class="TheIndex_Song_Text"><span class="TheIndex_Song_Text_Small">主題歌</span>　重力の虹 / lie</p>
+      <!-- <img :src="songImg" alt="" class="TheIndex_Song_Img"> -->
+    </div>
     <div class="TheIndex_Staff">
       <h2 class="TheIndex_Text TheIndex_Staff_Header">Staff <span class="TheIndex_Staff_Header_Jp">スタッフ</span></h2>
+      <div class="TheIndex_Staff_Staff_Container">
+        <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+          <span class="TheIndex_Staff_Member_Role">主宰、脚本・演出</span>
+          <span class="TheIndex_Staff_Member_Name">小御門優一郎</span>
+        </a>
+         <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+          <span class="TheIndex_Staff_Member_Role">主宰、監督・プロデュース</span>
+          <span class="TheIndex_Staff_Member_Name">林健太郎</span>
+        </a>
+        <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+          <span class="TheIndex_Staff_Member_Role">主宰、企画・プロデュース</span>
+          <span class="TheIndex_Staff_Member_Name">広屋佑規</span>
+        </a>
+        <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+          <span class="TheIndex_Staff_Member_Role">舞台監督</span>
+          <span class="TheIndex_Staff_Member_Name">梅田ゆりか</span>
+        </a>
+         <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+          <span class="TheIndex_Staff_Member_Role">演出助手</span>
+          <span class="TheIndex_Staff_Member_Name">オツハタ</span>
+        </a>
+         <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+          <span class="TheIndex_Staff_Member_Role">制作プロデュース</span>
+          <span class="TheIndex_Staff_Member_Name">菅波和也</span>
+        </a>
+        <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+          <span class="TheIndex_Staff_Member_Role">制作助手</span>
+          <span class="TheIndex_Staff_Member_Name">石坪明希子</span>
+        </a>
+        <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+          <span class="TheIndex_Staff_Member_Role">宣伝美術</span>    
+          <span class="TheIndex_Staff_Member_Name">目黒水海</span>
+        </a>
+        <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+          <span class="TheIndex_Staff_Member_Role">ロゴデザイン</span>
+          <span class="TheIndex_Staff_Member_Name">かねこあみ</span>
+        </a>
+        <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+          <span class="TheIndex_Staff_Member_Role">劇伴</span>
+          <span class="TheIndex_Staff_Member_Name TheIndex_Staff_Member_Name_Small">サクライケンタ</span>
+        </a>
+        <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+          <span class="TheIndex_Staff_Member_Role TheIndex_Staff_Member_Role_Small">クリエイティブディレクター/コピーライター</span>
+          <span class="TheIndex_Staff_Member_Name">鈴木健太</span>
+        </a>
+        <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+          <span class="TheIndex_Staff_Member_Role">ウェブデザイン</span>
+          <span class="TheIndex_Staff_Member_Name">千葉大輝</span>
+        </a>
+         <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+          <span class="TheIndex_Staff_Member_Role">広報・PR
+          </span>
+          <span class="TheIndex_Staff_Member_Name">オギユカ</span>
+        </a>
+        <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+          <span class="TheIndex_Staff_Member_Role TheIndex_Staff_Member_Role_Small">企画・宣伝
+          </span>
+          <span class="TheIndex_Staff_Member_Name">小野寺正人</span>
+        </a>
+        <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+          <span class="TheIndex_Staff_Member_Role">企画・製作</span>
+          <span class="TheIndex_Staff_Member_Name TheIndex_Staff_Member_Name_Small">劇団ノーミーツ</span>
+        </a>
+      </div>
     </div>
     <div class="TheIndex_Sns">
       <div class="TheIndex_Sns_Container">
@@ -38,6 +123,7 @@ export default Vue.extend({
   },
   data() {
     return {
+      songImg:  "/home/song.svg",
       nomeetsLogoWhiteImg: "/home/Logo_White_GekidanNoMeets.png",
       snsTwitterImg: "/home/twitter.svg",
       snsYoutubeImg: "/home/youtube.svg",
@@ -99,7 +185,7 @@ export default Vue.extend({
 }
 .TheIndex_Text{
   font-size: 20px;
-  color: #272727;
+  color: #000000;
   font-weight: 900;
   text-align: center;
   font-family: 'Noto Sans JP', sans-serif;
@@ -108,6 +194,52 @@ export default Vue.extend({
   min-width: 100vw;
   min-height: 100vh;
   background: red;
+}
+.TheIndex_Twitter{
+  background: #04abff;
+}
+
+.TheIndex_Message{
+  padding: 80px 0px;
+}
+.TheIndex_Message_Container{
+  margin: 0 auto;
+  width: 84%;
+}
+.TheIndex_Message_Text{
+  font-size: 40px;
+  font-family: 'Noto Sans JP', sans-serif;
+  background: #000000;
+  color: #ffffff;
+  font-weight: 900;
+  display: inline;
+}
+.TheIndex_Message_Name{
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #000000;
+  font-weight: 900;
+}
+
+.TheIndex_Song{
+  background: #c8ff00;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.TheIndex_Song_Text{
+  color: #000000;
+  text-align: center;
+  font-size: 80px;
+  font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;;
+}
+.TheIndex_Song_Text_Small{
+  font-size: 48px;
+}
+.TheIndex_Song_Img{
+  width: 800px;
+  display: block;
+  margin: 0 auto;
 }
 
 .TheIndex_Staff{
@@ -124,6 +256,47 @@ export default Vue.extend({
   font-size: 32px;
   font-weight: 500;
 }
+.TheIndex_Staff_Staff_Container{
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.TheIndex_Staff_Member{
+  margin-bottom: 20px;
+  width: 380px;
+  height: 160px;
+  color: #000000;
+  transition: 0.2s;
+  font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;;
+}
+.TheIndex_Staff_Member:hover{
+  opacity: 0.6;
+}
+.TheIndex_Staff_Member_Role{
+  display: inline-block;
+  background: #ffffff;
+  font-size: 28px;
+  letter-spacing: -2px;
+  margin-bottom:12px;
+}
+.TheIndex_Staff_Member_Role_Small{
+  font-size: 20px;
+  letter-spacing: -2px;
+  margin-bottom:20px;
+}
+.TheIndex_Staff_Member_Name{
+  display: inline-block;
+  background: #c8ff00;
+  font-size: 60px;
+}
+.TheIndex_Staff_Member_Name_Small{
+  font-size: 48px;
+}
+
+
+
 
 .TheIndex_Sns{
   background: #f9f9f9;
