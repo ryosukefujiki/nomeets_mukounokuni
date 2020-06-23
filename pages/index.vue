@@ -6,10 +6,13 @@
     <div class="TheIndex_Hero">
       <h1 class="TheIndex_Hero_Dummy_Text">COPY&DESCRIPTION</h1>
     </div>
+    <div class="TheIndex_Information">
+
+    </div>
     <div class="TheIndex_Ticket">
       <h2 class="TheIndex_Text TheIndex_Header TheIndex_Ticket_Header">Ticket <span class="TheIndex_Header_Jp">チケット情報</span></h2>
       <div class="TheIndex_Ticket_Section">
-        <h3 class="TheIndex_Ticket_Date">5.27<span class="TheIndex_Ticket_Day">(水)</span></h3>
+        <h3 class="TheIndex_Ticket_Date">5.27<span class="TheIndex_Ticket_Day">水</span></h3>
         <div class="TheIndex_Ticket_Countainer">
           <div><h4 class="TheIndex_Ticket_Name">初日割</h4></div>
           <p class="TheIndex_Ticket_Text">
@@ -43,7 +46,7 @@
       </div>
 
       <div class="TheIndex_Ticket_Section">
-        <h3 class="TheIndex_Ticket_Date">5.12<span class="TheIndex_Ticket_Day"> (火)</span>　発売</h3>
+        <h3 class="TheIndex_Ticket_Date">5.12<span class="TheIndex_Ticket_Day"> 火</span> <span class="TheIndex_Ticket_Date_Small">発売</span> <span class="TheIndex_Ticket_Date_Small_Red">即日完売</span> </h3>
         <div class="TheIndex_Ticket_Countainer">
           <div><h4 class="TheIndex_Ticket_Name">特典付き先行チケット</h4></div>
           <p class="TheIndex_Ticket_Text_Small">＊特典は後日発表となります。</p>
@@ -55,7 +58,7 @@
      </div>
 
       <div class="TheIndex_Ticket_Section">
-        <h3 class="TheIndex_Ticket_Date">5.14<span class="TheIndex_Ticket_Day"> (木)</span>　12:00 一般発売</h3>
+        <h3 class="TheIndex_Ticket_Date">5.14<span class="TheIndex_Ticket_Day"> 木</span> <span class="TheIndex_Ticket_Date_Small">12:00 一般発売</span></h3>
         <div class="TheIndex_Ticket_Countainer">
           <div><h4 class="TheIndex_Ticket_Name TheIndex_Ticket_Name_White">一般チケット</h4></div>
           <p class="TheIndex_Ticket_Text">
@@ -347,7 +350,7 @@ export default Vue.extend({
 .TheIndex_Ticket_Day{
   font-size: 24px;
   position: relative;
-  top: -4px;
+  top: -2px;
 }
 .TheIndex_Ticket_Name{
   display: inline-block;
@@ -417,6 +420,13 @@ export default Vue.extend({
   font-size: 16px;
   margin-top: 4px;
   /* font-weight: 900; */
+}
+.TheIndex_Ticket_Date_Small{
+  font-size: 40px;
+}
+.TheIndex_Ticket_Date_Small_Red{
+  font-size: 40px;
+  background: #ff1e26;
 }
 
 .TheIndex_Goods{
