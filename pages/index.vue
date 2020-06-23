@@ -1,6 +1,104 @@
 <template>
   <div class="TheIndex">
-    <div class="TheIndex_Hero"></div>
+    <div class="TheIndex_Hero">
+      <h1 class="TheIndex_Hero_Dummy_Text">KEY VISUAL</h1>
+    </div>
+    <div class="TheIndex_Hero">
+      <h1 class="TheIndex_Hero_Dummy_Text">COPY&DESCRIPTION</h1>
+    </div>
+    <div class="TheIndex_Ticket">
+      <h2 class="TheIndex_Text TheIndex_Header TheIndex_Ticket_Header">Ticket <span class="TheIndex_Header_Jp">チケット情報</span></h2>
+      <div class="TheIndex_Ticket_Section">
+        <h3 class="TheIndex_Ticket_Date">5.27<span class="TheIndex_Ticket_Day">(水)</span></h3>
+        <div class="TheIndex_Ticket_Countainer">
+          <div><h4 class="TheIndex_Ticket_Name">初日割</h4></div>
+          <p class="TheIndex_Ticket_Text">
+          <a href="https://nomeets2024.peatix.com/" class="TheIndex_Ticket_Link" target="_blank">購入ページへ</a>
+            2000円（5.28 19:00 まで）
+          </p>
+        </div>
+        <div class="TheIndex_Ticket_Countainer">
+          <div><h4 class="TheIndex_Ticket_Name TheIndex_Ticket_Name_White">一般チケット</h4></div>
+          <p class="TheIndex_Ticket_Text">
+          <a href="https://nomeets2024.peatix.com/" class="TheIndex_Ticket_Link TheIndex_Ticket_Link_Blue" target="_blank">購入ページへ</a>
+            2500円
+          </p>
+        </div>
+        <div class="TheIndex_Ticket_Flexbox">
+          <div class="TheIndex_Ticket_Countainer">
+            <div><h4 class="TheIndex_Ticket_Name TheIndex_Ticket_Name_Black">RT割引チケット</h4></div>
+            <p class="TheIndex_Ticket_Text">
+            <a href="https://nomeets2024.peatix.com/" class="TheIndex_Ticket_Link TheIndex_Ticket_Link_Blue" target="_blank">購入ページへ</a>
+              2300円
+            </p>
+          </div>
+          <div class="TheIndex_Ticket_Countainer">
+            <div><h4 class="TheIndex_Ticket_Name TheIndex_Ticket_Name_Black">U25割引チケット</h4></div>
+            <p class="TheIndex_Ticket_Text">
+            <a href="https://nomeets2024.peatix.com/" class="TheIndex_Ticket_Link TheIndex_Ticket_Link_Blue" target="_blank">購入ページへ</a>
+              2000円
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="TheIndex_Ticket_Section">
+        <h3 class="TheIndex_Ticket_Date">5.12<span class="TheIndex_Ticket_Day"> (火)</span>　発売</h3>
+        <div class="TheIndex_Ticket_Countainer">
+          <div><h4 class="TheIndex_Ticket_Name">特典付き先行チケット</h4></div>
+          <p class="TheIndex_Ticket_Text_Small">＊特典は後日発表となります。</p>
+          <p class="TheIndex_Ticket_Text">
+          <a href="https://nomeets2024.peatix.com/" class="TheIndex_Ticket_Link" target="_blank">購入ページへ</a>
+            2000円(数量限定発売)
+          </p>
+        </div>
+     </div>
+
+      <div class="TheIndex_Ticket_Section">
+        <h3 class="TheIndex_Ticket_Date">5.14<span class="TheIndex_Ticket_Day"> (木)</span>　12:00 一般発売</h3>
+        <div class="TheIndex_Ticket_Countainer">
+          <div><h4 class="TheIndex_Ticket_Name TheIndex_Ticket_Name_White">一般チケット</h4></div>
+          <p class="TheIndex_Ticket_Text">
+          <a href="https://nomeets2024.peatix.com/" class="TheIndex_Ticket_Link TheIndex_Ticket_Link_Blue" target="_blank">購入ページへ</a>
+            2500円
+          </p>
+        </div>
+        <div class="TheIndex_Ticket_Flexbox">
+          <div class="TheIndex_Ticket_Countainer">
+            <div><h4 class="TheIndex_Ticket_Name TheIndex_Ticket_Name_Black">RT割引チケット</h4></div>
+            <p class="TheIndex_Ticket_Text">
+            <a href="https://nomeets2024.peatix.com/" class="TheIndex_Ticket_Link TheIndex_Ticket_Link_Blue" target="_blank">購入ページへ</a>
+              2300円
+            </p>
+          </div>
+          <div class="TheIndex_Ticket_Countainer">
+            <div><h4 class="TheIndex_Ticket_Name TheIndex_Ticket_Name_Black">U25割引チケット</h4></div>
+            <p class="TheIndex_Ticket_Text">
+            <a href="https://nomeets2024.peatix.com/" class="TheIndex_Ticket_Link TheIndex_Ticket_Link_Blue" target="_blank">購入ページへ</a>
+              2000円
+            </p>
+          </div>
+          <div class="TheIndex_Ticket_Countainer">
+            <div><h4 class="TheIndex_Ticket_Name TheIndex_Ticket_Name_Black">U18割引チケット</h4></div>
+            <p class="TheIndex_Ticket_Text">
+            <a href="https://nomeets2024.peatix.com/" class="TheIndex_Ticket_Link TheIndex_Ticket_Link_Blue" target="_blank">購入ページへ</a>
+              1000円
+            </p>
+          </div>
+        </div>
+     </div>
+     <p class="TheIndex_Ticket_Text_Small">
+       【『門外不出モラトリアム』公演概要】<br>
+        ＜公演日＞5月23日(土) 15:00 / 21:00・24日(日) 15:00 / 21:00 (全4回)<br>
+        ＜場所＞ Zoomにて生配信上演<br>
+        ＜チケット販売＞<br>
+        ・5月12日(火)より特典付き先行チケット数量限定発売<br>
+        先行チケット：2000円<br>
+        ・5月14日(木)より一般発売<br>
+        一般チケット：2500円、<br>
+        RT割引チケット：2300円、U25割引チケット：2000円、U18割引チケット：1000円<br>
+        ※各種チケット詳細・申込み方法は門外不出モラトリアム公式HPにてご確認ください。</p>
+    </div>
     <div class="TheIndex_Goods">
       <div class="TheIndex_Goods_Countainer">
         <h2 class="TheIndex_Text TheIndex_Header TheIndex_Goods_Header">SUZURI Official site</h2>
@@ -218,7 +316,107 @@ export default Vue.extend({
 .TheIndex_Hero{
   min-width: 100vw;
   min-height: 100vh;
-  background: red;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 6px solid #eaeaea;
+}
+.TheIndex_Hero_Dummy_Text{
+  color: #eaeaea;
+  font-size: 40px;
+}
+
+.TheIndex_Ticket{
+  background: #04abff;
+  padding: 80px 120px;
+}
+.TheIndex_Ticket_Header{
+  color: #ffffff;
+}
+.TheIndex_Ticket_Countainer{
+  margin-bottom: 40px;
+  margin-right: 24px;
+}
+.TheIndex_Ticket_Date{
+  font-size: 60px;
+  font-weight: 900;
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #ffffff;
+}
+.TheIndex_Ticket_Day{
+  font-size: 24px;
+  position: relative;
+  top: -4px;
+}
+.TheIndex_Ticket_Name{
+  display: inline-block;
+  font-size: 56px;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: normal;
+  transition: 0.6s;
+  background: #ff1e26;
+  color: #ffffff;
+  margin-top: 12px;
+}
+.TheIndex_Ticket_Name_White{
+  background: #ffffff;
+  color: #000000;
+}
+.TheIndex_Ticket_Name_Black{
+  background: #000000;
+  color: #ffffff;
+  font-size: 48px;
+}
+
+.TheIndex_Ticket_Text{
+  margin-top: 24px;
+  font-size: 28px;
+  color: #ffffff;
+}
+.TheIndex_Ticket_Link{
+  position: relative;
+  top: -4px;
+  margin-top: 12px;
+  font-size: 32px;
+  color: #ffffff;
+  background: #ff1e26;
+  padding: 12px 24px;
+  border-radius: 30px;
+  text-decoration: none;
+  box-sizing: content-box;
+  font-size: 20px;
+  /* border-bottom: solid 8px #d1151b; */
+  box-shadow: 0 8px 0 #d1151b;
+  transition: none;
+  margin-right: 12px;
+  /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 1.0); */
+}
+.TheIndex_Ticket_Link:hover{
+  box-shadow: 0 4px 0 #d1151b;
+  top: 0px;
+  /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 1.0); */
+}
+.TheIndex_Ticket_Link_Blue{
+  background: #008fd6;
+  box-shadow: 0 8px 0 #0074ad;
+}
+.TheIndex_Ticket_Link_Blue:hover{
+  box-shadow: 0 4px 0 #0074ad;
+  top: 0px;
+  /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 1.0); */
+}
+.TheIndex_Ticket_Flexbox{
+  display: flex;
+}
+.TheIndex_Ticket_Section{
+  margin-bottom: 80px;
+}
+.TheIndex_Ticket_Text_Small{
+  color: #ffffff;
+  font-size: 16px;
+  margin-top: 4px;
+  /* font-weight: 900; */
 }
 
 .TheIndex_Goods{
