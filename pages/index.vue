@@ -695,6 +695,22 @@ export default Vue.extend({
 
 
 @media screen and (max-width: 1024px) {
+  .TheIndex_Twitter_Tweet{
+    width: 360px;
+  }
+  .TheIndex_Ticket_Section{
+    margin-bottom: 40px;
+  }
+  .TheIndex_Ticket_Name{
+    font-size: 28px;
+    /* margin-right: 12px; */
+  }
+  .TheIndex_Ticket_Link{
+    font-size: 12px;
+  }
+  .TheIndex_Message_Text{
+    font-size: 24px;
+  }
 }
 @media screen and (max-width: 768px) {
 }
