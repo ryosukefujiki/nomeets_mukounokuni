@@ -21,6 +21,9 @@
         <p class="TheIndex_Information_Text"> <span class="Color_Blue">Zoom</span> にて生配信上映</p>
       </div>
     </div>
+     <div class="TheIndex_Hero">
+      <h1 class="TheIndex_Hero_Dummy_Text">CAST</h1>
+    </div>
     <div class="TheIndex_Ticket">
       <h2 class="TheIndex_Text TheIndex_Header TheIndex_Ticket_Header">Ticket <span class="TheIndex_Header_Jp">チケット情報</span></h2>
       <div class="TheIndex_Ticket_Section">
