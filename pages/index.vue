@@ -1,11 +1,11 @@
 <template>
   <div class="TheIndex">
-    <!-- <div class="TheIndex_Hero">
-      <h1 class="TheIndex_Hero_Dummy_Text">KEY VISUAL</h1>
-    </div> -->
     <Glitch class="TheIndex_Hero"></Glitch>
     <div class="TheIndex_Hero">
-      <h1 class="TheIndex_Hero_Dummy_Text">COPY&DESCRIPTION</h1>
+      <h1 class="TheIndex_Hero_Dummy_Text">KEY VISUAL</h1>
+    </div>
+    <div class="TheIndex_Hero">
+      <h1 class="TheIndex_Hero_Dummy_Text">COPY</h1>
     </div>
     <div class="TheIndex_Information">
       <div class="TheIndex_Information_Contents">
@@ -685,7 +685,9 @@ export default Vue.extend({
 .TheIndex_Footer_Image_Container{
   display: flex;
   justify-content: center;
-  align-content: center;
+  /* align-content: center; */
+  height: auto;
+  align-items: flex-start;
 }
 .TheIndex_Footer_Image{
   display: block;
