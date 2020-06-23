@@ -699,6 +699,9 @@ export default Vue.extend({
 
 
 @media screen and (max-width: 1024px) {
+  .TheIndex_Twitter_Container{
+    width: 100%;
+  }
   .TheIndex_Twitter_Tweet{
     width: 360px;
   }
@@ -727,10 +730,10 @@ export default Vue.extend({
     display: block;
   }
    .TheIndex_Ticket_Section{
-    margin-bottom: 0px;
+    margin-bottom: 60px;
   }
   .TheIndex_Ticket_Countainer{
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
   .TheIndex_Twitter_Tweet{
     width: 100%;
@@ -758,6 +761,117 @@ export default Vue.extend({
   }
 }
 @media screen and (max-width: 480px) {
+  .TheIndex_Text{
+    font-size: 16px;
+  } 
+  .TheIndex_Contact_MailLink{
+    font-size: 20px;
+  }
+  .TheIndex_Header{
+    font-size: 28px;
+    margin-bottom: 12px;
+  }
+  .TheIndex_Header_Jp{
+    font-size: 16px;
+  }
+
+  .TheIndex_Twitter{
+    padding: 40px 20px;
+  }
+  .TheIndex_Message{
+    padding: 40px 20px;
+  }
+  .TheIndex_Staff{
+    padding: 40px 0px;
+  }
+  .TheIndex_Goods{
+    padding: 40px 0px;
+    padding-bottom: 1px;
+  }
+  .TheIndex_Ticket{
+    padding: 40px 20px;
+  }
+  .TheIndex_Information{
+    padding: 40px 20px;
+  }
+  .TheIndex_Information_Header{
+    font-size: 28px;
+  }
+  .TheIndex_Information_Text{
+    font-size: 32px;
+  }
+  .TheIndex_Information_Text_Small{
+    font-size: 24px;
+  }
+
+  .TheIndex_Ticket_Link{
+    padding: 4px 8px;
+    box-shadow: 0 4px 0 #d1151b;
+  }
+  .TheIndex_Ticket_Link_Blue{
+    box-shadow: 0 4px 0 #0074ad;
+  }
+  .TheIndex_Ticket_Date{
+    font-size: 40px;
+  }
+  .TheIndex_Ticket_Text{
+    font-size: 16px;
+  }
+  .TheIndex_Ticket_Date_Small{
+    font-size: 28px;
+  }
+  .TheIndex_Ticket_Date_Small_Red{
+    font-size: 28px;
+  }
+
+
+
+  .TheIndex_Twitter_Container{
+    width: 100%;
+  }
+
+  .TheIndex_Message_Container{
+    width: 100%;
+  }
+  .TheIndex_Message_Text{
+    font-size: 20px;
+  }
+  .TheIndex_Message_Name{
+    font-size: 14px;
+  }
+  
+
+
+  .TheIndex_Song_Text_Small{
+    font-size: 20px;
+  }
+  .TheIndex_Song_Text{
+    font-size: 28px;
+  }
+
+  .TheIndex_Staff_Header{
+    font-size: 28px;
+  }
+  .TheIndex_Staff_Header_Jp{
+    font-size: 16px;
+  }
+  .TheIndex_Staff_Member{
+    width: 140px;
+    margin-bottom: 20px;
+  }
+  .TheIndex_Staff_Member_Role{
+    font-size: 12px;
+  }
+  .TheIndex_Staff_Member_Name{
+    font-size: 20px;
+  }
+
+  .TheIndex_Sns_Container{
+    width: 280px;
+  }
+  .TheIndex_Sns_Img{
+    width: 60px;
+  }
 }
 @media screen and (max-width: 320px) {
 }
