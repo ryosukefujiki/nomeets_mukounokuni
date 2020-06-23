@@ -50,20 +50,20 @@ class Common{
         // this.geometry = new THREE.BoxGeometry(400, 600, 400);
         this.height_min = this.size.windowH / 1000
         console.log(this.height_min)
-        this.geometry = new THREE.PlaneGeometry(0.4, 0.6, 32, 32);
-        // this.geometry = new THREE.PlaneGeometry(this.size.windowW, this.size.windowH);
+        // this.geometry = new THREE.PlaneGeometry(0.4, 0.6, 32, 32);
+        this.geometry = new THREE.PlaneGeometry(this.size.windowW, this.size.windowH);
         this.material = new THREE.MeshNormalMaterial();
         // this.material = new THREE.MeshPhongMaterial( { map:new THREE.TextureLoader().load(img) } );
-        this.material = new THREE.ShaderMaterial({
-            vertexShader,
-            fragmentShader,
-            uniforms: {
-              uTime: { value: 0.0 },
-              uTexture: { value: new THREE.TextureLoader().load(img) }
-            },
-            // wireframe: true,
-            side: THREE.DoubleSide
-          });
+        // this.material = new THREE.ShaderMaterial({
+        //     vertexShader,
+        //     fragmentShader,
+        //     uniforms: {
+        //       uTime: { value: 0.0 },
+        //       uTexture: { value: new THREE.TextureLoader().load(img) }
+        //     },
+        //     // wireframe: true,
+        //     side: THREE.DoubleSide
+        //   });
         this.box = new THREE.Mesh(this.geometry, this.material);
         this.scene.add(this.box);
 
@@ -103,7 +103,7 @@ class Common{
         // this.time.delta = this.clock.getDelta();
         // this.time.total += this.delta;
 
-        this.material.uniforms.uTime.value = this.clock.getElapsedTime();
+        // this.material.uniforms.uTime.value = this.clock.getElapsedTime();
 
         this.renderer.render(this.scene, this.camera);
     }
