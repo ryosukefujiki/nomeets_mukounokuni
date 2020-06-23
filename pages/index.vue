@@ -346,7 +346,7 @@ export default Vue.extend({
 }
 .TheIndex_Hero_Dummy_Text{
   color: #eaeaea;
-  font-size: 40px;
+  font-size: 20px;
 }
 
 .TheIndex_Information{
