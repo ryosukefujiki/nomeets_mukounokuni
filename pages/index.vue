@@ -7,7 +7,19 @@
       <h1 class="TheIndex_Hero_Dummy_Text">COPY&DESCRIPTION</h1>
     </div>
     <div class="TheIndex_Information">
-
+      <div class="TheIndex_Information_Contents">
+        <h3 class="TheIndex_Information_Header">再公演日</h3>
+        <p class="TheIndex_Information_Text"><span class="Color_Yellow">5.31</span> <span class="TheIndex_Information_Text_Small">日</span>　18:00</p>
+      </div>
+      <div class="TheIndex_Information_Contents">
+        <h3 class="TheIndex_Information_Header">公演日</h3>
+        <p class="TheIndex_Information_Text"><span class="Color_Yellow">5.23</span> <span class="TheIndex_Information_Text_Small">土</span>　15:00 / 21:00</p>
+        <p class="TheIndex_Information_Text"><span class="Color_Yellow">5.24</span> <span class="TheIndex_Information_Text_Small">日</span>　15:00 / 21:00</p>
+      </div>
+      <div class="TheIndex_Information_Contents">
+        <h3 class="TheIndex_Information_Header Color_Blue">場所</h3>
+        <p class="TheIndex_Information_Text"> <span class="Color_Blue">Zoom</span> にて生配信上映</p>
+      </div>
     </div>
     <div class="TheIndex_Ticket">
       <h2 class="TheIndex_Text TheIndex_Header TheIndex_Ticket_Header">Ticket <span class="TheIndex_Header_Jp">チケット情報</span></h2>
@@ -328,6 +340,38 @@ export default Vue.extend({
 .TheIndex_Hero_Dummy_Text{
   color: #eaeaea;
   font-size: 40px;
+}
+
+.TheIndex_Information{
+  background: #000000;
+  padding: 80px 120px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.TheIndex_Information_Contents{
+  width: 740px;
+  margin-bottom: 40px;
+}
+.TheIndex_Information_Header{
+  color: #c8ff00;
+  font-size: 48px;
+  font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+}
+.TheIndex_Information_Text{
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: 900;
+}
+.TheIndex_Information_Text_Small{
+  font-size: 40px;
+}
+.Color_Blue{
+  color: #04abff;
+}
+.Color_Yellow{
+  color: #c8ff00;
 }
 
 .TheIndex_Ticket{
