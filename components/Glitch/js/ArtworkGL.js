@@ -6,10 +6,9 @@ export default class ArtworkGL{
         this.props = props;
         this.init();
     }
-
     init(){
         Common.init(this.props.$canvas);
-        this.shape = new Shape();
+        // this.shape = new Shape();
         window.addEventListener("resize", this.resize.bind(this));
         this.loop();
     }
@@ -24,7 +23,7 @@ export default class ArtworkGL{
     }
 
     render(){
-        this.shape.update();
+        // this.shape.update();
         Common.render();
     }
 

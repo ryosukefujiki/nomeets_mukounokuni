@@ -71,7 +71,7 @@ export default {
   */
  extend (config, ctx) {
     if (!!config.module) {
-      config.module.rules.push({ test: /\.(vert|frag)$/i, use: ["raw-loader"] });
+      config.module.rules.push({ test: /\.(vert|frag|glsl)$/i, use: ["raw-loader"] });
     }
   }
 },
