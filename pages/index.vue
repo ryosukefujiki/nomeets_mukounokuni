@@ -416,7 +416,7 @@ export default Vue.extend({
 .TheIndex_Ticket_Name_Black{
   background: #000000;
   color: #ffffff;
-  font-size: 48px;
+  font-size: 40px;
 }
 
 .TheIndex_Ticket_Text{
@@ -511,8 +511,12 @@ export default Vue.extend({
   width: 100%;
   background: #04abff;
   padding: 80px 120px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .TheIndex_Twitter_Container{
+  width: 90%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -588,9 +592,9 @@ export default Vue.extend({
 }
 .TheIndex_Staff_Member{
   text-align: left;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   width: 380px;
-  height: 160px;
+  /* height: 160px; */
   color: #000000;
   transition: 0.2s;
   display: block;
@@ -713,6 +717,45 @@ export default Vue.extend({
   }
 }
 @media screen and (max-width: 768px) {
+  .TheIndex_Header{
+    font-size: 48px;
+  }
+  .TheIndex_Information_Text{
+    font-size: 48px;
+  }
+  .TheIndex_Ticket_Flexbox{
+    display: block;
+  }
+   .TheIndex_Ticket_Section{
+    margin-bottom: 0px;
+  }
+  .TheIndex_Ticket_Countainer{
+    margin-bottom: 40px;
+  }
+  .TheIndex_Twitter_Tweet{
+    width: 100%;
+  }
+  .TheIndex_Message_Text{
+    font-size: 18px;
+  }
+  .TheIndex_Song_Text_Small{
+    font-size: 32px;
+  }
+  .TheIndex_Song_Text{
+    font-size: 40px;
+  }
+  .TheIndex_Staff_Member{
+    width: 280px;
+  }
+  .TheIndex_Staff_Member_Role{
+    font-size: 20px;
+  }
+  .TheIndex_Staff_Member_Role_Small{
+    font-size: 14px;
+  }
+  .TheIndex_Staff_Member_Name{
+    font-size: 40px;
+  }
 }
 @media screen and (max-width: 480px) {
 }
