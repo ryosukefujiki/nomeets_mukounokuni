@@ -1,5 +1,6 @@
 import * as THREE from "three";
-import img from "./assets/mannequin.jpg";
+// import img from "./assets/mannequin.jpg";
+import img from "./assets/mukounokuni.png";
 
 import vertexShader from "./glsl/vertex.vert";
 import fragmentShader from "./glsl/fragment.frag";
