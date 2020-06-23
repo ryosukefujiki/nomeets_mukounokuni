@@ -65,11 +65,14 @@ export default {
   /*
   ** Build configuration
   */
-  build: {
-    /*
-    ** You can extend webpack config here
-    */
-    extend (config, ctx) {
+ build: {
+  /*
+  ** You can extend webpack config here
+  */
+ extend (config, ctx) {
+    if (!!config.module) {
+      config.module.rules.push({ test: /\.(vert|frag)$/i, use: ["raw-loader"] });
     }
   }
+},
 }

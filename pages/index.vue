@@ -1,8 +1,9 @@
 <template>
   <div class="TheIndex">
-    <div class="TheIndex_Hero">
+    <!-- <div class="TheIndex_Hero">
       <h1 class="TheIndex_Hero_Dummy_Text">KEY VISUAL</h1>
-    </div>
+    </div> -->
+    <Glitch class="TheIndex_Hero"></Glitch>
     <div class="TheIndex_Hero">
       <h1 class="TheIndex_Hero_Dummy_Text">COPY&DESCRIPTION</h1>
     </div>
@@ -251,10 +252,13 @@ import { Tweet } from 'vue-tweet-embed'
 import { mapGetters } from "vuex";
 import { TweenMax, Elastic, Expo, Back, Linear } from "gsap";
 
+import Glitch from "~/components/Glitch";
+
 export default Vue.extend({
   components: {
     Logo,
     Tweet,
+    Glitch,
   },
   data() {
     return {
