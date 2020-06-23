@@ -120,9 +120,9 @@
   </div>
 </template>
 
-<script lang="ts">
+<script>
 import Vue from 'vue'
-// import Logo from '~/components/Logo.vue'
+import Logo from '~/components/Logo.vue'
 import { Tweet } from 'vue-tweet-embed'
 
 import { mapGetters } from "vuex";
