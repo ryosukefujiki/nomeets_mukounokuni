@@ -64,8 +64,9 @@
         <p class="TheIndex_Information_Text"> <span class="Color_Blue">Zoom</span> にて生配信上映</p>
       </div>
     </div>
-     <div class="TheIndex_Hero" id="cast">
-      <h1 class="TheIndex_Hero_Dummy_Text">CAST</h1>
+     <div class="TheIndex_Cast" id="cast">
+      <h2 class="TheIndex_Text TheIndex_Header">Cast <span class="TheIndex_Header_Jp">キャスト</span></h2>
+      <p class="TheIndex_Cast_Text">メインキャストは、劇団ノーミーツの出演俳優以外、 全員ZOOM上でのオーディションにより 200名を超える応募者の中から選出。</p>
     </div>
     <div class="TheIndex_Ticket" id="ticket">
       <h2 class="TheIndex_Text TheIndex_Header TheIndex_Ticket_Header">Ticket <span class="TheIndex_Header_Jp">チケット情報</span></h2>
@@ -500,6 +501,20 @@ export default Vue.extend({
 }
 .Color_Yellow{
   color: #c8ff00;
+}
+
+.TheIndex_Cast{
+  background: #c8ff00;
+  padding: 80px 120px;
+}
+.TheIndex_Cast_Text{
+  background: #ffffff;
+  color: #000000;
+  font-weight: 900;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 32px;
+  width: 100%;
+  display: inline;
 }
 
 .TheIndex_Ticket{
