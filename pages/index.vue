@@ -998,7 +998,75 @@ export default Vue.extend({
   .TheIndex_Sns_Img{
     width: 60px;
   }
+  .TheIndex_Nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 32px;
+  background: #c8ff00;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 10;
+}
+.TheIndex_Nav_Img{
+  height: 32px;
+  margin-right: 12px;
+}
+.TheIndex_Nav_Item{
+  font-size: 14px;
+  color: #000000;
+  text-decoration: none;
+  display: block;
+  margin-right: 8px;
+  font-weight: 900;
+  transition: 0.2s;
+}
 }
 @media screen and (max-width: 320px) {
+  .TheIndex_Nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 32px;
+  background: #c8ff00;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 10;
+}
+.TheIndex_Nav_Img{
+  height: 32px;
+  margin-right: 12px;
+}
+.TheIndex_Nav_Item{
+  font-size: 12px;
+  color: #000000;
+  text-decoration: none;
+  display: block;
+  margin-right: 8px;
+  font-weight: 900;
+  transition: 0.2s;
+}
+.TheIndex_Ticket_Date{
+  font-size: 32px;
+}
+.TheIndex_Ticket_Date_Small{
+  font-size: 24px;
+}
+.TheIndex_Ticket_Name{
+  font-size: 24px;
+}
+.TheIndex_Ticket_Text{
+  font-size: 12px;
+}
+.TheIndex_Ticket_Text_Small{
+  font-size: 14px;
+}
+.TheIndex_Staff_Member{
+  width: 120px;
+}
 }
 </style>
