@@ -45,7 +45,7 @@
           <img :src="copyTitleImg" alt="" class="TheIndex_Copy_Text_Img">
         </div>
         <!-- <youtube ref="youtube" :video-id="videoId" class="TheIndex_Copy_Youtube" /> -->
-        <!-- <iframe class="TheIndex_Copy_Youtube" data-src="https://www.youtube.com/embed/Zu9r-7uZfas" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+        <iframe class="TheIndex_Copy_Youtube" data-src="https://www.youtube.com/embed/Zu9r-7uZfas" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
       <!-- <youtube ref="youtube" :video-id="videoId" class="TheDetail_Category_Movie"/> -->
 
@@ -309,12 +309,12 @@
     </div>
     <div class="TheIndex_Twitter">
       <div class="TheIndex_Twitter_Container">
-        <!-- <Tweet id="1264568146251243520" class="TheIndex_Twitter_Tweet"></Tweet>
+        <Tweet id="1264568146251243520" class="TheIndex_Twitter_Tweet"></Tweet>
         <Tweet id="1264576131140730881" class="TheIndex_Twitter_Tweet"></Tweet>
         <Tweet id="1264471053838856193" class="TheIndex_Twitter_Tweet"></Tweet>
         <Tweet id="1264205612419739648" class="TheIndex_Twitter_Tweet"></Tweet>
         <Tweet id="1264576842037485568" class="TheIndex_Twitter_Tweet"></Tweet>
-        <Tweet id="1264118909285707777" class="TheIndex_Twitter_Tweet"></Tweet> -->
+        <Tweet id="1264118909285707777" class="TheIndex_Twitter_Tweet"></Tweet>
       </div>
     </div>
     <div class="TheIndex_Message">
