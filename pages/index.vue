@@ -44,7 +44,8 @@
           </p>
           <img :src="copyTitleImg" alt="" class="TheIndex_Copy_Text_Img">
         </div>
-        <youtube ref="youtube" :video-id="videoId" class="TheIndex_Copy_Youtube" />
+        <!-- <youtube ref="youtube" :video-id="videoId" class="TheIndex_Copy_Youtube" /> -->
+        <iframe class="TheIndex_Copy_Youtube" data-src="https://www.youtube.com/embed/Zu9r-7uZfas" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
       <!-- <youtube ref="youtube" :video-id="videoId" class="TheDetail_Category_Movie"/> -->
 
@@ -456,6 +457,15 @@ export default Vue.extend({
   methods: {
     testMethod: function() {
     },
+    youtube_defer: function(){
+      console.log("LOAD")
+      const iframes = document.querySelectorAll('.TheIndex_Copy_Youtube');
+      iframes.forEach(function(iframe){
+        if(iframe.getAttribute('data-src')) {
+          iframe.setAttribute('src',iframe.getAttribute('data-src'));
+        }
+      });
+    }
   },
   computed: {
     ...mapGetters({
@@ -487,9 +497,11 @@ export default Vue.extend({
    }
   },
   mounted() {
+    window.addEventListener('load', this.youtube_defer);
     // window.addEventListener("scroll", this.scrollStart, false);
   },
   destroyed() {
+    window.removeEventListener("load", this.youtube_defer, false);
     // window.removeEventListener("scroll", this.scrollStart, false);
   }
 })
