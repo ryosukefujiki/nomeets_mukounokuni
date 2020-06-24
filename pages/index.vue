@@ -67,6 +67,48 @@
      <div class="TheIndex_Cast" id="cast">
       <h2 class="TheIndex_Text TheIndex_Header">Cast <span class="TheIndex_Header_Jp">キャスト</span></h2>
       <p class="TheIndex_Cast_Text">メインキャストは、劇団ノーミーツの出演俳優以外、 全員ZOOM上でのオーディションにより 200名を超える応募者の中から選出。</p>
+      <div class="The_Index_Cast_Flexbox">
+        <a class="The_Index_Cast_Member" href="https://twitter.com/milkan10_" target="_blank">
+          <img :src="castImg01" alt="" class="The_Index_Cast_Member_Img">
+          <div class="The_Index_Cast_Member_Countainer">
+            <div>
+              <p class="The_Index_Cast_Name">夏海</p>
+            </div>
+             <div><p class="The_Index_Cast_Role">メグル役</p></div>
+            
+             <div><p class="The_Index_Cast_Message">
+              皆様はじめまして！今回メグル役を演じます夏海です。<br>
+              今作のお話は、これからの日本に怒るかもしれない、もしくはすでに起こっている事態を元に作られています。私自身、ずっと家にいて気が滅入っていました。その中ノーミーツの動画を観てとても勇気付けられました。皆さんに元気を届けられるよう、精一杯演じます。沢山の肩に観ていただきたいです！どうぞよろしくお願いいたします。
+              </p></div>
+          </div>
+        </a>
+        <a class="The_Index_Cast_Member" href="https://twitter.com/milkan10_" target="_blank">
+          <img :src="castImg02" alt="" class="The_Index_Cast_Member_Img">
+          <div class="The_Index_Cast_Member_Countainer">
+            <div>
+              <p class="The_Index_Cast_Name">櫻井保幸</p>
+            </div>
+             <div><p class="The_Index_Cast_Role">ケンジ役</p></div>
+            
+             <div><p class="The_Index_Cast_Message">
+              世界のネガティブが産んだエンタメの可能性の一部になれることをとても嬉しく思う共に、その場を共有していただける劇団ノーミーツはじめ関係者の皆さんに感謝しています。ひとりでも多くの人の心を豊かにできるよう行きたいです。届けます。
+              </p></div>
+          </div>
+        </a>
+        <a class="The_Index_Cast_Member" href="https://twitter.com/milkan10_" target="_blank">
+          <img :src="castImg03" alt="" class="The_Index_Cast_Member_Img">
+          <div class="The_Index_Cast_Member_Countainer">
+            <div>
+              <p class="The_Index_Cast_Name">オツハタ</p>
+            </div>
+             <div><p class="The_Index_Cast_Role">シンタロウ役</p></div>
+            
+             <div><p class="The_Index_Cast_Message">
+              皆様、こんにちは。劇団ノーミーツのオツハタと申します。名前を聞き間違えられやすく、また読み間違えられやすいため、カタカナの芸名にしました。絶対に絶対に今やる価値のある公演です。今観る価値ある公演だったとお客様に感じてもらえるよう、精一杯演じます。みなさまの毎日が、健やかなものでありますように！
+              </p></div>
+          </div>
+        </a>
+      </div>
     </div>
     <div class="TheIndex_Ticket" id="ticket">
       <h2 class="TheIndex_Text TheIndex_Header TheIndex_Ticket_Header">Ticket <span class="TheIndex_Header_Jp">チケット情報</span></h2>
@@ -309,6 +351,9 @@ export default Vue.extend({
       logoImg: "/home/logo.svg",
       copyImg: "/home/copy.svg",
       copyTitleImg: "/home/copy_title.svg",
+      castImg01: "/home/cast/cast1.png",
+      castImg02: "/home/cast/cast2.png",
+      castImg03: "/home/cast/cast3.png",
       songImg:  "/home/song.svg",
       nomeetsLogoWhiteImg: "/home/Logo_White_GekidanNoMeets.png",
       snsTwitterImg: "/home/twitter.svg",
@@ -515,6 +560,64 @@ export default Vue.extend({
   font-size: 32px;
   width: 100%;
   display: inline;
+}
+.The_Index_Cast_Member{
+  display: block;
+  width: 100%;
+  /* height: 80%; */
+  margin-top: 40px;
+  position: relative;
+  transition: 0.2;
+  color: #000000;
+}
+.The_Index_Cast_Member:hover{
+  opacity: 0.6;
+}
+.The_Index_Cast_Member_Countainer{
+  width: 60%;
+  position: absolute;
+  left: 40%;
+  top: 10%;
+}
+.The_Index_Cast_Member_Img{
+  /* width: 50%; */
+  height: 100%;
+  /* position: absolute;
+  top: 0;
+  left: 0; */
+}
+.The_Index_Cast_Name{
+  display: inline-block;
+  background: #000000;
+  color: #ffffff;
+  font-size: 120px;
+  /* position: absolute;
+  top: 0;
+  left: 40%; */
+  font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+}
+.The_Index_Cast_Role{
+  display: inline-block;
+  font-size: 40px;
+  background: #ffffff;
+  /* letter-spacing: -20px; */
+  /* position: absolute;
+  top: 0;
+  left: 40%; */
+  font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+}
+.The_Index_Cast_Message{
+  display: block;
+  /* width: 50%; */
+  font-size: 16px;
+  background: #ffffff;
+  font-weight: 900;
+  font-family: 'Noto Sans JP', sans-serif;
+  /* position: absolute;
+  bottom: 0;
+  right: 0; */
+  margin-top: 20px;
+  padding: 20px 20px;
 }
 
 .TheIndex_Ticket{
