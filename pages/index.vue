@@ -67,7 +67,7 @@
      <div class="TheIndex_Cast" id="cast">
       <h2 class="TheIndex_Text TheIndex_Header">Cast <span class="TheIndex_Header_Jp">キャスト</span></h2>
       <p class="TheIndex_Cast_Text">メインキャストは、劇団ノーミーツの出演俳優以外、 全員ZOOM上でのオーディションにより 200名を超える応募者の中から選出。</p>
-      <div class="The_Index_Cast_Flexbox">
+      <div>
         <a class="The_Index_Cast_Member" href="https://twitter.com/milkan10_" target="_blank">
           <img :src="castImg01" alt="" class="The_Index_Cast_Member_Img">
           <div class="The_Index_Cast_Member_Countainer">
@@ -108,6 +108,91 @@
               </p></div>
           </div>
         </a>
+
+         <div class="The_Index_Cast_Flexbox">
+          <a class="The_Index_Cast_Member The_Index_Cast_Member_Small" href="https://twitter.com/milkan10_" target="_blank">
+            <img :src="castImg01" alt="" class="The_Index_Cast_Member_Img The_Index_Cast_Member_Img_Small">
+            <div class="The_Index_Cast_Member_Countainer The_Index_Cast_Member_Countainer_Small">
+              <div>
+                <p class="The_Index_Cast_Name The_Index_Cast_Name_Small">夏海</p>
+              </div>
+              <div><p class="The_Index_Cast_Role The_Index_Cast_Role_Small">メグミ役</p></div>
+            </div>
+            <div><p class="The_Index_Cast_Message_Small">
+                  皆様はじめまして！今回メグル役を演じます夏海です。<br>
+              今作のお話は、これからの日本に怒るかもしれない、もしくはすでに起こっている事態を元に作られています。私自身、ずっと家にいて気が滅入っていました。その中ノーミーツの動画を観てとても勇気付けられました。皆さんに元気を届けられるよう、精一杯演じます。沢山の肩に観ていただきたいです！どうぞよろしくお願いいたします。
+            </p></div>
+          </a>
+          <a class="The_Index_Cast_Member The_Index_Cast_Member_Small" href="https://twitter.com/milkan10_" target="_blank">
+            <img :src="castImg02" alt="" class="The_Index_Cast_Member_Img The_Index_Cast_Member_Img_Small">
+            <div class="The_Index_Cast_Member_Countainer The_Index_Cast_Member_Countainer_Small">
+              <div>
+                <p class="The_Index_Cast_Name The_Index_Cast_Name_Small">櫻井保幸</p>
+              </div>
+              <div><p class="The_Index_Cast_Role The_Index_Cast_Role_Small">ケンジ役</p></div>
+            </div>
+            <div><p class="The_Index_Cast_Message_Small">
+            世界のネガティブが産んだエンタメの可能性の一部になれることをとても嬉しく思う共に、その場を共有していただける劇団ノーミーツはじめ関係者の皆さんに感謝しています。ひとりでも多くの人の心を豊かにできるよう行きたいです。届けます。
+            </p></div>
+          </a>
+          <a class="The_Index_Cast_Member The_Index_Cast_Member_Small" href="https://twitter.com/milkan10_" target="_blank">
+            <img :src="castImg03" alt="" class="The_Index_Cast_Member_Img The_Index_Cast_Member_Img_Small">
+            <div class="The_Index_Cast_Member_Countainer The_Index_Cast_Member_Countainer_Small">
+              <div>
+                <p class="The_Index_Cast_Name The_Index_Cast_Name_Small">オツハタ</p>
+              </div>
+              <div><p class="The_Index_Cast_Role The_Index_Cast_Role_Small">シンタロウ役</p></div>
+            </div>
+            <div><p class="The_Index_Cast_Message_Small">
+                皆様、こんにちは。劇団ノーミーツのオツハタと申します。名前を聞き間違えられやすく、また読み間違えられやすいため、カタカナの芸名にしました。絶対に絶対に今やる価値のある公演です。今観る価値ある公演だったとお客様に感じてもらえるよう、精一杯演じます。みなさまの毎日が、健やかなものでありますように！
+            </p></div>
+          </a>
+          <a class="The_Index_Cast_Member The_Index_Cast_Member_Small" href="https://twitter.com/milkan10_" target="_blank">
+            <img :src="castImg01" alt="" class="The_Index_Cast_Member_Img The_Index_Cast_Member_Img_Small">
+            <div class="The_Index_Cast_Member_Countainer The_Index_Cast_Member_Countainer_Small">
+              <div>
+                <p class="The_Index_Cast_Name The_Index_Cast_Name_Small">夏海</p>
+              </div>
+              <div><p class="The_Index_Cast_Role The_Index_Cast_Role_Small">メグミ役</p></div>
+            </div>
+            <div><p class="The_Index_Cast_Message_Small">
+                  皆様はじめまして！今回メグル役を演じます夏海です。<br>
+              今作のお話は、これからの日本に怒るかもしれない、もしくはすでに起こっている事態を元に作られています。私自身、ずっと家にいて気が滅入っていました。その中ノーミーツの動画を観てとても勇気付けられました。皆さんに元気を届けられるよう、精一杯演じます。沢山の肩に観ていただきたいです！どうぞよろしくお願いいたします。
+            </p></div>
+          </a>
+          <a class="The_Index_Cast_Member The_Index_Cast_Member_Small" href="https://twitter.com/milkan10_" target="_blank">
+            <img :src="castImg02" alt="" class="The_Index_Cast_Member_Img The_Index_Cast_Member_Img_Small">
+            <div class="The_Index_Cast_Member_Countainer The_Index_Cast_Member_Countainer_Small">
+              <div>
+                <p class="The_Index_Cast_Name The_Index_Cast_Name_Small">櫻井保幸</p>
+              </div>
+              <div><p class="The_Index_Cast_Role The_Index_Cast_Role_Small">ケンジ役</p></div>
+            </div>
+            <div><p class="The_Index_Cast_Message_Small">
+            世界のネガティブが産んだエンタメの可能性の一部になれることをとても嬉しく思う共に、その場を共有していただける劇団ノーミーツはじめ関係者の皆さんに感謝しています。ひとりでも多くの人の心を豊かにできるよう行きたいです。届けます。
+            </p></div>
+          </a>
+          <a class="The_Index_Cast_Member The_Index_Cast_Member_Small" href="https://twitter.com/milkan10_" target="_blank">
+            <img :src="castImg03" alt="" class="The_Index_Cast_Member_Img The_Index_Cast_Member_Img_Small">
+            <div class="The_Index_Cast_Member_Countainer The_Index_Cast_Member_Countainer_Small">
+              <div>
+                <p class="The_Index_Cast_Name The_Index_Cast_Name_Small">オツハタ</p>
+              </div>
+              <div><p class="The_Index_Cast_Role The_Index_Cast_Role_Small">シンタロウ役</p></div>
+            </div>
+            <div><p class="The_Index_Cast_Message_Small">
+                皆様、こんにちは。劇団ノーミーツのオツハタと申します。名前を聞き間違えられやすく、また読み間違えられやすいため、カタカナの芸名にしました。絶対に絶対に今やる価値のある公演です。今観る価値ある公演だったとお客様に感じてもらえるよう、精一杯演じます。みなさまの毎日が、健やかなものでありますように！
+            </p></div>
+          </a>
+
+         
+
+        
+
+      
+
+         </div>
+
       </div>
     </div>
     <div class="TheIndex_Ticket" id="ticket">
@@ -552,6 +637,14 @@ export default Vue.extend({
   background: #c8ff00;
   padding: 80px 120px;
 }
+.The_Index_Cast_Flexbox{
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  /* background: red; */
+}
 .TheIndex_Cast_Text{
   background: #ffffff;
   color: #000000;
@@ -580,8 +673,8 @@ export default Vue.extend({
   top: 10%;
 }
 .The_Index_Cast_Member_Img{
-  /* width: 50%; */
-  height: 100%;
+  width: 50%;
+  /* height: 100%; */
   /* position: absolute;
   top: 0;
   left: 0; */
@@ -619,6 +712,68 @@ export default Vue.extend({
   margin-top: 20px;
   padding: 20px 20px;
 }
+
+.The_Index_Cast_Member_Small{
+  display: block;
+  width: 32%;
+  /* height: 80%; */
+  margin-top: 40px;
+  position: static;
+  transition: 0.2;
+  text-decoration: none;
+  color: #000000;
+}
+.The_Index_Cast_Member_Countainer_Small{
+  width: 100%;
+  position: static;
+  /* position: absolute;
+  top: 40%;
+  left: 0; */
+  /* bottom: 0; */
+}
+.The_Index_Cast_Member_Img_Small{
+  width: 100%;
+  
+  /* height: 100%; */
+  /* position: absolute;
+  top: 0;
+  left: 0; */
+}
+.The_Index_Cast_Name_Small{
+  display: inline-block;
+  background: #000000;
+  color: #ffffff;
+  font-size: 80px;
+  /* position: absolute;
+  top: 0;
+  left: 40%; */
+  font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+}
+.The_Index_Cast_Role_Small{
+  display: inline-block;
+  font-size: 48px;
+  background: #ffffff;
+  /* letter-spacing: -20px; */
+  /* position: absolute;
+  top: 0;
+  left: 40%; */
+  font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+}
+.The_Index_Cast_Message_Small{
+  display: block;
+  /* width: 50%; */
+  font-size: 16px;
+  background: #ffffff;
+  font-weight: 900;
+  font-family: 'Noto Sans JP', sans-serif;
+  /* position: absolute;
+  bottom: 0;
+  right: 0; */
+  margin-top: 0;
+  padding: 20px 20px;
+}
+
+
 
 .TheIndex_Ticket{
   background: #04abff;
