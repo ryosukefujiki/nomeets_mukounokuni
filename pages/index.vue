@@ -1194,6 +1194,46 @@ export default Vue.extend({
     font-size: 16px;
   }
 
+  .TheIndex_Cast{
+  background: #c8ff00;
+  padding: 40px 20px;
+  }
+  .TheIndex_Cast_Text{
+    font-size: 16px;
+  }
+  .The_Index_Cast_Member_Countainer{
+    width: 60%;
+  }
+  .The_Index_Cast_Member{
+    /* margin-top: 120px; */
+    /* height: 320px; */
+  }
+  .The_Index_Cast_Name{
+    font-size: 28px;
+  }
+  .The_Index_Cast_Role{
+    font-size: 20px;
+  }
+  .The_Index_Cast_Message{
+    /* font-size: 10px;
+    margin-top: 4px; */
+    display: none;
+  }
+  .The_Index_Cast_Member_Small{
+    width: 47%;
+  }
+  .The_Index_Cast_Name_Small{
+    font-size: 16px;
+  }
+  .The_Index_Cast_Role_Small{
+    font-size: 16px;
+  }
+  .The_Index_Cast_Message_Small{
+    font-size: 10px;
+    margin-top: 4px;
+    padding: 8px;
+  }
+
   .TheIndex_Twitter{
     padding: 40px 20px;
   }
