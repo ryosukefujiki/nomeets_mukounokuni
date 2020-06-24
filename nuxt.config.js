@@ -61,7 +61,8 @@ export default {
   },
   plugins: [
     '~/plugins/mixin',
-    '~plugins/vue-scrollto'
+    '~plugins/vue-scrollto',
+    '~plugins/vue-youtube',
   ],
   /*
   ** Build configuration

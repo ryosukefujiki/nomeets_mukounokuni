@@ -19,8 +19,35 @@
     <div class="TheIndex_Hero">
       <h1 class="TheIndex_Hero_Dummy_Text">KEY VISUAL</h1>
     </div>
-    <div class="TheIndex_Hero" id="about">
-      <h1 class="TheIndex_Hero_Dummy_Text">COPY</h1>
+    <div class="TheIndex_Copy" id="about">
+      <!-- <h1 class="TheIndex_Hero_Dummy_Text">COPY</h1> -->
+      <img :src="copyImg" alt="" class="TheIndex_Copy_Img">
+      <div class="TheIndex_Copy_Flexbox">
+        <youtube ref="youtube" :video-id="videoId" class="TheIndex_Copy_Youtube" />
+        <div class="TheIndex_Copy_Text_Container">
+          <p class="TheIndex_Copy_Text">
+            みんなが家から出なくなって４年。<br>
+            入学からフルリモートの<br>
+            キャンパスライフを送った私は、<br>
+            実感の湧かない卒業を間近に控えていた。<br>
+            <br>
+            もし、もう一度、<br>
+            家から出られなくなったあの日からやり直せたら、<br>
+            あのささやかな恋も、実ったのだろうか。<br>
+            あいつがいなくなることも、なかったのだろうか。<br>
+            たとえバーチャルでも、これが私たちの青春。<br>
+            だから、何度でも繰り返す。<br>
+            何年この時代に生きることになっても。<br>
+            この部屋から、未来を変える。<br>
+            <br>
+            収束しない事態と、<br>
+            収束する運命に逆らう物語。<br>
+          </p>
+          <img :src="copyTitleImg" alt="" class="TheIndex_Copy_Text_Img">
+        </div>
+      </div>
+      <!-- <youtube ref="youtube" :video-id="videoId" class="TheDetail_Category_Movie"/> -->
+
     </div>
     <div class="TheIndex_Information">
       <div class="TheIndex_Information_Contents">
@@ -268,6 +295,7 @@ import { mapGetters } from "vuex";
 import { TweenMax, Elastic, Expo, Back, Linear } from "gsap";
 
 import Glitch from "~/components/Glitch";
+// import VueYoutube from 'vue-youtube'
 
 export default Vue.extend({
   components: {
@@ -278,11 +306,14 @@ export default Vue.extend({
   data() {
     return {
       logoImg: "/home/logo.svg",
+      copyImg: "/home/copy.svg",
+      copyTitleImg: "/home/copy_title.svg",
       songImg:  "/home/song.svg",
       nomeetsLogoWhiteImg: "/home/Logo_White_GekidanNoMeets.png",
       snsTwitterImg: "/home/twitter.svg",
       snsYoutubeImg: "/home/youtube.svg",
       snsInstagramImg: "/home/instagram.svg",
+      videoId: "Zu9r-7uZfas",
     }
   },
   methods: {
@@ -392,6 +423,50 @@ export default Vue.extend({
 .TheIndex_Hero_Dummy_Text{
   color: #eaeaea;
   font-size: 20px;
+}
+
+.TheIndex_Copy{
+  min-width: 100vw;
+  min-height: 100vh;
+  background: #ebf4ef;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  border-bottom: 6px solid #eaeaea;
+  padding: 80px 120px;
+}
+.TheIndex_Copy_Img{
+  width: 100%;
+  display: block;
+}
+.TheIndex_Copy_Flexbox{
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+  align-items: center;
+  /* background: red; */
+  margin-top: 40px;
+}
+.TheIndex_Copy_Youtube{
+  display: block;
+  /* width: 400px; */
+  width: 45%;
+  height: 480px;
+}
+.TheIndex_Copy_Text_Container{
+  width: 50%;
+
+}
+.TheIndex_Copy_Text{
+  display: block;
+  color: #000000;
+  font-weight: 900;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 24px;
+  width: 100%;
+}
+.TheIndex_Copy_Text_Img{
+  margin-top: 40px;
 }
 
 .TheIndex_Information{
