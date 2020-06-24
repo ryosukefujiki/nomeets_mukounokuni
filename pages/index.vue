@@ -23,7 +23,6 @@
       <!-- <h1 class="TheIndex_Hero_Dummy_Text">COPY</h1> -->
       <img :src="copyImg" alt="" class="TheIndex_Copy_Img">
       <div class="TheIndex_Copy_Flexbox">
-        <youtube ref="youtube" :video-id="videoId" class="TheIndex_Copy_Youtube" />
         <div class="TheIndex_Copy_Text_Container">
           <p class="TheIndex_Copy_Text">
             みんなが家から出なくなって４年。<br>
@@ -45,6 +44,7 @@
           </p>
           <img :src="copyTitleImg" alt="" class="TheIndex_Copy_Text_Img">
         </div>
+        <youtube ref="youtube" :video-id="videoId" class="TheIndex_Copy_Youtube" />
       </div>
       <!-- <youtube ref="youtube" :video-id="videoId" class="TheDetail_Category_Movie"/> -->
 
@@ -444,6 +444,7 @@ export default Vue.extend({
   /* flex-wrap: wrap; */
   justify-content: space-between;
   align-items: center;
+  flex-direction: row-reverse;
   /* background: red; */
   margin-top: 40px;
 }
@@ -898,6 +899,25 @@ export default Vue.extend({
     margin-bottom: 12px;
   }
   .TheIndex_Header_Jp{
+    font-size: 16px;
+  }
+
+  .TheIndex_Copy{
+    padding: 40px 20px;
+  }
+  .TheIndex_Copy_Flexbox{
+    display: block;
+    /* flex-wrap: wrap; */
+  }
+  .TheIndex_Copy_Youtube{
+    width: 100%;
+    height: 280px;
+    margin-top: 40px;
+  }
+  .TheIndex_Copy_Text_Container{
+    width: 100%;
+  }
+  .TheIndex_Copy_Text{
     font-size: 16px;
   }
 
