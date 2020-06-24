@@ -3,11 +3,23 @@
     <!-- <Glitch class="TheIndex_Hero"></Glitch> -->
     <header class="TheIndex_Nav">
       <img :src="logoImg" alt="" class="TheIndex_Nav_Img">
+       <nuxt-link v-scroll-to="'#about'" class="TheIndex_Nav_Item" to>
+       About
+      </nuxt-link>
+       <nuxt-link v-scroll-to="'#cast'" class="TheIndex_Nav_Item" to>
+       Cast
+      </nuxt-link>
+       <nuxt-link v-scroll-to="'#ticket'" class="TheIndex_Nav_Item" to>
+       Ticket
+      </nuxt-link>
+       <nuxt-link v-scroll-to="'#staff'" class="TheIndex_Nav_Item" to>
+       Staff
+      </nuxt-link>
     </header>
     <div class="TheIndex_Hero">
       <h1 class="TheIndex_Hero_Dummy_Text">KEY VISUAL</h1>
     </div>
-    <div class="TheIndex_Hero">
+    <div class="TheIndex_Hero" id="about">
       <h1 class="TheIndex_Hero_Dummy_Text">COPY</h1>
     </div>
     <div class="TheIndex_Information">
@@ -25,10 +37,10 @@
         <p class="TheIndex_Information_Text"> <span class="Color_Blue">Zoom</span> にて生配信上映</p>
       </div>
     </div>
-     <div class="TheIndex_Hero">
+     <div class="TheIndex_Hero" id="cast">
       <h1 class="TheIndex_Hero_Dummy_Text">CAST</h1>
     </div>
-    <div class="TheIndex_Ticket">
+    <div class="TheIndex_Ticket" id="ticket">
       <h2 class="TheIndex_Text TheIndex_Header TheIndex_Ticket_Header">Ticket <span class="TheIndex_Header_Jp">チケット情報</span></h2>
       <div class="TheIndex_Ticket_Section">
         <h3 class="TheIndex_Ticket_Date">5.27<span class="TheIndex_Ticket_Day">水</span></h3>
@@ -161,7 +173,7 @@
       <p class="TheIndex_Song_Text"><span class="TheIndex_Song_Text_Small">主題歌</span>　重力の虹 / lie</p>
       <!-- <img :src="songImg" alt="" class="TheIndex_Song_Img"> -->
     </div>
-    <div class="TheIndex_Staff">
+    <div class="TheIndex_Staff" id="staff">
       <h2 class="TheIndex_Text TheIndex_Staff_Header">Staff <span class="TheIndex_Staff_Header_Jp">スタッフ</span></h2>
       <div class="TheIndex_Staff_Staff_Container">
         <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
@@ -332,11 +344,28 @@ export default Vue.extend({
   top: 0;
   left: 0;
   width: 100vw;
-  height: 10vh;
+  height: 60px;
   background: #c8ff00;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 10;
 }
 .TheIndex_Nav_Img{
-  height: 10vh;
+  height: 60px;
+  margin-right: 32px;
+}
+.TheIndex_Nav_Item{
+  font-size: 28px;
+  color: #000000;
+  text-decoration: none;
+  display: block;
+  margin-right: 28px;
+  font-weight: 900;
+  transition: 0.2s;
+}
+.TheIndex_Nav_Item:hover{
+  opacity: 0.6;
 }
 
 .TheIndex_Text{
