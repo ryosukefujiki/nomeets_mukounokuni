@@ -1,6 +1,9 @@
 <template>
   <div class="TheIndex">
     <!-- <Glitch class="TheIndex_Hero"></Glitch> -->
+    <header class="TheIndex_Nav">
+      <img :src="logoImg" alt="" class="TheIndex_Nav_Img">
+    </header>
     <div class="TheIndex_Hero">
       <h1 class="TheIndex_Hero_Dummy_Text">KEY VISUAL</h1>
     </div>
@@ -262,6 +265,7 @@ export default Vue.extend({
   },
   data() {
     return {
+      logoImg: "/home/logo.svg",
       songImg:  "/home/song.svg",
       nomeetsLogoWhiteImg: "/home/Logo_White_GekidanNoMeets.png",
       snsTwitterImg: "/home/twitter.svg",
@@ -321,6 +325,18 @@ export default Vue.extend({
   justify-content: center;
   align-items: center;
   text-align: center; */
+}
+
+.TheIndex_Nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 10vh;
+  background: #c8ff00;
+}
+.TheIndex_Nav_Img{
+  height: 10vh;
 }
 
 .TheIndex_Text{
