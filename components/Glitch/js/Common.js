@@ -54,17 +54,32 @@ class Common{
         // this.geometry = new THREE.PlaneGeometry(this.size.windowW, this.size.windowH);
         // this.material = new THREE.MeshNormalMaterial();
 
+        this.texture = new THREE.TextureLoader().load(img);
+        this.uniforms = {
+            uTime: {
+              value: 0.0
+            },
+            uMouse: {
+              value: new THREE.Vector2(0.5, 0.5)
+            },
+            uRadius: {
+              value: this.targetRadius
+            },
+            uFixAspect: {
+              value: this.size.windowW / this.size.windowH// 逆アスペクト
+            },
+            uTex: {
+              value: this.texture// テクスチャ
+            }
+          };
         this.geometry = new THREE.PlaneGeometry(0.4, 0.6, 32, 32);
         this.material = new THREE.MeshPhongMaterial( { map:new THREE.TextureLoader().load(img) } );
         this.material = new THREE.ShaderMaterial({
             vertexShader,
             fragmentShader,
-            uniforms: {
-              uTime: { value: 0.0 },
-              uTexture: { value: new THREE.TextureLoader().load(img) }
-            },
+            uniforms: this.uniforms,
             // wireframe: true,
-            side: THREE.DoubleSide
+            // side: THREE.DoubleSide
           });
 
         this.box = new THREE.Mesh(this.geometry, this.material);

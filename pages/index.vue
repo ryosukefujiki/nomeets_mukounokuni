@@ -1,6 +1,6 @@
 <template>
   <div class="TheIndex">
-    <Glitch class="TheIndex_Hero"></Glitch>
+    <!-- <Glitch class="TheIndex_Hero"></Glitch> -->
     <div class="TheIndex_Hero">
       <h1 class="TheIndex_Hero_Dummy_Text">KEY VISUAL</h1>
     </div>
