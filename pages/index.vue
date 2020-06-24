@@ -81,6 +81,10 @@
               今作のお話は、これからの日本に怒るかもしれない、もしくはすでに起こっている事態を元に作られています。私自身、ずっと家にいて気が滅入っていました。その中ノーミーツの動画を観てとても勇気付けられました。皆さんに元気を届けられるよう、精一杯演じます。沢山の肩に観ていただきたいです！どうぞよろしくお願いいたします。
               </p></div>
           </div>
+          <div><p class="The_Index_Cast_Message_Sp">
+              皆様はじめまして！今回メグル役を演じます夏海です。<br>
+              今作のお話は、これからの日本に怒るかもしれない、もしくはすでに起こっている事態を元に作られています。私自身、ずっと家にいて気が滅入っていました。その中ノーミーツの動画を観てとても勇気付けられました。皆さんに元気を届けられるよう、精一杯演じます。沢山の肩に観ていただきたいです！どうぞよろしくお願いいたします。
+              </p></div>
         </a>
         <a class="The_Index_Cast_Member" href="https://twitter.com/milkan10_" target="_blank">
           <img :src="castImg02" alt="" class="The_Index_Cast_Member_Img">
@@ -94,6 +98,9 @@
               世界のネガティブが産んだエンタメの可能性の一部になれることをとても嬉しく思う共に、その場を共有していただける劇団ノーミーツはじめ関係者の皆さんに感謝しています。ひとりでも多くの人の心を豊かにできるよう行きたいです。届けます。
               </p></div>
           </div>
+           <div><p class="The_Index_Cast_Message_Sp">
+             世界のネガティブが産んだエンタメの可能性の一部になれることをとても嬉しく思う共に、その場を共有していただける劇団ノーミーツはじめ関係者の皆さんに感謝しています。ひとりでも多くの人の心を豊かにできるよう行きたいです。届けます。
+              </p></div>
         </a>
         <a class="The_Index_Cast_Member" href="https://twitter.com/milkan10_" target="_blank">
           <img :src="castImg03" alt="" class="The_Index_Cast_Member_Img">
@@ -102,11 +109,10 @@
               <p class="The_Index_Cast_Name">オツハタ</p>
             </div>
              <div><p class="The_Index_Cast_Role">シンタロウ役</p></div>
-            
-             <div><p class="The_Index_Cast_Message">
+          </div>
+          <div><p class="The_Index_Cast_Message_Sp">
               皆様、こんにちは。劇団ノーミーツのオツハタと申します。名前を聞き間違えられやすく、また読み間違えられやすいため、カタカナの芸名にしました。絶対に絶対に今やる価値のある公演です。今観る価値ある公演だったとお客様に感じてもらえるよう、精一杯演じます。みなさまの毎日が、健やかなものでありますように！
               </p></div>
-          </div>
         </a>
 
          <div class="The_Index_Cast_Flexbox">
@@ -662,6 +668,7 @@ export default Vue.extend({
   position: relative;
   transition: 0.2;
   color: #000000;
+  text-decoration: none;
 }
 .The_Index_Cast_Member:hover{
   opacity: 0.6;
@@ -711,6 +718,20 @@ export default Vue.extend({
   right: 0; */
   margin-top: 20px;
   padding: 20px 20px;
+}
+.The_Index_Cast_Message_Sp{
+  /* display: block; */
+  /* width: 50%; */
+  font-size: 16px;
+  background: #ffffff;
+  font-weight: 900;
+  font-family: 'Noto Sans JP', sans-serif;
+  /* position: absolute;
+  bottom: 0;
+  right: 0; */
+  margin-top: 20px;
+  padding: 8px 8px;
+  display: none;
 }
 
 .The_Index_Cast_Member_Small{
@@ -772,6 +793,7 @@ export default Vue.extend({
   margin-top: 0;
   padding: 20px 20px;
 }
+
 
 
 
@@ -1205,7 +1227,7 @@ export default Vue.extend({
     width: 60%;
   }
   .The_Index_Cast_Member{
-    /* margin-top: 120px; */
+    margin-top: 20px;
     /* height: 320px; */
   }
   .The_Index_Cast_Name{
@@ -1217,6 +1239,7 @@ export default Vue.extend({
   .The_Index_Cast_Message{
     /* font-size: 10px;
     margin-top: 4px; */
+    /* margin-top: 8px; */
     display: none;
   }
   .The_Index_Cast_Member_Small{
@@ -1233,6 +1256,20 @@ export default Vue.extend({
     margin-top: 4px;
     padding: 8px;
   }
+  .The_Index_Cast_Message_Sp{
+  /* display: block; */
+  /* width: 50%; */
+  font-size: 10px;
+  background: #ffffff;
+  font-weight: 900;
+  font-family: 'Noto Sans JP', sans-serif;
+  /* position: absolute;
+  bottom: 0;
+  right: 0; */
+  margin-top: 0px;
+  padding: 8px 8px;
+  display: block;
+}
 
   .TheIndex_Twitter{
     padding: 40px 20px;
