@@ -1,6 +1,5 @@
 <template>
   <div class="TheIndex">
-    <!-- <Glitch class="TheIndex_Hero"></Glitch> -->
     <header class="TheIndex_Nav">
       <img :src="logoImg" alt="" class="TheIndex_Nav_Img">
        <nuxt-link v-scroll-to="'#about'" class="TheIndex_Nav_Item" to>
@@ -16,6 +15,7 @@
        Staff
       </nuxt-link>
     </header>
+    <Glitch class="TheIndex_Hero"></Glitch>
     <div class="TheIndex_Hero">
       <h1 class="TheIndex_Hero_Dummy_Text">KEY VISUAL</h1>
     </div>
@@ -563,11 +563,11 @@ export default Vue.extend({
 .TheIndex_Hero{
   min-width: 100vw;
   min-height: 100vh;
-  background: #ffffff;
+  background: #000000;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-bottom: 6px solid #eaeaea;
+  /* border-bottom: 6px solid #eaeaea; */
 }
 .TheIndex_Hero_Dummy_Text{
   color: #eaeaea;
