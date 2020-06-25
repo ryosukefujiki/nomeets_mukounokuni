@@ -93,7 +93,7 @@
             <div>
               <p class="The_Index_Cast_Name">夏海</p>
             </div>
-             <div><p class="The_Index_Cast_Role">メグル役</p></div>
+             <div><p class="The_Index_Cast_Role" id="myText">メグル役</p></div>
             
              <div><p class="The_Index_Cast_Message">
               皆様はじめまして！今回メグル役を演じます夏海です。<br>
@@ -495,6 +495,8 @@ import { mapGetters } from "vuex";
 import { TweenMax, Elastic, Expo, Back, Linear } from "gsap";
 
 import Glitch from "~/components/Glitch";
+
+import ShuffleText from 'shuffle-text';
 // import VueYoutube from 'vue-youtube'
 
 export default Vue.extend({
@@ -576,6 +578,10 @@ export default Vue.extend({
   mounted() {
     window.addEventListener('load', this.youtube_defer);
     window.addEventListener('scroll', this.handleScroll);
+    // var el = document.getElementById("myText");
+    // var text = new ShuffleText(el);
+    // text.sourceRandomCharacter = "こあ生"
+    // text.start();
     // window.addEventListener("scroll", this.scrollStart, false);
   },
   destroyed() {
