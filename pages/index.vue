@@ -15,7 +15,7 @@
        Staff
       </nuxt-link>
     </header>
-    <Glitch class="TheIndex_Hero"></Glitch>
+    <!-- <Glitch class="TheIndex_Hero"></Glitch> -->
     <div class="TheIndex_Hero">
       <h1 class="TheIndex_Hero_Dummy_Text">KEY VISUAL</h1>
     </div>
@@ -530,6 +530,7 @@ export default Vue.extend({
   align-items: center;
   justify-content: flex-start;
   z-index: 10;
+  /* opacity: 0; */
 }
 .TheIndex_Nav_Img{
   height: 60px;
