@@ -79,7 +79,7 @@
         <p class="TheIndex_Information_Text"><span class="Color_Yellow">7.26</span> <span class="TheIndex_Information_Text_Small">金</span>　15:00 / 21:00</p>
       </div>
       <div class="TheIndex_Information_Contents">
-        <h3 class="TheIndex_Information_Header">場所</h3>
+        <h3 class="TheIndex_Information_Header Color_Blue">場所</h3>
         <p class="TheIndex_Information_Text"> <span class="Color_Blue">Zoom</span> にて生配信上映</p>
       </div>
     </div>
@@ -468,7 +468,7 @@
         <a target="_blank" href="https://twitter.com/gekidan_nomeets" class="TheIndex_Sns_Link"> <img :src="snsTwitterImg" alt="" class="TheIndex_Sns_Img"></a>
         <a target="_blank" href="https://www.youtube.com/channel/UCT7hZww9WW94UmkxXjVMCLg" class="TheIndex_Sns_Link"> <img :src="snsYoutubeImg" alt="" class="TheIndex_Sns_Img"></a>
         <a target="_blank" href="https://www.instagram.com/gekidan_nomeets/" class="TheIndex_Sns_Link"> <img :src="snsInstagramImg" alt="" class="TheIndex_Sns_Img"></a>
-        <a target="_blank" href="https://www.instagram.com/gekidan_nomeets/" class="TheIndex_Sns_Link"> <img :src="snsTiktokImg" alt="" class="TheIndex_Sns_Img"></a>
+        <a target="_blank" href="https://www.tiktok.com/@nomeets?lang=ja" class="TheIndex_Sns_Link"> <img :src="snsTiktokImg" alt="" class="TheIndex_Sns_Img"></a>
       </div>
     </div>
     <div class="TheIndex_Contact">
@@ -748,8 +748,8 @@ export default Vue.extend({
   margin-bottom: 40px;
 }
 .TheIndex_Information_Header{
-  /* color: #fa5d95; */
-  color: #ffffff;
+  color: #fa5d95;
+  /* color: #ffffff; */
   font-size: 48px;
   font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
 }
