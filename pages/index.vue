@@ -17,7 +17,8 @@
     </header>
     <!-- <Glitch class="TheIndex_Hero"></Glitch> -->
     <div class="TheIndex_Hero">
-      <h1 class="TheIndex_Hero_Dummy_Text">KEY VISUAL</h1>
+      <!-- <h1 class="TheIndex_Hero_Dummy_Text">KEY VISUAL</h1> -->
+      <img :src="keyVisualGif" alt="" class="TheIndex_Hero_Img">
     </div>
     <div class="TheIndex_Copy" id="about">
       <!-- <h1 class="TheIndex_Hero_Dummy_Text">COPY</h1> -->
@@ -441,6 +442,8 @@ export default Vue.extend({
   data() {
     return {
       logoImg: "/home/logo.svg",
+      keyVisualImg: "/home/keyvisual.png",
+      keyVisualGif: "/home/keyvisual.gif",
       copyImg: "/home/copy.svg",
       copyTitleImg: "/home/copy_title.svg",
       castImg01: "/home/cast/cast1.png",
@@ -530,7 +533,7 @@ export default Vue.extend({
   align-items: center;
   justify-content: flex-start;
   z-index: 10;
-  /* opacity: 0; */
+  opacity: 1;
 }
 .TheIndex_Nav_Img{
   height: 60px;
@@ -569,6 +572,11 @@ export default Vue.extend({
   align-items: center;
   justify-content: center;
   /* border-bottom: 6px solid #eaeaea; */
+}
+.TheIndex_Hero_Img{
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
 }
 .TheIndex_Hero_Dummy_Text{
   color: #eaeaea;
