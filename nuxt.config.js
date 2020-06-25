@@ -15,14 +15,14 @@ export default {
       { property: 'og:description', content: 'むこうのくに　劇団ノーミーツ' },
       { property:"og:type", content:"website"},
       { property:"og:url", content:"https://nomeets-mukounokuni-lp.netlify.app/"},
-      { property: 'og:image', content: 'https://nomeets-mukounokuni-lp.netlify.app//home/ogp.png' },
+      { property: 'og:image', content: 'https://nomeets-mukounokuni-lp.netlify.app/home/ogp.jpg' },
       { property: 'og:site_name', content: 'むこうのくに　劇団ノーミーツ' },
       { property: 'fb:app_id', content: '828074940735241' },
       { property: 'twitter:card', content: 'summary_large_image' },
       { property: 'twitter:site', content: '@rfuji625' },
       { property: 'twitter:creator', content: '@rfuji625' },
       { property: 'twitter:description', content: 'むこうのくに　劇団ノーミーツ' },
-      { property: 'twitter:image', content: 'https://nomeets-mukounokuni-lp.netlify.app/home/ogp.png' },
+      { property: 'twitter:image', content: 'https://nomeets-mukounokuni-lp.netlify.app/home/ogp.jpg' },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
