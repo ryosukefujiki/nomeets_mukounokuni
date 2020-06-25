@@ -63,6 +63,7 @@ export default {
     '~/plugins/mixin',
     '~plugins/vue-scrollto',
     '~plugins/vue-youtube',
+    '~plugins/v-lazy-image',
   ],
   /*
   ** Build configuration

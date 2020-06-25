@@ -18,7 +18,8 @@
     <!-- <Glitch class="TheIndex_Hero"></Glitch> -->
     <div class="TheIndex_Hero">
       <!-- <h1 class="TheIndex_Hero_Dummy_Text">KEY VISUAL</h1> -->
-      <img :src="keyVisualGif" alt="" class="TheIndex_Hero_Img">
+      <!-- <img :src="keyVisualGif" alt="" class="TheIndex_Hero_Img"> -->
+      <v-lazy-image  class="TheIndex_Hero_Img" :src="keyVisualGif" :src-placeholder="keyVisualImg" />
     </div>
     <div class="TheIndex_Copy" id="about">
       <!-- <h1 class="TheIndex_Hero_Dummy_Text">COPY</h1> -->
@@ -426,6 +427,7 @@
 import Vue from 'vue'
 import Logo from '~/components/Logo.vue'
 import { Tweet } from 'vue-tweet-embed'
+import VLazyImage from "v-lazy-image";
 
 import { mapGetters } from "vuex";
 import { TweenMax, Elastic, Expo, Back, Linear } from "gsap";
@@ -438,6 +440,7 @@ export default Vue.extend({
     Logo,
     Tweet,
     Glitch,
+    VLazyImage,
   },
   data() {
     return {
