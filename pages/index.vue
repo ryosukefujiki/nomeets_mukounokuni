@@ -1,6 +1,6 @@
 <template>
   <div class="TheIndex">
-    <header class="TheIndex_Nav">
+    <!-- <header class="TheIndex_Nav">
       <img :src="logoImg" alt="" class="TheIndex_Nav_Img">
        <nuxt-link v-scroll-to="'#about'" class="TheIndex_Nav_Item" to>
        About
@@ -14,7 +14,7 @@
        <nuxt-link v-scroll-to="'#staff'" class="TheIndex_Nav_Item" to>
        Staff
       </nuxt-link>
-    </header>
+    </header> -->
     <!-- <Glitch class="TheIndex_Hero"></Glitch> -->
     <div class="TheIndex_Hero">
       <!-- <h1 class="TheIndex_Hero_Dummy_Text">KEY VISUAL</h1> -->
@@ -474,6 +474,9 @@ export default Vue.extend({
           iframe.setAttribute('src',iframe.getAttribute('data-src'));
         }
       });
+    },
+    handleScroll: function(){
+      console.log("HOGE")
     }
   },
   computed: {
@@ -507,10 +510,12 @@ export default Vue.extend({
   },
   mounted() {
     window.addEventListener('load', this.youtube_defer);
+    window.addEventListener('scroll', this.handleScroll);
     // window.addEventListener("scroll", this.scrollStart, false);
   },
   destroyed() {
     window.removeEventListener("load", this.youtube_defer, false);
+    window.removeEventListener('scroll', this.handleScroll);
     // window.removeEventListener("scroll", this.scrollStart, false);
   }
 })
@@ -561,9 +566,10 @@ export default Vue.extend({
 .TheIndex_Text{
   font-size: 20px;
   color: #000000;
-  font-weight: 900;
   text-align: center;
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
+  font-weight: 600;
+  font-style: normal;
 }
 .TheIndex_Header{
   font-size: 60px;
@@ -625,8 +631,9 @@ export default Vue.extend({
 .TheIndex_Copy_Text{
   display: block;
   color: #000000;
-  font-weight: 900;
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
+  font-weight: 600;
+  font-style: normal;
   font-size: 24px;
   width: 100%;
 }
@@ -681,8 +688,9 @@ export default Vue.extend({
 .TheIndex_Cast_Text{
   background: #ffffff;
   color: #000000;
-  font-weight: 900;
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
+  font-weight: 600;
+  font-style: normal;
   font-size: 32px;
   width: 100%;
   display: inline;
@@ -738,8 +746,9 @@ export default Vue.extend({
   /* width: 50%; */
   font-size: 16px;
   background: #ffffff;
-  font-weight: 900;
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
+  font-weight: 600;
+  font-style: normal;
   /* position: absolute;
   bottom: 0;
   right: 0; */
@@ -751,8 +760,9 @@ export default Vue.extend({
   /* width: 50%; */
   font-size: 16px;
   background: #ffffff;
-  font-weight: 900;
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
+  font-weight: 600;
+  font-style: normal;
   /* position: absolute;
   bottom: 0;
   right: 0; */
@@ -812,8 +822,9 @@ export default Vue.extend({
   /* width: 50%; */
   font-size: 16px;
   background: #ffffff;
-  font-weight: 900;
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
+  font-weight: 600;
+  font-style: normal;
   /* position: absolute;
   bottom: 0;
   right: 0; */
@@ -837,8 +848,9 @@ export default Vue.extend({
 }
 .TheIndex_Ticket_Date{
   font-size: 60px;
-  font-weight: 900;
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
+  font-weight: 600;
+  font-style: normal;
   color: #ffffff;
 }
 .TheIndex_Ticket_Day{
@@ -849,8 +861,9 @@ export default Vue.extend({
 .TheIndex_Ticket_Name{
   display: inline-block;
   font-size: 56px;
-  font-family: 'Noto Sans JP', sans-serif;
-  font-weight: normal;
+  font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
+  font-weight: 600;
+  font-style: normal;
   transition: 0.6s;
   background: #ff1e26;
   color: #ffffff;
@@ -982,18 +995,20 @@ export default Vue.extend({
 }
 .TheIndex_Message_Text{
   font-size: 40px;
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
+  font-weight: 600;
+  font-style: normal;
   background: #000000;
   color: #ffffff;
-  font-weight: 900;
   display: inline;
 }
 .TheIndex_Message_Name{
   margin-top: 20px;
   font-size: 20px;
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
+  font-weight: 600;
+  font-style: normal;
   color: #000000;
-  font-weight: 900;
 }
 
 .TheIndex_Song{
@@ -1288,8 +1303,9 @@ export default Vue.extend({
   /* width: 50%; */
   font-size: 10px;
   background: #ffffff;
-  font-weight: 900;
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
+  font-weight: 600;
+  font-style: normal;
   /* position: absolute;
   bottom: 0;
   right: 0; */

@@ -26,6 +26,9 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+    ],
+    script: [
+      { src: 'https://use.typekit.net/adq4juz.js' }
     ]
   },
   /*
@@ -54,11 +57,11 @@ export default {
   modules: [
     'nuxt-webfontloader'
   ],
-  webfontloader: {
-    google: {
-      families: ['Noto+Sans+JP:500,900']
-    }
-  },
+  // webfontloader: {
+  //   google: {
+  //     families: ['Noto+Sans+JP:500,900']
+  //   }
+  // },
   plugins: [
     '~/plugins/mixin',
     '~plugins/vue-scrollto',

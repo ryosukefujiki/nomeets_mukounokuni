@@ -14,6 +14,9 @@ export default {
   components: {
     // Artwork,
     // Nav
+  },
+  mounted() {
+    Typekit.load({async: true})
   }
 }
 </script>
@@ -22,7 +25,8 @@ export default {
 html {
   /* font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, 'Helvetica Neue', Arial, sans-serif; */
-  font-family: 'Noto Sans JP', sans-serif;
+  /* font-family: 'Noto Sans JP', sans-serif; */
+  font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
