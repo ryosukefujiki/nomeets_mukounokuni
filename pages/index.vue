@@ -312,7 +312,7 @@
         <a href="https://nomeets.stores.jp/" target="_blank" class="TheIndex_Text TheIndex_Goods_Link">購入ページ</a>
       </div>
     </div>
-    <div class="TheIndex_Twitter">
+    <!-- <div class="TheIndex_Twitter">
       <div class="TheIndex_Twitter_Container">
         <Tweet id="1264568146251243520" class="TheIndex_Twitter_Tweet"></Tweet>
         <Tweet id="1264576131140730881" class="TheIndex_Twitter_Tweet"></Tweet>
@@ -321,7 +321,7 @@
         <Tweet id="1264576842037485568" class="TheIndex_Twitter_Tweet"></Tweet>
         <Tweet id="1264118909285707777" class="TheIndex_Twitter_Tweet"></Tweet>
       </div>
-    </div>
+    </div> -->
     <div class="TheIndex_Message">
       <div class="TheIndex_Message_Container">
          <p class="TheIndex_Message_Text">
