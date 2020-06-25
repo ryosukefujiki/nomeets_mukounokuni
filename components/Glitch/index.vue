@@ -39,6 +39,9 @@ export default {
     left: 0;
     width: 100%;
     height: 100%;
-    background: #EAF2F5;
+    background: #000000;
+  }
+  .artwork__canvas{
+    background: #000000;
   }
 </style>

@@ -1,20 +1,34 @@
 <template>
   <div class="TheIndex">
-    <!-- <header class="TheIndex_Nav">
+    <header class="TheIndex_Nav">
       <img :src="logoImg" alt="" class="TheIndex_Nav_Img">
-       <nuxt-link v-scroll-to="'#about'" class="TheIndex_Nav_Item" to>
-       About
-      </nuxt-link>
-       <nuxt-link v-scroll-to="'#cast'" class="TheIndex_Nav_Item" to>
-       Cast
-      </nuxt-link>
-       <nuxt-link v-scroll-to="'#ticket'" class="TheIndex_Nav_Item" to>
-       Ticket
-      </nuxt-link>
-       <nuxt-link v-scroll-to="'#staff'" class="TheIndex_Nav_Item" to>
-       Staff
-      </nuxt-link>
-    </header> -->
+      <div class="TheIndex_Nav_Lists">
+        <nuxt-link v-scroll-to="'#about'" class="TheIndex_Nav_Item" to>
+        ABOUT
+        </nuxt-link>
+        <nuxt-link v-scroll-to="'#cast'" class="TheIndex_Nav_Item" to>
+        CAST
+        </nuxt-link>
+        <nuxt-link v-scroll-to="'#ticket'" class="TheIndex_Nav_Item" to>
+        TICKET
+        </nuxt-link>
+        <nuxt-link v-scroll-to="'#staff'" class="TheIndex_Nav_Item" to>
+        STAFF
+        </nuxt-link>
+        <a href="" class="TheIndex_Nav_Sns">
+          <img :src="headerSnsTwitterImg" alt="" class="TheIndex_Nav_Sns_Img">
+        </a>
+         <a href="" class="TheIndex_Nav_Sns">
+          <img :src="headerSnsYoutubeImg" alt="" class="TheIndex_Nav_Sns_Img">
+        </a>
+         <a href="" class="TheIndex_Nav_Sns">
+          <img :src="headerSnsInstagramImg" alt="" class="TheIndex_Nav_Sns_Img">
+        </a>
+         <a href="" class="TheIndex_Nav_Sns">
+          <img :src="headerSnsTiktokImg" alt="" class="TheIndex_Nav_Sns_Img">
+        </a>
+      </div>
+    </header>
     <!-- <Glitch class="TheIndex_Hero"></Glitch> -->
     <div class="TheIndex_Hero">
       <!-- <h1 class="TheIndex_Hero_Dummy_Text">KEY VISUAL</h1> -->
@@ -460,6 +474,11 @@ export default Vue.extend({
       snsTwitterImg: "/home/twitter.svg",
       snsYoutubeImg: "/home/youtube.svg",
       snsInstagramImg: "/home/instagram.svg",
+
+      headerSnsInstagramImg: "/home/sns/instagram.svg",
+      headerSnsTwitterImg: "/home/sns/twitter.svg",
+      headerSnsYoutubeImg: "/home/sns/youtube.svg",
+      headerSnsTiktokImg: "/home/sns/tiktok.svg",
       videoId: "Zu9r-7uZfas",
     }
   },
@@ -539,26 +558,51 @@ export default Vue.extend({
   left: 0;
   width: 100vw;
   height: 60px;
-  background: #c8ff00;
+  background: rgba(255, 255, 255, 0);
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-between;
   z-index: 10;
   opacity: 1;
+  padding: 10px 120px;
 }
 .TheIndex_Nav_Img{
   height: 60px;
   margin-right: 32px;
 }
 .TheIndex_Nav_Item{
-  font-size: 28px;
-  color: #000000;
+  font-size: 20px;
+  color: #ffffff;
   text-decoration: none;
   display: block;
   margin-right: 28px;
-  font-weight: 900;
+  transition: 0.2s;
+  font-family: din-2014, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  mix-blend-mode: difference;
+  margin-top: 12px;
+}
+.TheIndex_Nav_Sns{
+  display: block;
+  margin-top: 12px;
+  margin-right: 20px;
   transition: 0.2s;
 }
+.TheIndex_Nav_Sns:hover{
+  opacity: 0.6;
+}
+.TheIndex_Nav_Sns_Img{
+  display: block;
+  width: 20px;
+}
+.TheIndex_Nav_Lists{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /* width: 80%; */
+}
+
 .TheIndex_Nav_Item:hover{
   opacity: 0.6;
 }
