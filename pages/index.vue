@@ -461,7 +461,7 @@ export default Vue.extend({
   },
   data() {
     return {
-      logoImg: "/home/logo.svg",
+      logoImg: "/home/logo.png",
       keyVisualImg: "/home/keyvisual.png",
       keyVisualGif: "/home/keyvisual.gif",
       copyImg: "/home/copy.svg",
@@ -568,7 +568,8 @@ export default Vue.extend({
 }
 .TheIndex_Nav_Img{
   height: 60px;
-  margin-right: 32px;
+  /* margin-right: 32px; */
+  margin-top: 40px;
 }
 .TheIndex_Nav_Item{
   font-size: 20px;
@@ -581,12 +582,12 @@ export default Vue.extend({
   font-weight: 700;
   font-style: normal;
   mix-blend-mode: difference;
-  margin-top: 12px;
+  margin-top: 40px;
 }
 .TheIndex_Nav_Sns{
   display: block;
-  margin-top: 12px;
-  margin-right: 20px;
+  margin-top: 40px;
+  margin-right: 24px;
   transition: 0.2s;
 }
 .TheIndex_Nav_Sns:hover{
