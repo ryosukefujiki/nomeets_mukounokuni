@@ -1,6 +1,6 @@
 <template>
   <div class="TheIndex">
-    <header class="TheIndex_Nav">
+    <!-- <header class="TheIndex_Nav">
       <img :src="logoImg" alt="" class="TheIndex_Nav_Img">
       <div class="TheIndex_Nav_Lists">
         <nuxt-link v-scroll-to="'#about'" class="TheIndex_Nav_Item" to>
@@ -28,7 +28,7 @@
           <img :src="headerSnsTiktokImg" alt="" class="TheIndex_Nav_Sns_Img">
         </a>
       </div>
-    </header>
+    </header> -->
     <!-- <Glitch class="TheIndex_Hero"></Glitch> -->
     <div class="TheIndex_Hero">
       <!-- <h1 class="TheIndex_Hero_Dummy_Text">KEY VISUAL</h1> -->
@@ -67,22 +67,24 @@
 
     </div>
     <div class="TheIndex_Information">
-      <div class="TheIndex_Information_Contents">
+      <!-- <div class="TheIndex_Information_Contents">
         <h3 class="TheIndex_Information_Header">再公演日</h3>
         <p class="TheIndex_Information_Text"><span class="Color_Yellow">5.31</span> <span class="TheIndex_Information_Text_Small">日</span>　18:00</p>
-      </div>
+      </div> -->
       <div class="TheIndex_Information_Contents">
         <h3 class="TheIndex_Information_Header">公演日</h3>
-        <p class="TheIndex_Information_Text"><span class="Color_Yellow">5.23</span> <span class="TheIndex_Information_Text_Small">土</span>　15:00 / 21:00</p>
-        <p class="TheIndex_Information_Text"><span class="Color_Yellow">5.24</span> <span class="TheIndex_Information_Text_Small">日</span>　15:00 / 21:00</p>
+        <p class="TheIndex_Information_Text"><span class="Color_Yellow">7.23</span> <span class="TheIndex_Information_Text_Small">木</span>　15:00 / 21:00</p>
+        <p class="TheIndex_Information_Text"><span class="Color_Yellow">7.24</span> <span class="TheIndex_Information_Text_Small">金</span>　15:00 / 21:00</p>
+        <p class="TheIndex_Information_Text"><span class="Color_Yellow">7.25</span> <span class="TheIndex_Information_Text_Small">木</span>　15:00 / 21:00</p>
+        <p class="TheIndex_Information_Text"><span class="Color_Yellow">7.26</span> <span class="TheIndex_Information_Text_Small">金</span>　15:00 / 21:00</p>
       </div>
       <div class="TheIndex_Information_Contents">
-        <h3 class="TheIndex_Information_Header Color_Blue">場所</h3>
+        <h3 class="TheIndex_Information_Header">場所</h3>
         <p class="TheIndex_Information_Text"> <span class="Color_Blue">Zoom</span> にて生配信上映</p>
       </div>
     </div>
      <div class="TheIndex_Cast" id="cast">
-      <h2 class="TheIndex_Text TheIndex_Header">Cast <span class="TheIndex_Header_Jp">キャスト</span></h2>
+      <h2 class="TheIndex_Text TheIndex_Header">CAST <span class="TheIndex_Header_Jp">キャスト</span></h2>
       <p class="TheIndex_Cast_Text">メインキャストは、劇団ノーミーツの出演俳優以外、 全員ZOOM上でのオーディションにより 200名を超える応募者の中から選出。</p>
       <div>
         <a class="The_Index_Cast_Member" href="https://twitter.com/milkan10_" target="_blank">
@@ -222,42 +224,43 @@
       </div>
     </div>
     <div class="TheIndex_Ticket" id="ticket">
-      <h2 class="TheIndex_Text TheIndex_Header TheIndex_Ticket_Header">Ticket <span class="TheIndex_Header_Jp">チケット情報</span></h2>
+      <h2 class="TheIndex_Text TheIndex_Header TheIndex_Ticket_Header">TICKET <span class="TheIndex_Header_Jp">チケット情報</span></h2>
       <div class="TheIndex_Ticket_Section">
-        <h3 class="TheIndex_Ticket_Date">5.27<span class="TheIndex_Ticket_Day">水</span></h3>
+        <!-- <h3 class="TheIndex_Ticket_Date">7.23<span class="TheIndex_Ticket_Day">木</span></h3> -->
         <div class="TheIndex_Ticket_Countainer">
-          <div><h4 class="TheIndex_Ticket_Name">初日割</h4></div>
+          <div><h4 class="TheIndex_Ticket_Name">先行限定</h4></div>
+          <p class="TheIndex_Ticket_Text_Small">＊先行チケット限定の特典付き</p>
           <p class="TheIndex_Ticket_Text">
           <a href="https://nomeets2024.peatix.com/" class="TheIndex_Ticket_Link" target="_blank">購入ページへ</a>
-            2000円（5.28 19:00 まで）
-          </p>
-        </div>
-        <div class="TheIndex_Ticket_Countainer">
-          <div><h4 class="TheIndex_Ticket_Name TheIndex_Ticket_Name_White">一般チケット</h4></div>
-          <p class="TheIndex_Ticket_Text">
-          <a href="https://nomeets2024.peatix.com/" class="TheIndex_Ticket_Link TheIndex_Ticket_Link_Blue" target="_blank">購入ページへ</a>
-            2500円
+            2200円（1000枚限定）
           </p>
         </div>
         <div class="TheIndex_Ticket_Flexbox">
+           <div class="TheIndex_Ticket_Countainer">
+          <div><h4 class="TheIndex_Ticket_Name TheIndex_Ticket_Name_White">一般チケット</h4></div>
+          <p class="TheIndex_Ticket_Text">
+          <a href="https://nomeets2024.peatix.com/" class="TheIndex_Ticket_Link TheIndex_Ticket_Link_Blue" target="_blank">購入ページへ</a>
+            2800円
+          </p>
+          </div>
           <div class="TheIndex_Ticket_Countainer">
             <div><h4 class="TheIndex_Ticket_Name TheIndex_Ticket_Name_Black">RT割引チケット</h4></div>
             <p class="TheIndex_Ticket_Text">
             <a href="https://nomeets2024.peatix.com/" class="TheIndex_Ticket_Link TheIndex_Ticket_Link_Blue" target="_blank">購入ページへ</a>
-              2300円
+              2500円
             </p>
           </div>
           <div class="TheIndex_Ticket_Countainer">
-            <div><h4 class="TheIndex_Ticket_Name TheIndex_Ticket_Name_Black">U25割引チケット</h4></div>
+            <div><h4 class="TheIndex_Ticket_Name TheIndex_Ticket_Name_Black">U18割引チケット</h4></div>
             <p class="TheIndex_Ticket_Text">
             <a href="https://nomeets2024.peatix.com/" class="TheIndex_Ticket_Link TheIndex_Ticket_Link_Blue" target="_blank">購入ページへ</a>
-              2000円
+              500円
             </p>
           </div>
         </div>
       </div>
 
-      <div class="TheIndex_Ticket_Section">
+      <!-- <div class="TheIndex_Ticket_Section">
         <h3 class="TheIndex_Ticket_Date">5.12<span class="TheIndex_Ticket_Day"> 火</span> <span class="TheIndex_Ticket_Date_Small">発売</span> <span class="TheIndex_Ticket_Date_Small_Red">即日完売</span> </h3>
         <div class="TheIndex_Ticket_Countainer">
           <div><h4 class="TheIndex_Ticket_Name">特典付き先行チケット</h4></div>
@@ -267,9 +270,8 @@
             2000円(数量限定発売)
           </p>
         </div>
-     </div>
-
-      <div class="TheIndex_Ticket_Section">
+     </div> -->
+      <!-- <div class="TheIndex_Ticket_Section">
         <h3 class="TheIndex_Ticket_Date">5.14<span class="TheIndex_Ticket_Day"> 木</span> <span class="TheIndex_Ticket_Date_Small">12:00 一般発売</span></h3>
         <div class="TheIndex_Ticket_Countainer">
           <div><h4 class="TheIndex_Ticket_Name TheIndex_Ticket_Name_White">一般チケット</h4></div>
@@ -301,27 +303,26 @@
             </p>
           </div>
         </div>
-     </div>
+     </div> -->
      <p class="TheIndex_Ticket_Text_Small">
-       【『門外不出モラトリアム』公演概要】<br>
-        ＜公演日＞5月23日(土) 15:00 / 21:00・24日(日) 15:00 / 21:00 (全4回)<br>
+       【『むこうのくに』公演概要】<br>
+        ＜公演日＞7月23日(木)・24日（金）・25日（土）・26日（日） 15:00 / 21:00 (全8回)<br>
         ＜場所＞ Zoomにて生配信上演<br>
         ＜チケット販売＞<br>
-        ・5月12日(火)より特典付き先行チケット数量限定発売<br>
-        先行チケット：2000円<br>
-        ・5月14日(木)より一般発売<br>
-        一般チケット：2500円、<br>
-        RT割引チケット：2300円、U25割引チケット：2000円、U18割引チケット：1000円<br>
-        ※各種チケット詳細・申込み方法は門外不出モラトリアム公式HPにてご確認ください。</p>
+        <!-- ・5月12日(火)より特典付き先行チケット数量限定発売<br> -->
+        先行限定チケット：2200円<br>
+        一般チケット：2800円、<br>
+        RT割引チケット：2500円、U18割引チケット：500円<br>
+        ※各種チケット詳細・申込み方法はむこうのくに公式Peatixページにてご確認ください。</p>
     </div>
     <div class="TheIndex_Goods">
       <div class="TheIndex_Goods_Countainer">
-        <h2 class="TheIndex_Text TheIndex_Header TheIndex_Goods_Header">SUZURI Official site</h2>
+        <h2 class="TheIndex_Text TheIndex_Header TheIndex_Goods_Header">SUZURI OFFICIAL SITE</h2>
       <p class="TheIndex_Text TheIndex_Goods_Text">（Tシャツ・ポスター・ステッカーetc）</p>
       <a href="https://suzuri.jp/nomeets" target="_blank" class="TheIndex_Text TheIndex_Goods_Link">購入ページ</a>
       </div>
       <div class="TheIndex_Goods_Countainer">
-        <h2 class="TheIndex_Text TheIndex_Header TheIndex_Goods_Header">STORE Official site</h2>
+        <h2 class="TheIndex_Text TheIndex_Header TheIndex_Goods_Header">STORE OFFICIAL SITE</h2>
         <p class="TheIndex_Text TheIndex_Goods_Text">（公式パンフレット）</p>
         <a href="https://nomeets.stores.jp/" target="_blank" class="TheIndex_Text TheIndex_Goods_Link">購入ページ</a>
       </div>
@@ -350,12 +351,11 @@
         </p>
       </div>
     </div>
-     <div class="TheIndex_Song">
+     <!-- <div class="TheIndex_Song">
       <p class="TheIndex_Song_Text"><span class="TheIndex_Song_Text_Small">主題歌</span>　重力の虹 / lie</p>
-      <!-- <img :src="songImg" alt="" class="TheIndex_Song_Img"> -->
-    </div>
+    </div> -->
     <div class="TheIndex_Staff" id="staff">
-      <h2 class="TheIndex_Text TheIndex_Staff_Header">Staff <span class="TheIndex_Staff_Header_Jp">スタッフ</span></h2>
+      <h2 class="TheIndex_Text TheIndex_Staff_Header">STAFF <span class="TheIndex_Staff_Header_Jp">スタッフ</span></h2>
       <div class="TheIndex_Staff_Staff_Container">
         <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
           <div><p class="TheIndex_Staff_Member_Role">主宰、脚本・演出</p></div>
@@ -382,38 +382,82 @@
            <div><p class="TheIndex_Staff_Member_Name">菅波和也</p></div>
         </a>
         <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
-          <div><p class="TheIndex_Staff_Member_Role">制作助手</p></div>
-          <div><p class="TheIndex_Staff_Member_Name">石坪明希子</p></div>
+          <div><p class="TheIndex_Staff_Member_Role TheIndex_Staff_Member_Role_Small">クリエイティブディレクター/コピーライター</p></div>
+          <div><p class="TheIndex_Staff_Member_Name">鈴木健太</p></div>
         </a>
         <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
           <div><p class="TheIndex_Staff_Member_Role">宣伝美術</p></div> 
           <div><p class="TheIndex_Staff_Member_Name">目黒水海</p></div>
         </a>
-        <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
-          <div><p class="TheIndex_Staff_Member_Role">ロゴデザイン</p></div>
-          <div><p class="TheIndex_Staff_Member_Name">かねこあみ</p></div>
+         <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+          <div><p class="TheIndex_Staff_Member_Role">テクニカルディレクター</p></div>
+          <div><p class="TheIndex_Staff_Member_Name">藤原遼</p></div>
         </a>
-        <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+        <!-- <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
           <div><p class="TheIndex_Staff_Member_Role">劇伴</p></div>
           <div><p class="TheIndex_Staff_Member_Name TheIndex_Staff_Member_Name_Small">サクライケンタ</p></div>
+        </a> -->
+        <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+          <div><p class="TheIndex_Staff_Member_Role">UI/UXデザイナー</p></div>
+          <div><p class="TheIndex_Staff_Member_Name">藤木良祐</p></div>
         </a>
         <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
-          <div><p class="TheIndex_Staff_Member_Role TheIndex_Staff_Member_Role_Small">クリエイティブディレクター/コピーライター</p></div>
-          <div><p class="TheIndex_Staff_Member_Name">鈴木健太</p></div>
-        </a>
-        <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
-          <div><p class="TheIndex_Staff_Member_Role">ウェブデザイン</p></div>
-          <div><p class="TheIndex_Staff_Member_Name">千葉大輝</p></div>
+          <div><p class="TheIndex_Staff_Member_Role">企画・宣伝</p></div>
+          <div><p class="TheIndex_Staff_Member_Name">小野寺正人</p></div>
         </a>
          <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
           <div><p class="TheIndex_Staff_Member_Role">広報・PR</p></div>
           <div><p class="TheIndex_Staff_Member_Name">オギユカ</p></div>
         </a>
         <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
-          <div><p class="TheIndex_Staff_Member_Role">企画・宣伝</p></div>
-          <div><p class="TheIndex_Staff_Member_Name">小野寺正人</p></div>
+          <div><p class="TheIndex_Staff_Member_Role">ディレクター</p></div>
+          <div><p class="TheIndex_Staff_Member_Name">松永つぐみ</p></div>
+        </a>
+         <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+          <div><p class="TheIndex_Staff_Member_Role">撮影監督</p></div>
+          <div><p class="TheIndex_Staff_Member_Name">林大智</p></div>
         </a>
         <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+          <div><p class="TheIndex_Staff_Member_Role">スイッチング監修</p></div>
+          <div><p class="TheIndex_Staff_Member_Name">水落大</p></div>
+        </a>
+        <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+          <div><p class="TheIndex_Staff_Member_Role">カメラワーク監修</p></div>
+          <div><p class="TheIndex_Staff_Member_Name">松永夏紀</p></div>
+        </a>
+        <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+          <div><p class="TheIndex_Staff_Member_Role">カメラワーク監修</p></div>
+          <div><p class="TheIndex_Staff_Member_Name">鈴木健太</p></div>
+        </a>
+         <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+          <div><p class="TheIndex_Staff_Member_Role">技術協力</p></div>
+          <div><p class="TheIndex_Staff_Member_Name">田中義丸</p></div>
+        </a>
+         <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+          <div><p class="TheIndex_Staff_Member_Role">広報・PR</p></div>
+          <div><p class="TheIndex_Staff_Member_Name">さとうみずほ</p></div>
+        </a>
+         <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+          <div><p class="TheIndex_Staff_Member_Role">広報・PR</p></div>
+          <div><p class="TheIndex_Staff_Member_Name ">平岡祐子</p></div>
+        </a>
+        <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+          <div><p class="TheIndex_Staff_Member_Role">Producer</p></div>
+          <div><p class="TheIndex_Staff_Member_Name ">岩崎裕介</p></div>
+        </a>
+        <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+          <div><p class="TheIndex_Staff_Member_Role">衣装</p></div>
+          <div><p class="TheIndex_Staff_Member_Name">石塚愛理</p></div>
+        </a>
+        <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+          <div><p class="TheIndex_Staff_Member_Role">美術</p></div>
+          <div><p class="TheIndex_Staff_Member_Name ">石坪明希子</p></div>
+        </a>
+         <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+          <div><p class="TheIndex_Staff_Member_Role">AI監修</p></div>
+          <div><p class="TheIndex_Staff_Member_Name">岸裕真</p></div>
+        </a>
+         <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
           <div><p class="TheIndex_Staff_Member_Role">企画・製作</p></div>
           <div><p class="TheIndex_Staff_Member_Name TheIndex_Staff_Member_Name_Small">劇団ノーミーツ</p></div>
         </a>
@@ -424,12 +468,13 @@
         <a target="_blank" href="https://twitter.com/gekidan_nomeets" class="TheIndex_Sns_Link"> <img :src="snsTwitterImg" alt="" class="TheIndex_Sns_Img"></a>
         <a target="_blank" href="https://www.youtube.com/channel/UCT7hZww9WW94UmkxXjVMCLg" class="TheIndex_Sns_Link"> <img :src="snsYoutubeImg" alt="" class="TheIndex_Sns_Img"></a>
         <a target="_blank" href="https://www.instagram.com/gekidan_nomeets/" class="TheIndex_Sns_Link"> <img :src="snsInstagramImg" alt="" class="TheIndex_Sns_Img"></a>
+        <a target="_blank" href="https://www.instagram.com/gekidan_nomeets/" class="TheIndex_Sns_Link"> <img :src="snsTiktokImg" alt="" class="TheIndex_Sns_Img"></a>
       </div>
     </div>
     <div class="TheIndex_Contact">
-      <h2 class="TheIndex_Text TheIndex_Header">Contact <span class="TheIndex_Header_Jp">お問い合わせ</span></h2>
+      <h2 class="TheIndex_Text TheIndex_Header">CONTACT <span class="TheIndex_Header_Jp">お問い合わせ</span></h2>
       <a class="TheIndex_Text TheIndex_Contact_MailLink" href="nomeets2020@gmail.com">nomeets2020@gmail.com</a>
-      <p class="TheIndex_Text">担当：菅波和也(すがなみ かずや)</p>
+      <p class="TheIndex_Text">担当：オギ ユカ</p>
     </div>
     <footer class="TheIndex_Footer">
       <div class="TheIndex_Footer_Image_Container">
@@ -474,6 +519,7 @@ export default Vue.extend({
       snsTwitterImg: "/home/twitter.svg",
       snsYoutubeImg: "/home/youtube.svg",
       snsInstagramImg: "/home/instagram.svg",
+      snsTiktokImg:  "/home/tiktok.svg",
 
       headerSnsInstagramImg: "/home/sns/instagram.svg",
       headerSnsTwitterImg: "/home/sns/twitter.svg",
@@ -558,7 +604,7 @@ export default Vue.extend({
   left: 0;
   width: 100vw;
   height: 60px;
-  background: rgba(255, 255, 255, 0);
+  /* background: rgba(255, 255, 255, 0); */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -617,6 +663,9 @@ export default Vue.extend({
   font-style: normal;
 }
 .TheIndex_Header{
+  font-family: din-2014, sans-serif;
+  font-weight: 700;
+  font-style: normal;
   font-size: 60px;
   margin-bottom: 24px;
   /* font-weight: 500;f */
@@ -699,7 +748,8 @@ export default Vue.extend({
   margin-bottom: 40px;
 }
 .TheIndex_Information_Header{
-  color: #c8ff00;
+  /* color: #fa5d95; */
+  color: #ffffff;
   font-size: 48px;
   font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
 }
@@ -715,11 +765,12 @@ export default Vue.extend({
   color: #04abff;
 }
 .Color_Yellow{
-  color: #c8ff00;
+  /* color: #d7e5ff; */
+  color: #fa5d95;
 }
 
 .TheIndex_Cast{
-  background: #c8ff00;
+  background: #d7e5ff;
   padding: 80px 120px;
 }
 .The_Index_Cast_Flexbox{
@@ -885,6 +936,9 @@ export default Vue.extend({
   padding: 80px 120px;
 }
 .TheIndex_Ticket_Header{
+  font-family: din-2014, sans-serif;
+  font-weight: 700;
+  font-style: normal;
   color: #ffffff;
 }
 .TheIndex_Ticket_Countainer{
@@ -917,6 +971,7 @@ export default Vue.extend({
 .TheIndex_Ticket_Name_White{
   background: #ffffff;
   color: #000000;
+   font-size: 40px;
 }
 .TheIndex_Ticket_Name_Black{
   background: #000000;
@@ -965,11 +1020,11 @@ export default Vue.extend({
   display: flex;
 }
 .TheIndex_Ticket_Section{
-  margin-bottom: 80px;
+  margin-bottom: 40px;
 }
 .TheIndex_Ticket_Text_Small{
   color: #ffffff;
-  font-size: 16px;
+  font-size: 24px;
   margin-top: 4px;
   /* font-weight: 900; */
 }
@@ -982,7 +1037,7 @@ export default Vue.extend({
 }
 
 .TheIndex_Goods{
-  background: #c8ff00;
+  background: #d7e5ff;
   padding: 80px 120px;
 }
 .TheIndex_Goods_Countainer{
@@ -990,6 +1045,10 @@ export default Vue.extend({
   margin-bottom: 40px;
 }
 .TheIndex_Goods_Header{
+  font-family: din-2014, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  /* font-family: din-2014; */
   margin-bottom: 0px;
 }
 .TheIndex_Goods_Text{
@@ -1057,7 +1116,7 @@ export default Vue.extend({
 }
 
 .TheIndex_Song{
-  background: #c8ff00;
+  background: #d7e5ff;
   padding-top: 40px;
   padding-bottom: 40px;
 }
@@ -1077,18 +1136,25 @@ export default Vue.extend({
 }
 
 .TheIndex_Staff{
-  background: #c4c4c4;
+  /* background: #c4c4c4; */
+  background: #d1d1d1;
   padding-top: 60px;
   padding-bottom: 60px;
 }
 .TheIndex_Staff_Header{
+  font-family: din-2014, sans-serif;
+  font-weight: 700;
+  font-style: normal;
   font-size: 60px;
   margin-bottom: 24px;
-  color: #c8ff00;;
+  color: #000000;;
 }
 .TheIndex_Staff_Header_Jp{
   font-size: 32px;
   font-weight: 500;
+  font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
+  font-weight: 600;
+  font-style: normal;
 }
 .TheIndex_Staff_Staff_Container{
   width: 80%;
@@ -1124,7 +1190,7 @@ export default Vue.extend({
 }
 .TheIndex_Staff_Member_Name{
   display: inline-block;
-  background: #c8ff00;
+  background: #d7e5ff;
   font-size: 60px;
 }
 .TheIndex_Staff_Member_Name_Small{
@@ -1141,7 +1207,7 @@ export default Vue.extend({
 .TheIndex_Sns_Container{
   margin: 0 auto;
   display: flex;
-  width: 320px;
+  width: 400px;
   justify-content: space-between;
 }
 .TheIndex_Sns_Img{
@@ -1154,13 +1220,16 @@ export default Vue.extend({
 
 .TheIndex_Contact{
   width: 100vw;
-  background: #c8ff00;
+  background: #d7e5ff;
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
 
 .TheIndex_Header_Jp{
+  font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
+  font-weight: 600;
+  font-style: normal;
   font-size: 32px;
   font-weight: 500;
 }
@@ -1227,6 +1296,48 @@ export default Vue.extend({
   .TheIndex_Message_Text{
     font-size: 24px;
   }
+  .The_Index_Cast_Message{
+    /* font-size: 10px;
+    margin-top: 4px; */
+    /* margin-top: 8px; */
+    display: none;
+  }
+  .The_Index_Cast_Message_Sp{
+  /* display: block; */
+  /* width: 50%; */
+  font-size: 20px;
+  background: #ffffff;
+  font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  /* position: absolute;
+  bottom: 0;
+  right: 0; */
+  margin-top: 0px;
+  padding: 8px 8px;
+  display: block;
+}
+  .The_Index_Cast_Name{
+    font-size: 80px;
+  }
+  .The_Index_Cast_Name_Small{
+    font-size: 48px;
+  }
+  .The_Index_Cast_Role_Small{
+    font-size: 24px;
+  }
+  /* .TheIndex_Nav{
+    padding: ;
+  } */
+  .TheIndex_Cast{
+    padding: 80px 60px;
+  }
+  .TheIndex_Ticket{
+     padding: 80px 60px;
+  }
+  .TheIndex_Copy{
+    padding: 80px 60px;
+  }
 }
 @media screen and (max-width: 768px) {
   .TheIndex_Header{
@@ -1268,6 +1379,24 @@ export default Vue.extend({
   .TheIndex_Staff_Member_Name{
     font-size: 40px;
   }
+  .TheIndex_Cast{
+    padding: 80px 60px;
+  }
+  .TheIndex_Ticket{
+     padding: 80px 60px;
+  }
+  .TheIndex_Copy{
+    padding: 80px 60px;
+  }
+  .The_Index_Cast_Name{
+    font-size: 60px;
+  }
+  .The_Index_Cast_Name_Small{
+    font-size: 40px;
+  }
+  .The_Index_Cast_Role_Small{
+    font-size: 24px;
+  }
 }
 @media screen and (max-width: 480px) {
   .TheIndex_Text{
@@ -1304,7 +1433,7 @@ export default Vue.extend({
   }
 
   .TheIndex_Cast{
-  background: #c8ff00;
+  background: #d7e5ff;
   padding: 40px 20px;
   }
   .TheIndex_Cast_Text{
@@ -1368,9 +1497,16 @@ export default Vue.extend({
   .TheIndex_Staff{
     padding: 40px 0px;
   }
+  .TheIndex_Goods_Header{
+    margin-bottom: 0px;
+  }
   .TheIndex_Goods{
     padding: 40px 0px;
     padding-bottom: 1px;
+  }
+  .TheIndex_Goods_Link{
+    margin-top: 8px;
+    font-size: 28px;
   }
   .TheIndex_Ticket{
     padding: 40px 20px;
@@ -1445,6 +1581,7 @@ export default Vue.extend({
   }
   .TheIndex_Staff_Member_Role{
     font-size: 12px;
+    margin-bottom: 4px;
   }
   .TheIndex_Staff_Member_Name{
     font-size: 20px;
@@ -1462,7 +1599,7 @@ export default Vue.extend({
   left: 0;
   width: 100vw;
   height: 32px;
-  background: #c8ff00;
+  /* background: #d7e5ff; */
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -1481,6 +1618,15 @@ export default Vue.extend({
   font-weight: 900;
   transition: 0.2s;
 }
+.TheIndex_Ticket_Section{
+  margin-bottom: 20px;
+}
+.TheIndex_Ticket_Text_Small{
+  font-size: 16px;
+}
+.TheIndex_Ticket_Text{
+  margin-top: 12px;
+}
 }
 @media screen and (max-width: 320px) {
   .TheIndex_Nav{
@@ -1489,7 +1635,7 @@ export default Vue.extend({
   left: 0;
   width: 100vw;
   height: 32px;
-  background: #c8ff00;
+  /* background: #d7e5ff; */
   display: flex;
   align-items: center;
   justify-content: flex-start;
