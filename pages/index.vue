@@ -29,12 +29,12 @@
         </a>
       </div>
     </header> -->
-    <!-- <Glitch class="TheIndex_Hero"></Glitch> -->
-    <div class="TheIndex_Hero">
-      <!-- <h1 class="TheIndex_Hero_Dummy_Text">KEY VISUAL</h1> -->
-      <!-- <img :src="keyVisualGif" alt="" class="TheIndex_Hero_Img"> -->
+    <Glitch class="TheIndex_Hero"></Glitch>
+    <!-- <div class="TheIndex_Hero">
+      <h1 class="TheIndex_Hero_Dummy_Text">KEY VISUAL</h1>
+      <img :src="keyVisualGif" alt="" class="TheIndex_Hero_Img">
       <v-lazy-image  class="TheIndex_Hero_Img" :src="keyVisualGif" :src-placeholder="keyVisualImg" />
-    </div>
+    </div> -->
     <div class="TheIndex_Copy" id="about">
       <!-- <h1 class="TheIndex_Hero_Dummy_Text">COPY</h1> -->
       <img :src="copyImg" alt="" class="TheIndex_Copy_Img">
@@ -578,10 +578,10 @@ export default Vue.extend({
   mounted() {
     window.addEventListener('load', this.youtube_defer);
     window.addEventListener('scroll', this.handleScroll);
-    // var el = document.getElementById("myText");
-    // var text = new ShuffleText(el);
+    var el = document.getElementById("myText");
+    var text = new ShuffleText(el);
     // text.sourceRandomCharacter = "こあ生"
-    // text.start();
+    text.start();
     // window.addEventListener("scroll", this.scrollStart, false);
   },
   destroyed() {

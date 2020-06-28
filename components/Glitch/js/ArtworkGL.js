@@ -1,5 +1,4 @@
 import Common from "./Common";
-import Shape from "./Shape"
 
 export default class ArtworkGL{
     constructor(props){
@@ -10,7 +9,7 @@ export default class ArtworkGL{
         Common.init(this.props.$canvas);
         // this.shape = new Shape();
         window.addEventListener("resize", this.resize.bind(this));
-        this.loop();
+        // this.loop();
     }
 
     resize(){
