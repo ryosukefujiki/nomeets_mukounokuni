@@ -1,9 +1,8 @@
 
 import * as THREE from "three";
-// import img from "./assets/mannequin.jpg";
 import img from "./assets/img.jpg";
-
 import vertexShader from "./glsl/vertex.vert";
+import vertexShaderSp from "./glsl/vertex_sp.vert";
 import fragmentShader from "./glsl/fragment.frag";
 
 class Common{
@@ -31,7 +30,7 @@ class Common{
         // レンダラーを作成
         this.renderer = new THREE.WebGLRenderer({
           canvas: $canvas
-      });
+        });
         this.renderer.setSize(this.size.windowW, this.size.windowH);// 描画サイズ
         this.renderer.setClearColor(0xEAF2F5);
         this.renderer.setPixelRatio(window.devicePixelRatio);// ピクセル比
@@ -51,35 +50,65 @@ class Common{
         this.targetPercent = 0.0;
     
         this.texture = new THREE.TextureLoader().load(img)// テクスチャ読み込み
+
+        if(this.size.windowW > this.size.windowH){
+          this.uniforms = {
+            uAspect: {
+              value: this.size.windowH / this.size.windowW
+            },
+            uTime: {
+              value: 0.0
+            },
+            uMouse: {
+              value: new THREE.Vector2(0.5, 0.5)
+            },
+            uPercent: {
+              value: this.targetPercent
+            },
+            uFixAspect: {
+              value: this.size.windowH / this.size.windowW
+            },
+            uTex: {
+              value: this.texture
+            }
+          };  
+          this.mat = new THREE.ShaderMaterial({
+            uniforms: this.uniforms,
+            vertexShader: vertexShader,
+            fragmentShader: fragmentShader
+          });
+        }else{
+          this.uniforms = {
+            uAspect: {
+              value: this.size.windowW / this.size.windowH
+            },
+            uTime: {
+              value: 0.0
+            },
+            uMouse: {
+              value: new THREE.Vector2(0.5, 0.5)
+            },
+            uPercent: {
+              value: this.targetPercent
+            },
+            uFixAspect: {
+              value: this.size.windowW / this.size.windowH
+            },
+            uTex: {
+              value: this.texture
+            }
+          }; 
+          this.mat = new THREE.ShaderMaterial({
+            uniforms: this.uniforms,
+            vertexShader: vertexShaderSp,
+            fragmentShader: fragmentShader
+          }); 
+        }
     
         // uniform変数を定義
-        this.uniforms = {
-          uAspect: {
-            value: this.size.windowH / this.size.windowW
-          },
-          uTime: {
-            value: 0.0
-          },
-          uMouse: {
-            value: new THREE.Vector2(0.5, 0.5)
-          },
-          uPercent: {
-            value: this.targetPercent
-          },
-          uFixAspect: {
-            value: this.size.windowH / this.size.windowW
-          },
-          uTex: {
-            value: this.texture
-          }
-        };
-    
+        
         // uniform変数とシェーダーソースを渡してマテリアルを作成
-        this.mat = new THREE.ShaderMaterial({
-          uniforms: this.uniforms,
-          vertexShader: vertexShader,
-          fragmentShader: fragmentShader
-        });
+        
     
         this.mesh = new  THREE.Mesh(this.geo, this.mat);
     
