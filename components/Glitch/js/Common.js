@@ -1,6 +1,6 @@
 
 import * as THREE from "three";
-import img from "./assets/img.jpg";
+import img from "./assets/bg2.png";
 import vertexShader from "./glsl/vertex.vert";
 import vertexShaderSp from "./glsl/vertex_sp.vert";
 import fragmentShader from "./glsl/fragment.frag";
