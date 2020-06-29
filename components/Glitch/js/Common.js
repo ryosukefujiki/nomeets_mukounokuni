@@ -1,6 +1,6 @@
 
 import * as THREE from "three";
-import img from "./assets/bg2.png";
+import img from "./assets/bg3.png";
 import vertexShader from "./glsl/vertex.vert";
 import vertexShaderSp from "./glsl/vertex_sp.vert";
 import fragmentShader from "./glsl/fragment.frag";
@@ -22,6 +22,7 @@ class Common{
             total: null,
             delta: null
         };
+       
     }
 
     init($canvas){     
@@ -157,6 +158,18 @@ class Common{
 
         // 画面に表示
         this.renderer.render(this.scene, this.camera);
+    }
+    mouseMoved(x, y) {
+      this.mouse.x = x / this.w;
+      this.mouse.y = 1.0 - (y / this.h);
+    }
+    mousePressed(x, y) {
+      this.mouseMoved(x, y);
+      this.targetPercent = 1.;// マウスを押したら進捗度の目標値を大きく
+    }
+    mouseReleased(x, y) {
+      this.mouseMoved(x, y);
+      this.targetPercent = 1.0;// マウスを押したら進捗度の目標値をデフォルト値に
     }
 }
 

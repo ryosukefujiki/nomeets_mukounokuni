@@ -10,6 +10,16 @@ export default class ArtworkGL{
         // this.shape = new Shape();
         window.addEventListener("resize", this.resize.bind(this));
         // this.loop();
+        window.addEventListener('mousemove', e => {
+            Common.mouseMoved(e.clientX, e.clientY);
+        });
+        window.addEventListener('mousedown', e => {
+            Common.mousePressed(e.clientX, e.clientY);
+        });
+        window.addEventListener('mouseup', e => {
+            Common.mouseReleased(e.clientX, e.clientY);
+        });
+        
     }
 
     resize(){
@@ -25,5 +35,4 @@ export default class ArtworkGL{
         // this.shape.update();
         Common.render();
     }
-
 }
