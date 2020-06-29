@@ -428,37 +428,49 @@
     <div class="TheIndex_Staff" id="staff">
       <h2 class="TheIndex_Text TheIndex_Staff_Header">STAFF <span class="TheIndex_Staff_Header_Jp">スタッフ</span></h2>
       <div class="TheIndex_Staff_Staff_Container">
-        <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
-          <div><p class="TheIndex_Staff_Member_Role">主宰、脚本・演出</p></div>
-          <div><p class="TheIndex_Staff_Member_Name">小御門優一郎</p></div>
-        </a>
          <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
-           <div><p class="TheIndex_Staff_Member_Role">主宰、監督・プロデュース</p></div>
-           <div><p class="TheIndex_Staff_Member_Name">林健太郎</p></div>
-        </a>
-        <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
-           <div><p class="TheIndex_Staff_Member_Role">主宰、企画・プロデュース</p></div>
+           <div><p class="TheIndex_Staff_Member_Role">主宰/製作総指揮</p></div>
            <div><p class="TheIndex_Staff_Member_Name">広屋佑規</p></div>
         </a>
         <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
-           <div><p class="TheIndex_Staff_Member_Role">舞台監督</p></div>
+          <div><p class="TheIndex_Staff_Member_Role">主宰/脚本・演出</p></div>
+          <div><p class="TheIndex_Staff_Member_Name">小御門優一郎</p></div>
+        </a>
+         <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+           <div><p class="TheIndex_Staff_Member_Role">主宰/企画・プロデュース</p></div>
+           <div><p class="TheIndex_Staff_Member_Name">林健太郎</p></div>
+        </a>
+        <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+           <div><p class="TheIndex_Staff_Member_Role">制作・プロデュース</p></div>
+           <div><p class="TheIndex_Staff_Member_Name">菅波和也</p></div>
+        </a>
+        <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+           <div><p class="TheIndex_Staff_Member_Role">プロデューサー・舞台監督</p></div>
            <div><p class="TheIndex_Staff_Member_Name">梅田ゆりか</p></div>
         </a>
          <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
-           <div><p class="TheIndex_Staff_Member_Role">演出助手</p></div>
-           <div><p class="TheIndex_Staff_Member_Name">オツハタ</p></div>
+          <div><p class="TheIndex_Staff_Member_Role">作家・演出家</p></div>
+          <div><p class="TheIndex_Staff_Member_Name ">岩崎裕介</p></div>
         </a>
          <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
-           <div><p class="TheIndex_Staff_Member_Role">制作プロデュース</p></div>
-           <div><p class="TheIndex_Staff_Member_Name">菅波和也</p></div>
+           <div><p class="TheIndex_Staff_Member_Role">俳優</p></div>
+           <div><p class="TheIndex_Staff_Member_Name">オツハタ</p></div>
+        </a>
+        <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+          <div><p class="TheIndex_Staff_Member_Role">デザイナー・宣伝美術</p></div> 
+          <div><p class="TheIndex_Staff_Member_Name">目黒水海</p></div>
         </a>
         <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
           <div><p class="TheIndex_Staff_Member_Role TheIndex_Staff_Member_Role_Small">クリエイティブディレクター/コピーライター</p></div>
           <div><p class="TheIndex_Staff_Member_Name">鈴木健太</p></div>
         </a>
-        <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
-          <div><p class="TheIndex_Staff_Member_Role">宣伝美術</p></div> 
-          <div><p class="TheIndex_Staff_Member_Name">目黒水海</p></div>
+         <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+          <div><p class="TheIndex_Staff_Member_Role">企画・宣伝</p></div>
+          <div><p class="TheIndex_Staff_Member_Name">小野寺正人</p></div>
+        </a>
+         <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+          <div><p class="TheIndex_Staff_Member_Role">広報・PR</p></div>
+          <div><p class="TheIndex_Staff_Member_Name">オギユカ</p></div>
         </a>
          <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
           <div><p class="TheIndex_Staff_Member_Role">テクニカルディレクター</p></div>
@@ -473,15 +485,7 @@
           <div><p class="TheIndex_Staff_Member_Name">藤木良祐</p></div>
         </a>
         <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
-          <div><p class="TheIndex_Staff_Member_Role">企画・宣伝</p></div>
-          <div><p class="TheIndex_Staff_Member_Name">小野寺正人</p></div>
-        </a>
-         <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
-          <div><p class="TheIndex_Staff_Member_Role">広報・PR</p></div>
-          <div><p class="TheIndex_Staff_Member_Name">オギユカ</p></div>
-        </a>
-        <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
-          <div><p class="TheIndex_Staff_Member_Role">ディレクター</p></div>
+          <div><p class="TheIndex_Staff_Member_Role">映像ディレクター</p></div>
           <div><p class="TheIndex_Staff_Member_Name">松永つぐみ</p></div>
         </a>
          <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
@@ -506,15 +510,11 @@
         </a>
          <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
           <div><p class="TheIndex_Staff_Member_Role">広報・PR</p></div>
-          <div><p class="TheIndex_Staff_Member_Name">さとうみずほ</p></div>
+          <div><p class="TheIndex_Staff_Member_Name">さとうみずは</p></div>
         </a>
          <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
           <div><p class="TheIndex_Staff_Member_Role">広報・PR</p></div>
           <div><p class="TheIndex_Staff_Member_Name ">平岡祐子</p></div>
-        </a>
-        <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
-          <div><p class="TheIndex_Staff_Member_Role">Producer</p></div>
-          <div><p class="TheIndex_Staff_Member_Name ">岩崎裕介</p></div>
         </a>
         <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
           <div><p class="TheIndex_Staff_Member_Role">衣装</p></div>
@@ -527,6 +527,14 @@
          <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
           <div><p class="TheIndex_Staff_Member_Role">AI監修</p></div>
           <div><p class="TheIndex_Staff_Member_Name">岸裕真</p></div>
+        </a>
+         <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+          <div><p class="TheIndex_Staff_Member_Role">フォトグラファー</p></div>
+          <div><p class="TheIndex_Staff_Member_Name">ヤンス・キム</p></div>
+        </a>
+        <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+          <div><p class="TheIndex_Staff_Member_Role">劇伴</p></div>
+           <div><p class="TheIndex_Staff_Member_Name TheIndex_Staff_Member_Name_Small">パソコン音楽クラブ</p></div>
         </a>
          <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
           <div><p class="TheIndex_Staff_Member_Role">企画・製作</p></div>
@@ -1311,7 +1319,7 @@ export default Vue.extend({
   font-size: 60px;
 }
 .TheIndex_Staff_Member_Name_Small{
-  font-size: 48px;
+  font-size: 40px;
 }
 
 
