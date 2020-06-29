@@ -84,8 +84,8 @@
     </div> -->
      <div class="TheIndex_Cast" id="cast">
       <h2 class="TheIndex_Text TheIndex_Header">CAST <span class="TheIndex_Header_Jp">キャスト</span></h2>
-      <p class="TheIndex_Cast_Text">メインキャストは、劇団ノーミーツの出演俳優以外、 全員ZOOM上でのオーディションにより 400名を超える応募者の中から選出。</p>
-      <div>
+      <p class="TheIndex_Cast_Text">メインキャストは劇団ノーミーツの出演俳優を除き、 ZOOM上でのオーディションにより400名を超える応募者の中から選出。</p>
+      <div class="The_Index_Cast_Flexbox">
         <a class="The_Index_Cast_Member" href="https://twitter.com/milkan10_" target="_blank">
           <img :src="castImg01" alt="" class="The_Index_Cast_Member_Img">
           <div class="The_Index_Cast_Member_Countainer">
@@ -95,15 +95,11 @@
              <div><p class="The_Index_Cast_Role" id="myText">マナブ役</p></div>
             
              <div><p class="The_Index_Cast_Message">
-              はじめまして。<br>
-              今回、マナブ役を演じさせていただく竹田光稀と申します。時代が大きく変わっていくこの時期に、何かがきっかけで少しでも前向きに皆様が生活できるように。そう願いながら、自分自身もこの作品とともに精進していきます。
-              観ていただいた方に観て良かったと思っていただけるよう、全力で頑張りますので、よろしくお願いいたします。
+              はじめまして。今回、マナブ役を演じさせていただく竹田光稀と申します。時代が大きく変わっていくこの時期に、何かがきっかけで少しでも前向きに皆様が生活できるように。そう願いながら、自分自身もこの作品とともに精進していきます。観ていただいた方に観て良かったと思っていただけるよう、全力で頑張りますので、よろしくお願いいたします。
               </p></div>
           </div>
           <div><p class="The_Index_Cast_Message_Sp">
-             はじめまして。<br>
-              今回、マナブ役を演じさせていただく竹田光稀と申します。時代が大きく変わっていくこの時期に、何かがきっかけで少しでも前向きに皆様が生活できるように。そう願いながら、自分自身もこの作品とともに精進していきます。
-              観ていただいた方に観て良かったと思っていただけるよう、全力で頑張りますので、よろしくお願いいたします。
+             はじめまして。今回、マナブ役を演じさせていただく竹田光稀と申します。時代が大きく変わっていくこの時期に、何かがきっかけで少しでも前向きに皆様が生活できるように。そう願いながら、自分自身もこの作品とともに精進していきます。観ていただいた方に観て良かったと思っていただけるよう、全力で頑張りますので、よろしくお願いいたします。
               </p></div>
         </a>
         <a class="The_Index_Cast_Member" href="https://twitter.com/milkan10_" target="_blank">
@@ -115,46 +111,74 @@
              <div><p class="The_Index_Cast_Role">スズカ役</p></div>
             
              <div><p class="The_Index_Cast_Message">
-              スズカ役を演じます、尾崎由香です。<br>
-              今回出演が決定したことを聞いた時は、本当に驚きました！
-              オーディションの時、リモートに慣れていなく、目の当たりにしたリモートでのお芝居に衝撃を受けたのを覚えています。
-              リモート演劇は、新しい可能性が沢山詰まっていてワクワクしますし、まだ経験のない私は本当に0からスタートです！
-              私がオーディションで体感した衝撃を、観劇して頂く多くの方にも感じて頂けるよう、この夏全力で頑張ります。自分自身も楽しみたいですし、観ていただく皆さんにも楽しんでいただきたいです！
-
+              スズカ役を演じます、尾崎由香です。今回出演が決定したことを聞いた時は、本当に驚きました！オーディションの時、リモートに慣れていなく、目の当たりにしたリモートでのお芝居に衝撃を受けたのを覚えています。リモート演劇は、新しい可能性が沢山詰まっていてワクワクしますし、まだ経験のない私は本当に0からスタートです！私がオーディションで体感した衝撃を、観劇して頂く多くの方にも感じて頂けるよう、この夏全力で頑張ります。自分自身も楽しみたいですし、観ていただく皆さんにも楽しんでいただきたいです！
               </p></div>
           </div>
            <div><p class="The_Index_Cast_Message_Sp">
-             スズカ役を演じます、尾崎由香です。<br>
-              今回出演が決定したことを聞いた時は、本当に驚きました！
-              オーディションの時、リモートに慣れていなく、目の当たりにしたリモートでのお芝居に衝撃を受けたのを覚えています。
-              リモート演劇は、新しい可能性が沢山詰まっていてワクワクしますし、まだ経験のない私は本当に0からスタートです！
-              私がオーディションで体感した衝撃を、観劇して頂く多くの方にも感じて頂けるよう、この夏全力で頑張ります。自分自身も楽しみたいですし、観ていただく皆さんにも楽しんでいただきたいです！
+              スズカ役を演じます、尾崎由香です。今回出演が決定したことを聞いた時は、本当に驚きました！オーディションの時、リモートに慣れていなく、目の当たりにしたリモートでのお芝居に衝撃を受けたのを覚えています。リモート演劇は、新しい可能性が沢山詰まっていてワクワクしますし、まだ経験のない私は本当に0からスタートです！私がオーディションで体感した衝撃を、観劇して頂く多くの方にも感じて頂けるよう、この夏全力で頑張ります。自分自身も楽しみたいですし、観ていただく皆さんにも楽しんでいただきたいです！
               </p></div>
         </a>
         <a class="The_Index_Cast_Member" href="https://twitter.com/milkan10_" target="_blank">
           <img :src="castImg03" alt="" class="The_Index_Cast_Member_Img">
           <div class="The_Index_Cast_Member_Countainer">
             <div>
-              <p class="The_Index_Cast_Name">オツハタ</p>
+              <p class="The_Index_Cast_Name">イトウハルヒ</p>
             </div>
-             <div><p class="The_Index_Cast_Role">シンタロウ役</p></div>
+             <div><p class="The_Index_Cast_Role">コトリ役</p></div>
              <div><p class="The_Index_Cast_Message">
-              皆様、こんにちは。劇団ノーミーツのオツハタと申します。名前を聞き間違えられやすく、また読み間違えられやすいため、カタカナの芸名にしました。絶対に絶対に今やる価値のある公演です。今観る価値ある公演だったとお客様に感じてもらえるよう、精一杯演じます。みなさまの毎日が、健やかなものでありますように！
+              はじめまして。コトリ役を演じさせていただきます、イトウハルヒです。今回の物語はオンライン上でのコミュニケーションが多くなった私たちに起こるかもしれない未来…。みなさんに想像して楽しんでいただけるよう、精一杯がんばります。よろしくお願いいたします！
               </p></div>
           </div>
           <div><p class="The_Index_Cast_Message_Sp">
-              皆様、こんにちは。劇団ノーミーツのオツハタと申します。名前を聞き間違えられやすく、また読み間違えられやすいため、カタカナの芸名にしました。絶対に絶対に今やる価値のある公演です。今観る価値ある公演だったとお客様に感じてもらえるよう、精一杯演じます。みなさまの毎日が、健やかなものでありますように！
+              はじめまして。コトリ役を演じさせていただきます、イトウハルヒです。今回の物語はオンライン上でのコミュニケーションが多くなった私たちに起こるかもしれない未来…。みなさんに想像して楽しんでいただけるよう、精一杯がんばります。よろしくお願いいたします！
               </p></div>
         </a>
 
          <div class="The_Index_Cast_Flexbox">
           <a class="The_Index_Cast_Member The_Index_Cast_Member_Small" href="https://twitter.com/milkan10_" target="_blank">
-            <img :src="castImg01" alt="" class="The_Index_Cast_Member_Img The_Index_Cast_Member_Img_Small">
+            <img :src="castImg04" alt="" class="The_Index_Cast_Member_Img The_Index_Cast_Member_Img_Small">
             <div class="The_Index_Cast_Member_Countainer The_Index_Cast_Member_Countainer_Small">
               <div>
-                <p class="The_Index_Cast_Name The_Index_Cast_Name_Small">夏海</p>
+                <p class="The_Index_Cast_Name The_Index_Cast_Name_Small">オツハタ</p>
               </div>
-              <div><p class="The_Index_Cast_Role The_Index_Cast_Role_Small">メグミ役</p></div>
+              <div><p class="The_Index_Cast_Role The_Index_Cast_Role_Small">フランカーのリーダー役</p></div>
+            </div>
+            <div><p class="The_Index_Cast_Message_Small">
+                  皆様、こんにちは。劇団ノーミーツのオツハタと申します。名前を聞き間違えられやすく、また読み間違えられやすいため、カタカナの芸名にしました。絶対に絶対に今やる価値のある公演です。今観る価値ある公演だったとお客様に感じてもらえるよう、精一杯演じます。みなさまの毎日が、健やかなものでありますように！
+            </p></div>
+          </a>
+          <a class="The_Index_Cast_Member The_Index_Cast_Member_Small" href="https://twitter.com/milkan10_" target="_blank">
+            <img :src="castImg05" alt="" class="The_Index_Cast_Member_Img The_Index_Cast_Member_Img_Small">
+            <div class="The_Index_Cast_Member_Countainer The_Index_Cast_Member_Countainer_Small">
+              <div>
+                <p class="The_Index_Cast_Name The_Index_Cast_Name_Small">そら</p>
+              </div>
+              <div><p class="The_Index_Cast_Role The_Index_Cast_Role_Small">フランカーのギーク役</p></div>
+            </div>
+            <div><p class="The_Index_Cast_Message_Small">
+           皆さん初めまして、アバンティーズのそらと言います。実は、あまり知られていませんが大学時代は演劇を専攻していました。しかし、演劇にしっかりと携わるのは今回が初めてです（笑）YouTube黎明期からネットと密に生きてきた僕だからこそ、この作品で濃く強く輝く瞬間があると思っています。よろしくお願いします。
+            </p></div>
+          </a>
+          <a class="The_Index_Cast_Member The_Index_Cast_Member_Small" href="https://twitter.com/milkan10_" target="_blank">
+            <img :src="castImg06" alt="" class="The_Index_Cast_Member_Img The_Index_Cast_Member_Img_Small">
+            <div class="The_Index_Cast_Member_Countainer The_Index_Cast_Member_Countainer_Small">
+              <div>
+                <p class="The_Index_Cast_Name The_Index_Cast_Name_Small">大山実音</p>
+              </div>
+              <div><p class="The_Index_Cast_Role The_Index_Cast_Role_Small">フランカーのギーク役</p></div>
+            </div>
+            <div><p class="The_Index_Cast_Message_Small">
+               オンライン舞台という全く新しいエンターテインメントに、胸が躍って眠れません！画面を通して、観てくださっている皆さんの心に何か変化を与えることができたなら…そんな思いで劇団の仲間と「むこうのくに」を創りあげたいと思います！
+
+            </p></div>
+          </a>
+          <a class="The_Index_Cast_Member The_Index_Cast_Member_Small" href="https://twitter.com/milkan10_" target="_blank">
+            <img :src="castImg07" alt="" class="The_Index_Cast_Member_Img The_Index_Cast_Member_Img_Small">
+            <div class="The_Index_Cast_Member_Countainer The_Index_Cast_Member_Countainer_Small">
+              <div>
+                <p class="The_Index_Cast_Name The_Index_Cast_Name_Small">出口晴臣</p>
+              </div>
+              <div><p class="The_Index_Cast_Role The_Index_Cast_Role_Small">フランカーのギーク役</p></div>
             </div>
             <div><p class="The_Index_Cast_Message_Small">
                   皆様はじめまして！今回メグル役を演じます夏海です。<br>
@@ -162,64 +186,99 @@
             </p></div>
           </a>
           <a class="The_Index_Cast_Member The_Index_Cast_Member_Small" href="https://twitter.com/milkan10_" target="_blank">
-            <img :src="castImg02" alt="" class="The_Index_Cast_Member_Img The_Index_Cast_Member_Img_Small">
+            <img :src="castImg08" alt="" class="The_Index_Cast_Member_Img The_Index_Cast_Member_Img_Small">
             <div class="The_Index_Cast_Member_Countainer The_Index_Cast_Member_Countainer_Small">
               <div>
-                <p class="The_Index_Cast_Name The_Index_Cast_Name_Small">櫻井保幸</p>
+                <p class="The_Index_Cast_Name The_Index_Cast_Name_Small">めがね</p>
               </div>
-              <div><p class="The_Index_Cast_Role The_Index_Cast_Role_Small">ケンジ役</p></div>
+              <div><p class="The_Index_Cast_Role The_Index_Cast_Role_Small">DJめがね役</p></div>
             </div>
             <div><p class="The_Index_Cast_Message_Small">
-            世界のネガティブが産んだエンタメの可能性の一部になれることをとても嬉しく思う共に、その場を共有していただける劇団ノーミーツはじめ関係者の皆さんに感謝しています。ひとりでも多くの人の心を豊かにできるよう行きたいです。届けます。
+            DJめがね役を演じさせていただきます！めがねです！ノーミーツさんをSNSで初めて見た時、体の中にオモシロ衝撃がズドーンと走り、すぐに自分のYouTubチャンネルの動画に落とし込んで、「リモート会議」という作品を作ってしまいました。そんな新しい演劇を見せてくれるノーミーツさんの「むこうの国」。まだどんな役になるかは想像しきれていないですが、ノーミーツ色に染まって、みんなの体の中にズドーンと衝撃が走る演者になることをここに誓います。
             </p></div>
           </a>
           <a class="The_Index_Cast_Member The_Index_Cast_Member_Small" href="https://twitter.com/milkan10_" target="_blank">
-            <img :src="castImg03" alt="" class="The_Index_Cast_Member_Img The_Index_Cast_Member_Img_Small">
+            <img :src="castImg09" alt="" class="The_Index_Cast_Member_Img The_Index_Cast_Member_Img_Small">
             <div class="The_Index_Cast_Member_Countainer The_Index_Cast_Member_Countainer_Small">
               <div>
-                <p class="The_Index_Cast_Name The_Index_Cast_Name_Small">オツハタ</p>
+                <p class="The_Index_Cast_Name The_Index_Cast_Name_Small">鍛治本大樹</p>
               </div>
-              <div><p class="The_Index_Cast_Role The_Index_Cast_Role_Small">シンタロウ役</p></div>
+              <div><p class="The_Index_Cast_Role The_Index_Cast_Role_Small">側近役</p></div>
             </div>
             <div><p class="The_Index_Cast_Message_Small">
-                皆様、こんにちは。劇団ノーミーツのオツハタと申します。名前を聞き間違えられやすく、また読み間違えられやすいため、カタカナの芸名にしました。絶対に絶対に今やる価値のある公演です。今観る価値ある公演だったとお客様に感じてもらえるよう、精一杯演じます。みなさまの毎日が、健やかなものでありますように！
+                コロナ禍で活動を制限された演劇界。何も出来ない自分が悔しかったです。そんな中、いち早くオンライン演劇という新しい可能性を見つけ出して表現した劇団ノーミーツさんに衝撃を受けました。そもそも演劇は制限があってなんぼ。それを面白がれるかが演劇を面白くする要素の一つだと改めて気付かせてくれました。今回一緒にたくさん面白がって新しい演劇をまた一つ作りたいと思っています。
             </p></div>
           </a>
           <a class="The_Index_Cast_Member The_Index_Cast_Member_Small" href="https://twitter.com/milkan10_" target="_blank">
-            <img :src="castImg01" alt="" class="The_Index_Cast_Member_Img The_Index_Cast_Member_Img_Small">
+            <img :src="castImg10" alt="" class="The_Index_Cast_Member_Img The_Index_Cast_Member_Img_Small">
             <div class="The_Index_Cast_Member_Countainer The_Index_Cast_Member_Countainer_Small">
               <div>
-                <p class="The_Index_Cast_Name The_Index_Cast_Name_Small">夏海</p>
+                <p class="The_Index_Cast_Name The_Index_Cast_Name_Small">河内美里</p>
               </div>
-              <div><p class="The_Index_Cast_Role The_Index_Cast_Role_Small">メグミ役</p></div>
+              <div><p class="The_Index_Cast_Role The_Index_Cast_Role_Small">側近役</p></div>
             </div>
             <div><p class="The_Index_Cast_Message_Small">
-                  皆様はじめまして！今回メグル役を演じます夏海です。<br>
-              今作のお話は、これからの日本に怒るかもしれない、もしくはすでに起こっている事態を元に作られています。私自身、ずっと家にいて気が滅入っていました。その中ノーミーツの動画を観てとても勇気付けられました。皆さんに元気を届けられるよう、精一杯演じます。沢山の肩に観ていただきたいです！どうぞよろしくお願いいたします。
+                ピコ役で出演させて頂きます、河内美里です。劇団ノーミーツさんの第2回公演、私自身も作品の一部として関わらせて頂けることにドキドキワクワクしております。"NO蜜で濃密なひととき"をより多くの方に体験して頂けますように、丁寧に物語を紡いでいきたいと思います。ぜひ、上演を楽しみに待っていて下さい！
             </p></div>
           </a>
           <a class="The_Index_Cast_Member The_Index_Cast_Member_Small" href="https://twitter.com/milkan10_" target="_blank">
-            <img :src="castImg02" alt="" class="The_Index_Cast_Member_Img The_Index_Cast_Member_Img_Small">
+            <img :src="castImg10" alt="" class="The_Index_Cast_Member_Img The_Index_Cast_Member_Img_Small">
             <div class="The_Index_Cast_Member_Countainer The_Index_Cast_Member_Countainer_Small">
               <div>
-                <p class="The_Index_Cast_Name The_Index_Cast_Name_Small">櫻井保幸</p>
+                <p class="The_Index_Cast_Name The_Index_Cast_Name_Small">青山郁代</p>
               </div>
-              <div><p class="The_Index_Cast_Role The_Index_Cast_Role_Small">ケンジ役</p></div>
+              <div><p class="The_Index_Cast_Role The_Index_Cast_Role_Small">理事長役</p></div>
             </div>
             <div><p class="The_Index_Cast_Message_Small">
-            世界のネガティブが産んだエンタメの可能性の一部になれることをとても嬉しく思う共に、その場を共有していただける劇団ノーミーツはじめ関係者の皆さんに感謝しています。ひとりでも多くの人の心を豊かにできるよう行きたいです。届けます。
+              ダミーテキスト（画像も差し替え必）
+            </p></div>
+          </a>
+           <a class="The_Index_Cast_Member The_Index_Cast_Member_Small" href="https://twitter.com/milkan10_" target="_blank">
+            <img :src="castImg12" alt="" class="The_Index_Cast_Member_Img The_Index_Cast_Member_Img_Small">
+            <div class="The_Index_Cast_Member_Countainer The_Index_Cast_Member_Countainer_Small">
+              <div>
+                <p class="The_Index_Cast_Name The_Index_Cast_Name_Small">淺場万矢</p>
+              </div>
+              <div><p class="The_Index_Cast_Role The_Index_Cast_Role_Small">？？？役</p></div>
+            </div>
+            <div><p class="The_Index_Cast_Message_Small">
+              新型コロナの渦中ではありますが、そんな機会でもなければ、出会えなかったかもしれない皆様との創作は、まさに奇跡です。濃厚なメンバーでお送りする、濃密な時間。お客様に存分にお楽しみいただければ幸いです。
+            </p></div>
+          </a>
+           <a class="The_Index_Cast_Member The_Index_Cast_Member_Small" href="https://twitter.com/milkan10_" target="_blank">
+            <img :src="castImg12" alt="" class="The_Index_Cast_Member_Img The_Index_Cast_Member_Img_Small">
+            <div class="The_Index_Cast_Member_Countainer The_Index_Cast_Member_Countainer_Small">
+              <div>
+                <p class="The_Index_Cast_Name The_Index_Cast_Name_Small">水石亜飛夢</p>
+              </div>
+              <div><p class="The_Index_Cast_Role The_Index_Cast_Role_Small">理事長の手先役</p></div>
+            </div>
+            <div><p class="The_Index_Cast_Message_Small">
+              ダミーテキスト（画像も差し替え必）
+            </p></div>
+          </a>
+           <a class="The_Index_Cast_Member The_Index_Cast_Member_Small" href="https://twitter.com/milkan10_" target="_blank">
+            <img :src="castImg14" alt="" class="The_Index_Cast_Member_Img The_Index_Cast_Member_Img_Small">
+            <div class="The_Index_Cast_Member_Countainer The_Index_Cast_Member_Countainer_Small">
+              <div>
+                <p class="The_Index_Cast_Name The_Index_Cast_Name_Small">安藤聡海</p>
+              </div>
+              <div><p class="The_Index_Cast_Role The_Index_Cast_Role_Small">スズカ役</p></div>
+            </div>
+            <div><p class="The_Index_Cast_Message_Small">
+              この作品は私にとっておそらく挑戦的なことが多く、だからこそ今からとてもワクワクしています。キャスト・スタッフの全員力で、オンライン演劇ならではの、今までにない体験をお届けできたらと思います。楽しみにしていてください！！
             </p></div>
           </a>
           <a class="The_Index_Cast_Member The_Index_Cast_Member_Small" href="https://twitter.com/milkan10_" target="_blank">
-            <img :src="castImg03" alt="" class="The_Index_Cast_Member_Img The_Index_Cast_Member_Img_Small">
+            <img :src="castImg14" alt="" class="The_Index_Cast_Member_Img The_Index_Cast_Member_Img_Small Opacity">
             <div class="The_Index_Cast_Member_Countainer The_Index_Cast_Member_Countainer_Small">
               <div>
-                <p class="The_Index_Cast_Name The_Index_Cast_Name_Small">オツハタ</p>
+                <p class="The_Index_Cast_Name The_Index_Cast_Name_Small">and more!</p>
               </div>
-              <div><p class="The_Index_Cast_Role The_Index_Cast_Role_Small">シンタロウ役</p></div>
+              <div><p class="The_Index_Cast_Role The_Index_Cast_Role_Small Opacity">理事長役</p></div>
             </div>
-            <div><p class="The_Index_Cast_Message_Small">
-                皆様、こんにちは。劇団ノーミーツのオツハタと申します。名前を聞き間違えられやすく、また読み間違えられやすいため、カタカナの芸名にしました。絶対に絶対に今やる価値のある公演です。今観る価値ある公演だったとお客様に感じてもらえるよう、精一杯演じます。みなさまの毎日が、健やかなものでありますように！
+            <div><p class="The_Index_Cast_Message_Small Opacity">
+              ダミーテキスト（画像も差し替え必）
             </p></div>
           </a>
 
@@ -233,7 +292,7 @@
 
       </div>
     </div>
-    <!-- <div class="TheIndex_Ticket" id="ticket">
+    <div class="TheIndex_Ticket" id="ticket">
       <h2 class="TheIndex_Text TheIndex_Header TheIndex_Ticket_Header">TICKET <span class="TheIndex_Header_Jp">チケット情報</span></h2>
       <div class="TheIndex_Ticket_Section">
         <div class="TheIndex_Ticket_Countainer">
@@ -267,7 +326,7 @@
             </p>
           </div>
         </div>
-      </div> -->
+      </div>
 
       <!-- <div class="TheIndex_Ticket_Section">
         <h3 class="TheIndex_Ticket_Date">5.12<span class="TheIndex_Ticket_Day"> 火</span> <span class="TheIndex_Ticket_Date_Small">発売</span> <span class="TheIndex_Ticket_Date_Small_Red">即日完売</span> </h3>
@@ -313,17 +372,17 @@
           </div>
         </div>
      </div> -->
-     <!-- <p class="TheIndex_Ticket_Text_Small">
+     <p class="TheIndex_Ticket_Text_Small">
        【『むこうのくに』公演概要】<br>
         ＜公演日＞7月23日(木)・24日（金）・25日（土）・26日（日） 15:00 / 21:00 (全8回)<br>
         ＜場所＞ Zoomにて生配信上演<br>
-        ＜チケット販売＞<br> -->
-        <!-- ・5月12日(火)より特典付き先行チケット数量限定発売<br> -->
-        <!-- 先行限定チケット：2200円<br>
+        ＜チケット販売＞<br>
+        ・5月12日(火)より特典付き先行チケット数量限定発売<br>
+        先行限定チケット：2200円<br>
         一般チケット：2800円、<br>
         RT割引チケット：2500円、U18割引チケット：500円<br>
         ※各種チケット詳細・申込み方法はむこうのくに公式Peatixページにてご確認ください。</p>
-    </div> -->
+    </div>
     <div class="TheIndex_Goods">
       <div class="TheIndex_Goods_Countainer">
         <h2 class="TheIndex_Text TheIndex_Header TheIndex_Goods_Header">SUZURI OFFICIAL SITE</h2>
@@ -523,9 +582,20 @@ export default Vue.extend({
       aboutImg: "/home/about_Img.png",
       copyImg: "/home/copy.svg",
       copyTitleImg: "/home/copy_title.svg",
-      castImg01: "/home/cast/cast1.jpeg",
-      castImg02: "/home/cast/cast2.png",
-      castImg03: "/home/cast/cast3.png",
+      castImg01: "/home/cast/cast1.jpg",
+      castImg02: "/home/cast/cast2.jpg",
+      castImg03: "/home/cast/cast3.jpg",
+      castImg04: "/home/cast/cast4.jpg",
+      castImg05: "/home/cast/cast5.jpg",
+      castImg06: "/home/cast/cast6.jpg",
+      castImg07: "/home/cast/cast7.jpg",
+      castImg08: "/home/cast/cast8.jpg",
+      castImg09: "/home/cast/cast9.jpg",
+      castImg10: "/home/cast/cast10.jpg",
+      castImg11: "/home/cast/cast11.jpg",
+      castImg12: "/home/cast/cast12.jpg",
+      castImg13: "/home/cast/cast13.jpg",
+      castImg14: "/home/cast/cast14.jpg",
       songImg:  "/home/song.svg",
       nomeetsLogoWhiteImg: "/home/Logo_White_GekidanNoMeets.png",
       snsTwitterImg: "/home/twitter.svg",
@@ -603,6 +673,9 @@ export default Vue.extend({
 </script>
 
 <style>
+.Opacity{
+  opacity: 0;
+}
 .TheIndex {
   min-width: 100vw;
   min-height: 100vh;
@@ -774,6 +847,7 @@ export default Vue.extend({
   margin-bottom: 40px;
 }
 .TheIndex_Information_Header{
+  font-family: a-otf-ryumin-pr6n, serif;
   color: #fa5d95;
   /* color: #ffffff; */
   font-size: 48px;
@@ -781,6 +855,7 @@ export default Vue.extend({
 }
 .TheIndex_Information_Text{
   /* color: #ffffff; */
+  font-family: a-otf-ryumin-pr6n, serif;
   color: #ffffff;
   font-size: 60px;
   font-weight: 900;
@@ -806,6 +881,7 @@ export default Vue.extend({
   height: 100%;
   justify-content: space-between;
   display: flex;
+  /* align-items: center; */
   flex-wrap: wrap;
   /* background: red; */
 }
@@ -821,8 +897,9 @@ export default Vue.extend({
 }
 .The_Index_Cast_Member{
   display: block;
-  width: 100%;
+  width: 32%;
   /* height: 80%; */
+  /* margin: 0 auto; */
   margin-top: 40px;
   position: relative;
   transition: 0.2;
@@ -833,14 +910,14 @@ export default Vue.extend({
   opacity: 0.6;
 }
 .The_Index_Cast_Member_Countainer{
-  width: 60%;
-  position: absolute;
+  width: 100%;
+  /* position: absolute;
   left: 40%;
-  top: 10%;
+  top: 10%; */
 }
 .The_Index_Cast_Member_Img{
-  width: 50%;
-  height: 600px;
+  width: 100%;
+  /* height: 600px; */
   object-fit: cover;
   /* height: 40%;
   object-fit: cover; */
@@ -853,7 +930,7 @@ export default Vue.extend({
   display: inline-block;
   background: #000000;
   color: #ffffff;
-  font-size: 120px;
+  font-size: 60px;
   /* position: absolute;
   top: 0;
   left: 40%; */
@@ -880,7 +957,7 @@ export default Vue.extend({
   /* position: absolute;
   bottom: 0;
   right: 0; */
-  margin-top: 20px;
+  margin-top: 4px;
   padding: 20px 20px;
 }
 .The_Index_Cast_Message_Sp{
@@ -901,7 +978,7 @@ export default Vue.extend({
 
 .The_Index_Cast_Member_Small{
   display: block;
-  width: 32%;
+  width: 23%;
   /* height: 80%; */
   margin-top: 40px;
   position: static;
@@ -919,7 +996,6 @@ export default Vue.extend({
 }
 .The_Index_Cast_Member_Img_Small{
   width: 100%;
-  
   /* height: 100%; */
   /* position: absolute;
   top: 0;
@@ -929,7 +1005,7 @@ export default Vue.extend({
   display: inline-block;
   background: #000000;
   color: #ffffff;
-  font-size: 80px;
+  font-size: 48px;
   /* position: absolute;
   top: 0;
   left: 40%; */
@@ -937,7 +1013,7 @@ export default Vue.extend({
 }
 .The_Index_Cast_Role_Small{
   display: inline-block;
-  font-size: 48px;
+  font-size: 32px;
   background: #ffffff;
   /* letter-spacing: -20px; */
   /* position: absolute;
@@ -1328,6 +1404,31 @@ export default Vue.extend({
   .TheIndex_Message_Text{
     font-size: 24px;
   }
+  .The_Index_Cast_Member{
+    width: 100%;
+  }
+  .The_Index_Cast_Member_Img{
+    width: 60%;
+  }
+  .The_Index_Cast_Member_Countainer{
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+  }
+  .The_Index_Cast_Member_Img_Small{
+    width: 100%;
+  }
+  .The_Index_Cast_Member_Countainer_Small{
+    width: 100% !important;
+    position: static;
+  }
+  .The_Index_Cast_Member_Small{
+    width: 47%;
+  }
+  /* .The_Index_Cast_Role_Small{
+    width: 100%;
+  } */
   .The_Index_Cast_Message{
     /* font-size: 10px;
     margin-top: 4px; */
@@ -1535,7 +1636,7 @@ export default Vue.extend({
     font-size: 16px;
   }
   .The_Index_Cast_Role_Small{
-    font-size: 16px;
+    font-size: 12px;
   }
   .The_Index_Cast_Message_Small{
     font-size: 10px;
