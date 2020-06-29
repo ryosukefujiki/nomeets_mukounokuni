@@ -862,7 +862,7 @@ export default Vue.extend({
   /* color: #ffffff; */
   color: #6E88AF;
   font-size: 60px;
-  font-weight: 900;
+  /* font-weight: 900; */
 }
 .TheIndex_Information_Text_Small{
   font-size: 40px;
