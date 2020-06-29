@@ -1703,7 +1703,7 @@ export default Vue.extend({
     font-size: 28px;
   }
   .TheIndex_Information_Text{
-    font-size: 32px;
+    font-size: 28px;
   }
   .TheIndex_Information_Text_Small{
     font-size: 24px;
