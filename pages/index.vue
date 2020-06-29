@@ -1392,8 +1392,18 @@ export default Vue.extend({
   font-weight: bold;
 }
 
+@media screen and (max-width: 1400px) {
+  .TheIndex_Copy_Text{
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .The_Index_Cast_Name{
+    font-size: 48px;
+  }
+}
 
-@media screen and (max-width: 1024px) {
+
+@media screen and (max-width: 1080px) {
   .TheIndex_Twitter_Container{
     width: 100%;
   }
