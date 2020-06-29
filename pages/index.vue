@@ -53,8 +53,9 @@
             その夏、ぼくは相変わらず画面の前にいて、<br class="Sp_Brank">
             ”むこうのくに”へアクセスしようとしていた。<br>
             <br>
+            <span class="TheIndex_Copy_Text_Big">
             劇団ノーミーツ　第二回長編公演<br>
-            「むこうのくに」開演
+            「むこうのくに」開演</span>
           </p>
           <!-- <img :src="copyTitleImg" alt="" class="TheIndex_Copy_Text_Img"> -->
         </div>
@@ -878,6 +879,7 @@ export default Vue.extend({
 
 .TheIndex_Cast{
   background: #d7e5ff;
+  background: #ebeef4;
   /* background: #ffffff; */
   /* background: #ebeef4; */
   padding: 80px 120px;
