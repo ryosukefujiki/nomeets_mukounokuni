@@ -65,11 +65,12 @@
       <!-- <youtube ref="youtube" :video-id="videoId" class="TheDetail_Category_Movie"/> -->
 
     </div>
-    <!-- <div class="TheIndex_Information">
-      <div class="TheIndex_Information_Contents">
+
+    <div class="TheIndex_Information">
+      <!-- <div class="TheIndex_Information_Contents">
         <h3 class="TheIndex_Information_Header">再公演日</h3>
         <p class="TheIndex_Information_Text"><span class="Color_Yellow">5.31</span> <span class="TheIndex_Information_Text_Small">日</span>　18:00</p>
-      </div>
+      </div> -->
       <div class="TheIndex_Information_Contents">
         <h3 class="TheIndex_Information_Header">公演日</h3>
         <p class="TheIndex_Information_Text"><span class="Color_Yellow">7.23</span> <span class="TheIndex_Information_Text_Small">木</span>　15:00 / 21:00</p>
@@ -77,11 +78,12 @@
         <p class="TheIndex_Information_Text"><span class="Color_Yellow">7.25</span> <span class="TheIndex_Information_Text_Small">木</span>　15:00 / 21:00</p>
         <p class="TheIndex_Information_Text"><span class="Color_Yellow">7.26</span> <span class="TheIndex_Information_Text_Small">金</span>　15:00 / 21:00</p>
       </div>
-      <div class="TheIndex_Information_Contents">
+      <!-- <div class="TheIndex_Information_Contents">
         <h3 class="TheIndex_Information_Header Color_Blue">場所</h3>
         <p class="TheIndex_Information_Text"> <span class="Color_Blue">Zoom</span> にて生配信上映</p>
-      </div>
-    </div> -->
+      </div> -->
+    </div>
+
      <div class="TheIndex_Cast" id="cast">
       <h2 class="TheIndex_Text TheIndex_Header">CAST <span class="TheIndex_Header_Jp">キャスト</span></h2>
       <p class="TheIndex_Cast_Text">メインキャストは劇団ノーミーツの出演俳優を除き、 ZOOM上でのオーディションにより400名を超える応募者の中から選出。</p>
@@ -872,7 +874,8 @@ export default Vue.extend({
 }
 
 .TheIndex_Cast{
-  background: #d7e5ff;
+  /* background: #d7e5ff; */
+  background: #ffffff;
   /* background: #ebeef4; */
   padding: 80px 120px;
 }
@@ -1040,7 +1043,8 @@ export default Vue.extend({
 
 
 .TheIndex_Ticket{
-  background: #04abff;
+  /* background: #04abff; */
+  background: #D9E5FD;
   padding: 80px 120px;
 }
 .TheIndex_Ticket_Header{
@@ -1587,7 +1591,7 @@ export default Vue.extend({
   }
   .TheIndex_Copy_BuildingImg{
     width: 100%;
-    transform:translateY(4px)
+    /* transform:translateY(4px) */
   }
   .TheIndex_Copy_Youtube{
     width: 100%;
@@ -1611,14 +1615,21 @@ export default Vue.extend({
     font-size: 16px;
   }
   .The_Index_Cast_Member_Countainer{
-    width: 60%;
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top: 14%;
+  }
+  .The_Index_Cast_Member_Countainer_Small{
+    width: 100%;
+    position: static;
   }
   .The_Index_Cast_Member{
     margin-top: 20px;
     /* height: 320px; */
   }
   .The_Index_Cast_Name{
-    font-size: 28px;
+    font-size: 26px;
   }
   .The_Index_Cast_Role{
     font-size: 20px;
@@ -1825,6 +1836,9 @@ export default Vue.extend({
   font-weight: 900;
   transition: 0.2s;
 }
+.The_Index_Cast_Name{
+    font-size: 20px;
+  }
 .TheIndex_Ticket_Date{
   font-size: 32px;
 }
