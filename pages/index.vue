@@ -72,7 +72,7 @@
         <p class="TheIndex_Information_Text"><span class="Color_Yellow">5.31</span> <span class="TheIndex_Information_Text_Small">日</span>　18:00</p>
       </div> -->
       <div class="TheIndex_Information_Contents">
-        <h3 class="TheIndex_Information_Header">公演日</h3>
+        <h3 class="TheIndex_Information_Header">公演日程</h3>
         <p class="TheIndex_Information_Text"><span class="Color_Yellow">7.23</span> <span class="TheIndex_Information_Text_Small">木</span>　15:00 / 21:00</p>
         <p class="TheIndex_Information_Text"><span class="Color_Yellow">7.24</span> <span class="TheIndex_Information_Text_Small">金</span>　15:00 / 21:00</p>
         <p class="TheIndex_Information_Text"><span class="Color_Yellow">7.25</span> <span class="TheIndex_Information_Text_Small">木</span>　15:00 / 21:00</p>
@@ -836,8 +836,8 @@ export default Vue.extend({
 }
 
 .TheIndex_Information{
-  /* background: #000000; */
-  background: #D9E5FD;
+  background: #ffffff;
+  /* background: #D9E5FD; */
   padding: 80px 120px;
   display: flex;
   /* align-items: center; */
@@ -846,7 +846,8 @@ export default Vue.extend({
 }
 .TheIndex_Information_Contents{
   width: 740px;
-  margin-bottom: 40px;
+  text-align: center;
+  /* margin-bottom: 40px; */
 }
 .TheIndex_Information_Header{
   font-family: a-otf-ryumin-pr6n, serif;
@@ -858,7 +859,8 @@ export default Vue.extend({
 .TheIndex_Information_Text{
   /* color: #ffffff; */
   font-family: a-otf-ryumin-pr6n, serif;
-  color: #ffffff;
+  /* color: #ffffff; */
+  color: #6E88AF;
   font-size: 60px;
   font-weight: 900;
 }
@@ -871,11 +873,12 @@ export default Vue.extend({
 .Color_Yellow{
   /* color: #d7e5ff; */
   color: #fa5d95;
+  color: #6E88AF;
 }
 
 .TheIndex_Cast{
-  /* background: #d7e5ff; */
-  background: #ffffff;
+  background: #d7e5ff;
+  /* background: #ffffff; */
   /* background: #ebeef4; */
   padding: 80px 120px;
 }
@@ -1043,8 +1046,8 @@ export default Vue.extend({
 
 
 .TheIndex_Ticket{
-  /* background: #04abff; */
-  background: #D9E5FD;
+  background: #04abff;
+  /* background: #D9E5FD; */
   padding: 80px 120px;
 }
 .TheIndex_Ticket_Header{
