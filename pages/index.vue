@@ -74,10 +74,10 @@
       </div> -->
       <div class="TheIndex_Information_Contents">
         <h3 class="TheIndex_Information_Header">公演日程</h3>
-        <p class="TheIndex_Information_Text"><span class="Color_Yellow">7.23</span> <span class="TheIndex_Information_Text_Small">木</span>　15:00 / 21:00</p>
-        <p class="TheIndex_Information_Text"><span class="Color_Yellow">7.24</span> <span class="TheIndex_Information_Text_Small">金</span>　15:00 / 21:00</p>
-        <p class="TheIndex_Information_Text"><span class="Color_Yellow">7.25</span> <span class="TheIndex_Information_Text_Small">木</span>　15:00 / 21:00</p>
-        <p class="TheIndex_Information_Text"><span class="Color_Yellow">7.26</span> <span class="TheIndex_Information_Text_Small">金</span>　15:00 / 21:00</p>
+        <p class="TheIndex_Information_Text"><span class="Color_Yellow">7.23</span> <span class="TheIndex_Information_Text_Small">木</span>　昼の部<span class="TheIndex_Information_Text_Small">（15:00~）</span>/ 夜の部<span class="TheIndex_Information_Text_Small">（21:00~）</span></p>
+        <p class="TheIndex_Information_Text"><span class="Color_Yellow">7.24</span> <span class="TheIndex_Information_Text_Small">金</span>　昼の部<span class="TheIndex_Information_Text_Small">（15:00~）</span>/ 夜の部<span class="TheIndex_Information_Text_Small">（21:00~）</span></p>
+        <p class="TheIndex_Information_Text"><span class="Color_Yellow">7.25</span> <span class="TheIndex_Information_Text_Small">木</span>　昼の部<span class="TheIndex_Information_Text_Small">（15:00~）</span>/ 夜の部<span class="TheIndex_Information_Text_Small">（21:00~）</span></p>
+        <p class="TheIndex_Information_Text"><span class="Color_Yellow">7.26</span> <span class="TheIndex_Information_Text_Small">金</span>　昼の部<span class="TheIndex_Information_Text_Small">（15:00~）</span>/ 夜の部<span class="TheIndex_Information_Text_Small">（21:00~）</span></p>
       </div>
       <!-- <div class="TheIndex_Information_Contents">
         <h3 class="TheIndex_Information_Header Color_Blue">場所</h3>
@@ -846,13 +846,13 @@ export default Vue.extend({
   flex-wrap: wrap;
 }
 .TheIndex_Information_Contents{
-  width: 740px;
+  width: 960px;
   text-align: center;
   /* margin-bottom: 40px; */
 }
 .TheIndex_Information_Header{
   font-family: a-otf-ryumin-pr6n, serif;
-  color: #fa5d95;
+  color: #ff3e72;
   /* color: #ffffff; */
   font-size: 48px;
   /* font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif; */
@@ -862,7 +862,7 @@ export default Vue.extend({
   font-family: a-otf-ryumin-pr6n, serif;
   /* color: #ffffff; */
   color: #6E88AF;
-  font-size: 60px;
+  font-size: 48px;
   /* font-weight: 900; */
 }
 .TheIndex_Information_Text_Small{
@@ -873,7 +873,7 @@ export default Vue.extend({
 }
 .Color_Yellow{
   /* color: #d7e5ff; */
-  color: #fa5d95;
+  color: #ff366b;
   color: #6E88AF;
 }
 
@@ -1407,6 +1407,13 @@ export default Vue.extend({
     font-size: 28px;
     /* margin-right: 12px; */
   }
+  .TheIndex_Information{
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .TheIndex_Information_Text{
+    font-size: 40px;
+  }
   .TheIndex_Ticket_Link{
     font-size: 12px;
   }
@@ -1420,7 +1427,7 @@ export default Vue.extend({
     width: 60%;
   }
   .The_Index_Cast_Member_Countainer{
-    width: 100%;
+    width: 50%;
     position: absolute;
     left: 50%;
     top: 10%;
@@ -1460,7 +1467,7 @@ export default Vue.extend({
   display: block;
 }
   .The_Index_Cast_Name{
-    font-size: 80px;
+    font-size: 72px;
   }
   .The_Index_Cast_Name_Small{
     font-size: 48px;
@@ -1503,7 +1510,10 @@ export default Vue.extend({
     font-size: 48px;
   }
   .TheIndex_Information_Text{
-    font-size: 48px;
+    font-size: 36px;
+  }
+  .TheIndex_Information_Text_Small{
+    font-size: 24px;
   }
   .TheIndex_Ticket_Flexbox{
     display: block;
@@ -1555,7 +1565,7 @@ export default Vue.extend({
     width: 92%;
   }
   .The_Index_Cast_Name{
-    font-size: 60px;
+    font-size: 48px;
   }
   .The_Index_Cast_Name_Small{
     font-size: 40px;
@@ -1702,13 +1712,14 @@ export default Vue.extend({
     padding: 40px 20px;
   }
   .TheIndex_Information_Header{
-    font-size: 28px;
+    font-size: 24px;
+    margin-bottom: 4px;
   }
   .TheIndex_Information_Text{
-    font-size: 28px;
+    font-size: 17px;
   }
   .TheIndex_Information_Text_Small{
-    font-size: 24px;
+    font-size: 13px;
   }
 
   .TheIndex_Ticket_Link{
@@ -1862,5 +1873,12 @@ export default Vue.extend({
 .TheIndex_Staff_Member{
   width: 120px;
 }
+.TheIndex_Information_Text{
+    font-size: 14px;
+  }
+  .TheIndex_Information_Text_Small{
+    font-size: 12px;
+  }
+
 }
 </style>
