@@ -38,34 +38,38 @@
     </div>
     <div class="TheIndex_Copy" id="about">
       <!-- <h1 class="TheIndex_Hero_Dummy_Text">COPY</h1> -->
-      <img :src="copyImg" alt="" class="TheIndex_Copy_Img">
       <div class="TheIndex_Copy_Flexbox">
         <div class="TheIndex_Copy_Text_Container">
+          <img :src="copyImg" alt="" class="TheIndex_Copy_Img">
           <p class="TheIndex_Copy_Text">
             現実世界のつながりを絶たれた時代が終わろうとしていた。<br>
-            多くの人は喜んで太陽の下へと駆け出したが、<br>
+            多くの人は喜んで太陽の下へと駆け出したが、<br class="Sp_Brank">
             ”むこうのくに”に残ることを選んだ人もいた。<br>
             <br>
-            そこは、画面を一枚隔てれば、<br>
-            生まれた場所や話す言葉、ヒトかどうかさえも関係ない、<br>
+            そこは、画面を一枚隔てれば、<br class="Sp_Brank">
+            生まれた場所や話す言葉、ヒトかどうかさえも関係ない、<br class="Sp_Brank">
             現実のしがらみが無効化された世界。<br>
             <br>
-            その夏、ぼくは相変わらず画面の前にいて、<br>
+            その夏、ぼくは相変わらず画面の前にいて、<br class="Sp_Brank">
             ”むこうのくに”へアクセスしようとしていた。<br>
+            <br>
+            劇団ノーミーツ　第二回長編公演<br>
+            「むこうのくに」開演
           </p>
           <!-- <img :src="copyTitleImg" alt="" class="TheIndex_Copy_Text_Img"> -->
         </div>
         <!-- <youtube ref="youtube" :video-id="videoId" class="TheIndex_Copy_Youtube" /> -->
-        <iframe class="TheIndex_Copy_Youtube" data-src="https://www.youtube.com/embed/Zu9r-7uZfas" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <img :src="aboutImg" alt="" class="TheIndex_Copy_BuildingImg">
+        <!-- <iframe class="TheIndex_Copy_Youtube" data-src="https://www.youtube.com/embed/Zu9r-7uZfas" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
       </div>
       <!-- <youtube ref="youtube" :video-id="videoId" class="TheDetail_Category_Movie"/> -->
 
     </div>
-    <div class="TheIndex_Information">
-      <!-- <div class="TheIndex_Information_Contents">
+    <!-- <div class="TheIndex_Information">
+      <div class="TheIndex_Information_Contents">
         <h3 class="TheIndex_Information_Header">再公演日</h3>
         <p class="TheIndex_Information_Text"><span class="Color_Yellow">5.31</span> <span class="TheIndex_Information_Text_Small">日</span>　18:00</p>
-      </div> -->
+      </div>
       <div class="TheIndex_Information_Contents">
         <h3 class="TheIndex_Information_Header">公演日</h3>
         <p class="TheIndex_Information_Text"><span class="Color_Yellow">7.23</span> <span class="TheIndex_Information_Text_Small">木</span>　15:00 / 21:00</p>
@@ -77,43 +81,54 @@
         <h3 class="TheIndex_Information_Header Color_Blue">場所</h3>
         <p class="TheIndex_Information_Text"> <span class="Color_Blue">Zoom</span> にて生配信上映</p>
       </div>
-    </div>
+    </div> -->
      <div class="TheIndex_Cast" id="cast">
       <h2 class="TheIndex_Text TheIndex_Header">CAST <span class="TheIndex_Header_Jp">キャスト</span></h2>
-      <p class="TheIndex_Cast_Text">メインキャストは、劇団ノーミーツの出演俳優以外、 全員ZOOM上でのオーディションにより 200名を超える応募者の中から選出。</p>
+      <p class="TheIndex_Cast_Text">メインキャストは、劇団ノーミーツの出演俳優以外、 全員ZOOM上でのオーディションにより 400名を超える応募者の中から選出。</p>
       <div>
         <a class="The_Index_Cast_Member" href="https://twitter.com/milkan10_" target="_blank">
           <img :src="castImg01" alt="" class="The_Index_Cast_Member_Img">
           <div class="The_Index_Cast_Member_Countainer">
             <div>
-              <p class="The_Index_Cast_Name">夏海</p>
+              <p class="The_Index_Cast_Name">竹田光稀</p>
             </div>
-             <div><p class="The_Index_Cast_Role" id="myText">メグル役</p></div>
+             <div><p class="The_Index_Cast_Role" id="myText">マナブ役</p></div>
             
              <div><p class="The_Index_Cast_Message">
-              皆様はじめまして！今回メグル役を演じます夏海です。<br>
-              今作のお話は、これからの日本に怒るかもしれない、もしくはすでに起こっている事態を元に作られています。私自身、ずっと家にいて気が滅入っていました。その中ノーミーツの動画を観てとても勇気付けられました。皆さんに元気を届けられるよう、精一杯演じます。沢山の肩に観ていただきたいです！どうぞよろしくお願いいたします。
+              はじめまして。<br>
+              今回、マナブ役を演じさせていただく竹田光稀と申します。時代が大きく変わっていくこの時期に、何かがきっかけで少しでも前向きに皆様が生活できるように。そう願いながら、自分自身もこの作品とともに精進していきます。
+              観ていただいた方に観て良かったと思っていただけるよう、全力で頑張りますので、よろしくお願いいたします。
               </p></div>
           </div>
           <div><p class="The_Index_Cast_Message_Sp">
-              皆様はじめまして！今回メグル役を演じます夏海です。<br>
-              今作のお話は、これからの日本に怒るかもしれない、もしくはすでに起こっている事態を元に作られています。私自身、ずっと家にいて気が滅入っていました。その中ノーミーツの動画を観てとても勇気付けられました。皆さんに元気を届けられるよう、精一杯演じます。沢山の肩に観ていただきたいです！どうぞよろしくお願いいたします。
+             はじめまして。<br>
+              今回、マナブ役を演じさせていただく竹田光稀と申します。時代が大きく変わっていくこの時期に、何かがきっかけで少しでも前向きに皆様が生活できるように。そう願いながら、自分自身もこの作品とともに精進していきます。
+              観ていただいた方に観て良かったと思っていただけるよう、全力で頑張りますので、よろしくお願いいたします。
               </p></div>
         </a>
         <a class="The_Index_Cast_Member" href="https://twitter.com/milkan10_" target="_blank">
           <img :src="castImg02" alt="" class="The_Index_Cast_Member_Img">
           <div class="The_Index_Cast_Member_Countainer">
             <div>
-              <p class="The_Index_Cast_Name">櫻井保幸</p>
+              <p class="The_Index_Cast_Name">尾崎由香</p>
             </div>
-             <div><p class="The_Index_Cast_Role">ケンジ役</p></div>
+             <div><p class="The_Index_Cast_Role">スズカ役</p></div>
             
              <div><p class="The_Index_Cast_Message">
-              世界のネガティブが産んだエンタメの可能性の一部になれることをとても嬉しく思う共に、その場を共有していただける劇団ノーミーツはじめ関係者の皆さんに感謝しています。ひとりでも多くの人の心を豊かにできるよう行きたいです。届けます。
+              スズカ役を演じます、尾崎由香です。<br>
+              今回出演が決定したことを聞いた時は、本当に驚きました！
+              オーディションの時、リモートに慣れていなく、目の当たりにしたリモートでのお芝居に衝撃を受けたのを覚えています。
+              リモート演劇は、新しい可能性が沢山詰まっていてワクワクしますし、まだ経験のない私は本当に0からスタートです！
+              私がオーディションで体感した衝撃を、観劇して頂く多くの方にも感じて頂けるよう、この夏全力で頑張ります。自分自身も楽しみたいですし、観ていただく皆さんにも楽しんでいただきたいです！
+
               </p></div>
           </div>
            <div><p class="The_Index_Cast_Message_Sp">
-             世界のネガティブが産んだエンタメの可能性の一部になれることをとても嬉しく思う共に、その場を共有していただける劇団ノーミーツはじめ関係者の皆さんに感謝しています。ひとりでも多くの人の心を豊かにできるよう行きたいです。届けます。
+             スズカ役を演じます、尾崎由香です。<br>
+              今回出演が決定したことを聞いた時は、本当に驚きました！
+              オーディションの時、リモートに慣れていなく、目の当たりにしたリモートでのお芝居に衝撃を受けたのを覚えています。
+              リモート演劇は、新しい可能性が沢山詰まっていてワクワクしますし、まだ経験のない私は本当に0からスタートです！
+              私がオーディションで体感した衝撃を、観劇して頂く多くの方にも感じて頂けるよう、この夏全力で頑張ります。自分自身も楽しみたいですし、観ていただく皆さんにも楽しんでいただきたいです！
               </p></div>
         </a>
         <a class="The_Index_Cast_Member" href="https://twitter.com/milkan10_" target="_blank">
@@ -218,10 +233,9 @@
 
       </div>
     </div>
-    <div class="TheIndex_Ticket" id="ticket">
+    <!-- <div class="TheIndex_Ticket" id="ticket">
       <h2 class="TheIndex_Text TheIndex_Header TheIndex_Ticket_Header">TICKET <span class="TheIndex_Header_Jp">チケット情報</span></h2>
       <div class="TheIndex_Ticket_Section">
-        <!-- <h3 class="TheIndex_Ticket_Date">7.23<span class="TheIndex_Ticket_Day">木</span></h3> -->
         <div class="TheIndex_Ticket_Countainer">
           <div><h4 class="TheIndex_Ticket_Name">先行限定</h4></div>
           <p class="TheIndex_Ticket_Text_Small">＊先行チケット限定の特典付き</p>
@@ -253,7 +267,7 @@
             </p>
           </div>
         </div>
-      </div>
+      </div> -->
 
       <!-- <div class="TheIndex_Ticket_Section">
         <h3 class="TheIndex_Ticket_Date">5.12<span class="TheIndex_Ticket_Day"> 火</span> <span class="TheIndex_Ticket_Date_Small">発売</span> <span class="TheIndex_Ticket_Date_Small_Red">即日完売</span> </h3>
@@ -299,17 +313,17 @@
           </div>
         </div>
      </div> -->
-     <p class="TheIndex_Ticket_Text_Small">
+     <!-- <p class="TheIndex_Ticket_Text_Small">
        【『むこうのくに』公演概要】<br>
         ＜公演日＞7月23日(木)・24日（金）・25日（土）・26日（日） 15:00 / 21:00 (全8回)<br>
         ＜場所＞ Zoomにて生配信上演<br>
-        ＜チケット販売＞<br>
+        ＜チケット販売＞<br> -->
         <!-- ・5月12日(火)より特典付き先行チケット数量限定発売<br> -->
-        先行限定チケット：2200円<br>
+        <!-- 先行限定チケット：2200円<br>
         一般チケット：2800円、<br>
         RT割引チケット：2500円、U18割引チケット：500円<br>
         ※各種チケット詳細・申込み方法はむこうのくに公式Peatixページにてご確認ください。</p>
-    </div>
+    </div> -->
     <div class="TheIndex_Goods">
       <div class="TheIndex_Goods_Countainer">
         <h2 class="TheIndex_Text TheIndex_Header TheIndex_Goods_Header">SUZURI OFFICIAL SITE</h2>
@@ -506,9 +520,10 @@ export default Vue.extend({
       logoImg: "/home/logo.png",
       keyVisualImg: "/home/keyvisual.png",
       keyVisualGif: "/home/keyvisual.gif",
+      aboutImg: "/home/about_Img.png",
       copyImg: "/home/copy.svg",
       copyTitleImg: "/home/copy_title.svg",
-      castImg01: "/home/cast/cast1.png",
+      castImg01: "/home/cast/cast1.jpeg",
       castImg02: "/home/cast/cast2.png",
       castImg03: "/home/cast/cast3.png",
       songImg:  "/home/song.svg",
@@ -692,27 +707,32 @@ export default Vue.extend({
 
 .TheIndex_Copy{
   min-width: 100vw;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   background: #ebeef4;
   /* background: #ffffff; */
   /* display: flex;
   align-items: center;
   justify-content: center; */
   /* border-bottom: 6px solid #eaeaea; */
-  padding: 80px 120px;
+  padding: 20px 20px;
 }
 .TheIndex_Copy_Img{
-  width: 100%;
+  width: 80%;
   display: block;
 }
+.TheIndex_Copy_BuildingImg{
+  width: 45%;
+}
 .TheIndex_Copy_Flexbox{
+  /* min-width: 100vw; */
+  /* min-height: 100vh; */
   display: flex;
   /* flex-wrap: wrap; */
   justify-content: space-between;
   align-items: center;
   flex-direction: row-reverse;
-  /* background: red; */
-  margin-top: 40px;
+  background: #ffffff;
+  /* margin-top: 40px; */
 }
 .TheIndex_Copy_Youtube{
   display: block;
@@ -722,23 +742,27 @@ export default Vue.extend({
 }
 .TheIndex_Copy_Text_Container{
   width: 50%;
-
 }
 .TheIndex_Copy_Text{
   display: block;
-  color: #000000;
-  font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
-  font-weight: 600;
-  font-style: normal;
-  font-size: 24px;
+  /* color: #000000; */
+  color: #6E88AF;
+  font-family: a-otf-ryumin-pr6n, serif;
+  /* font-weight: 600;
+  font-style: normal; */
+  letter-spacing: 4px;
+  line-height: 35px;
+  font-size: 20px;
   width: 100%;
+  margin-top: 40px;
 }
 .TheIndex_Copy_Text_Img{
   margin-top: 40px;
 }
 
 .TheIndex_Information{
-  background: #000000;
+  /* background: #000000; */
+  background: #D9E5FD;
   padding: 80px 120px;
   display: flex;
   /* align-items: center; */
@@ -753,9 +777,10 @@ export default Vue.extend({
   color: #fa5d95;
   /* color: #ffffff; */
   font-size: 48px;
-  font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+  /* font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif; */
 }
 .TheIndex_Information_Text{
+  /* color: #ffffff; */
   color: #ffffff;
   font-size: 60px;
   font-weight: 900;
@@ -773,6 +798,7 @@ export default Vue.extend({
 
 .TheIndex_Cast{
   background: #d7e5ff;
+  /* background: #ebeef4; */
   padding: 80px 120px;
 }
 .The_Index_Cast_Flexbox{
@@ -814,6 +840,10 @@ export default Vue.extend({
 }
 .The_Index_Cast_Member_Img{
   width: 50%;
+  height: 600px;
+  object-fit: cover;
+  /* height: 40%;
+  object-fit: cover; */
   /* height: 100%; */
   /* position: absolute;
   top: 0;
@@ -1338,7 +1368,24 @@ export default Vue.extend({
      padding: 80px 60px;
   }
   .TheIndex_Copy{
-    padding: 80px 60px;
+    padding: 20px 20px;
+  }
+  .TheIndex_Copy_Flexbox{
+    display: block;
+    padding: 80px 12px 0px 12px;
+    /* flex-wrap: wrap; */
+  }
+  .TheIndex_Copy_Text_Container{
+    width: 70%;
+    margin: 0 auto;
+  }
+  .TheIndex_Copy_BuildingImg{
+    display: block;
+    margin: 0 auto;
+  }
+  .TheIndex_Copy_Text{
+    font-size: 20px;
+    line-height: 32px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -1388,7 +1435,14 @@ export default Vue.extend({
      padding: 80px 60px;
   }
   .TheIndex_Copy{
-    padding: 80px 60px;
+    padding: 20px 20px;
+  }
+  .TheIndex_Copy_Flexbox{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .TheIndex_Copy_Text_Container{
+    width: 92%;
   }
   .The_Index_Cast_Name{
     font-size: 60px;
@@ -1416,11 +1470,23 @@ export default Vue.extend({
   }
 
   .TheIndex_Copy{
-    padding: 40px 20px;
+    padding: 10px 10px;
+  }
+  .TheIndex_Copy_Img{
+    width: 100%;
+    display: block;
+  }
+  .Sp_Brank{
+    display: none;
   }
   .TheIndex_Copy_Flexbox{
     display: block;
+    padding: 32px 12px 0px 12px;
     /* flex-wrap: wrap; */
+  }
+  .TheIndex_Copy_BuildingImg{
+    width: 100%;
+    transform:translateY(4px)
   }
   .TheIndex_Copy_Youtube{
     width: 100%;
@@ -1431,7 +1497,9 @@ export default Vue.extend({
     width: 100%;
   }
   .TheIndex_Copy_Text{
+    margin-top: 20px;
     font-size: 16px;
+    line-height: 28px;
   }
 
   .TheIndex_Cast{
