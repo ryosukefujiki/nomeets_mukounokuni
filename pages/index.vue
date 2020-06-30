@@ -1269,6 +1269,9 @@ export default Vue.extend({
   margin-right: 20px;
   font-size: 20px;
   display: inline-block;
+  font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
+  font-weight: 600;
+  font-style: normal;
 }
 
 
@@ -1342,10 +1345,10 @@ export default Vue.extend({
   font-size: 24px;
   line-height: 40px;
   /* font-family: a-otf-midashi-go-mb31-pr6n, sans-serif; */
-  font-family: a-otf-ryumin-pr6n, serif;
-  /* font-family: a-otf-midashi-go-mb31-pr6n, sans-serif; */
-  /* font-weight: 600;
-  font-style: normal; */
+  /* font-family: a-otf-ryumin-pr6n, serif; */
+  font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
+  font-weight: 600;
+  font-style: normal;
   /* background: #000000; */
   color: #000000;
   display: block;
