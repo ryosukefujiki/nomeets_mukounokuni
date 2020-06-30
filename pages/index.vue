@@ -901,7 +901,7 @@ export default Vue.extend({
   flex-wrap: wrap;
 }
 .TheIndex_Information_Contents{
-  width: 960px;
+  width: 1040px;
   text-align: center;
   /* margin-bottom: 40px; */
 }
