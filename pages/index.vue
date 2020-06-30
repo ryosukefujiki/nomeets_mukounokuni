@@ -36,7 +36,9 @@
       <img :src="heroLogoImg" alt="" class="TheIndex_Hero_Img_Logo">
       <img :src="heroCopyImg" alt="" class="TheIndex_Hero_Img_Copy">
       <img :src="heroDateImg" alt="" class="TheIndex_Hero_Img_Date">
-      <img :src="heroTitleImg" alt="" class="TheIndex_Hero_Img_Title">
+      <div class="The_Hero_Title_Flexbox">
+        <img :src="heroTitleImg" alt="" class="TheIndex_Hero_Img_Title">
+      </div>
       <img :src="keyVisualImg_Sp" alt="" class="TheIndex_Hero_Img_Sp">
       <img :src="keyVisualImg" alt="" class="TheIndex_Hero_Img">
       <!-- <v-lazy-image  class="TheIndex_Hero_Img" :src="keyVisualGif" :src-placeholder="keyVisualImg" /> -->
@@ -699,7 +701,7 @@ export default Vue.extend({
   opacity: 0;
 }
 .TheIndex {
-  min-width: 100%;
+  width: 100%;
   /* min-height: 100%; */
   /* margin: 0 auto;
   min-height: 100%;
@@ -782,19 +784,23 @@ export default Vue.extend({
   /* font-weight: 500;f */
 }
 .TheIndex_Hero{
-  min-width: 100%;
-  min-height: 100%;
+  width: 100%;
+  height: 100%;
   background: #000000;
-  display: flex;
+  position: relative;
+  /* display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
   /* border-bottom: 6px solid #eaeaea; */
 }
 .TheIndex_Hero_Img{
   display: block;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  /* object-fit: cover; */
+  /* position: absolute;
+  top: 0;
+  left: 0; */
 }
 .TheIndex_Hero_Img_Sp{
   display: none;
@@ -802,9 +808,18 @@ export default Vue.extend({
   height: 100%;
   object-fit: cover;
 }
+.The_Hero_Title_Flexbox{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .TheIndex_Hero_Img_Title{
   width: 45%;
-  position: absolute;
 }
 .TheIndex_Hero_Img_Logo{
   width: 16%;
@@ -831,7 +846,7 @@ export default Vue.extend({
 }
 
 .TheIndex_Copy{
-  min-width: 100%;
+  width: 100%;
   /* min-height: 100%; */
   background: #ebeef4;
   /* background: #ffffff; */
