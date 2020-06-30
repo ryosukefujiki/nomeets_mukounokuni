@@ -162,6 +162,7 @@
             <img :src="castImg05" alt="" class="The_Index_Cast_Member_Img The_Index_Cast_Member_Img_Small">
             <div class="The_Index_Cast_Member_Countainer The_Index_Cast_Member_Countainer_Small">
               <div>
+                <p class="The_Index_Cast_Name The_Index_Cast_Name_Small The_Index_Cast_Name_Small_Group">アバンティーズ</p><br>
                 <p class="The_Index_Cast_Name The_Index_Cast_Name_Small">そら</p>
               </div>
               <div><p class="The_Index_Cast_Role The_Index_Cast_Role_Small">ソウスケ役</p></div>
@@ -209,6 +210,7 @@
             <img :src="castImg09" alt="" class="The_Index_Cast_Member_Img The_Index_Cast_Member_Img_Small">
             <div class="The_Index_Cast_Member_Countainer The_Index_Cast_Member_Countainer_Small">
               <div>
+                <p class="The_Index_Cast_Name The_Index_Cast_Name_Small The_Index_Cast_Name_Small_Group">演劇集団キャラメルボックス</p><br>
                 <p class="The_Index_Cast_Name The_Index_Cast_Name_Small">鍛治本大樹</p>
               </div>
               <div><p class="The_Index_Cast_Role The_Index_Cast_Role_Small">バトラー役</p></div>
@@ -245,6 +247,7 @@
             <img :src="castImg12" alt="" class="The_Index_Cast_Member_Img The_Index_Cast_Member_Img_Small">
             <div class="The_Index_Cast_Member_Countainer The_Index_Cast_Member_Countainer_Small">
               <div>
+                 <p class="The_Index_Cast_Name The_Index_Cast_Name_Small The_Index_Cast_Name_Small_Group">柿喰う客</p><br>
                 <p class="The_Index_Cast_Name The_Index_Cast_Name_Small">淺場万矢</p>
               </div>
               <div><p class="The_Index_Cast_Role The_Index_Cast_Role_Small">議員役</p></div>
@@ -301,6 +304,7 @@
       </div>
     </div>
     <div class="TheIndex_Ticket" id="ticket">
+      <div class="TheIndex_Ticket_Container">
       <h2 class="TheIndex_Text TheIndex_Header TheIndex_Ticket_Header">TICKET <span class="TheIndex_Header_Jp">チケット情報</span></h2>
       <div class="TheIndex_Ticket_Section">
         <div class="TheIndex_Ticket_Countainer">
@@ -312,85 +316,62 @@
           </p>
         </div>
         <div class="TheIndex_Ticket_Flexbox">
-           <div class="TheIndex_Ticket_Countainer">
+           <div class="TheIndex_Ticket_Countainer TheIndex_Ticket_Countainer_Opacity">
           <div><h4 class="TheIndex_Ticket_Name TheIndex_Ticket_Name_White">一般チケット</h4></div>
+          <p class="TheIndex_Ticket_Text_Small">＊近日OPEN</p>
           <p class="TheIndex_Ticket_Text">
           <a href="https://mukounokuni.peatix.com/" class="TheIndex_Ticket_Link TheIndex_Ticket_Link_Blue" target="_blank">購入ページへ</a>
             2800円
           </p>
           </div>
-          <div class="TheIndex_Ticket_Countainer">
+          <div class="TheIndex_Ticket_Countainer TheIndex_Ticket_Countainer_Opacity">
             <div><h4 class="TheIndex_Ticket_Name TheIndex_Ticket_Name_Black">RT割引チケット</h4></div>
+            <p class="TheIndex_Ticket_Text_Small">＊近日OPEN</p>
             <p class="TheIndex_Ticket_Text">
             <a href="https://mukounokuni.peatix.com/" class="TheIndex_Ticket_Link TheIndex_Ticket_Link_Blue" target="_blank">購入ページへ</a>
               2500円
             </p>
           </div>
-          <div class="TheIndex_Ticket_Countainer">
+          <div class="TheIndex_Ticket_Countainer TheIndex_Ticket_Countainer_Opacity">
             <div><h4 class="TheIndex_Ticket_Name TheIndex_Ticket_Name_Black">U18割引チケット</h4></div>
+            <p class="TheIndex_Ticket_Text_Small">＊近日OPEN</p>
             <p class="TheIndex_Ticket_Text">
             <a href="https://mukounokuni.peatix.com/" class="TheIndex_Ticket_Link TheIndex_Ticket_Link_Blue" target="_blank">購入ページへ</a>
               500円
             </p>
           </div>
-        </div>
       </div>
-
-      <!-- <div class="TheIndex_Ticket_Section">
-        <h3 class="TheIndex_Ticket_Date">5.12<span class="TheIndex_Ticket_Day"> 火</span> <span class="TheIndex_Ticket_Date_Small">発売</span> <span class="TheIndex_Ticket_Date_Small_Red">即日完売</span> </h3>
-        <div class="TheIndex_Ticket_Countainer">
-          <div><h4 class="TheIndex_Ticket_Name">特典付き先行チケット</h4></div>
-          <p class="TheIndex_Ticket_Text_Small">＊特典は後日発表となります。</p>
-          <p class="TheIndex_Ticket_Text">
-          <a href="https://nomeets2024.peatix.com/" class="TheIndex_Ticket_Link" target="_blank">購入ページへ</a>
-            2000円(数量限定発売)
+      <div class="TheIndex_Ticket_Information">
+        <h4 class="TheIndex_Ticket_Information_Header">【『むこうのくに』公演概要】</h4>
+        <div class="TheIndex_Ticket_Text_Flexbox">
+          <p class="TheIndex_Ticket_Information_Text">
+            ＜公演日＞<br>
+          　2020年7月23日（木・祝）〜7月26日（日）4日間<br>
+          　14:00/20:00 (全8回)<br>
+          </p>
+          <p class="TheIndex_Ticket_Information_Text">
+              ＜場所＞<br>
+          　特設サイトにてオンライン生配信上演<br>
           </p>
         </div>
-     </div> -->
-      <!-- <div class="TheIndex_Ticket_Section">
-        <h3 class="TheIndex_Ticket_Date">5.14<span class="TheIndex_Ticket_Day"> 木</span> <span class="TheIndex_Ticket_Date_Small">12:00 一般発売</span></h3>
-        <div class="TheIndex_Ticket_Countainer">
-          <div><h4 class="TheIndex_Ticket_Name TheIndex_Ticket_Name_White">一般チケット</h4></div>
-          <p class="TheIndex_Ticket_Text">
-          <a href="https://nomeets2024.peatix.com/" class="TheIndex_Ticket_Link TheIndex_Ticket_Link_Blue" target="_blank">購入ページへ</a>
-            2500円
-          </p>
-        </div>
-        <div class="TheIndex_Ticket_Flexbox">
-          <div class="TheIndex_Ticket_Countainer">
-            <div><h4 class="TheIndex_Ticket_Name TheIndex_Ticket_Name_Black">RT割引チケット</h4></div>
-            <p class="TheIndex_Ticket_Text">
-            <a href="https://nomeets2024.peatix.com/" class="TheIndex_Ticket_Link TheIndex_Ticket_Link_Blue" target="_blank">購入ページへ</a>
-              2300円
-            </p>
-          </div>
-          <div class="TheIndex_Ticket_Countainer">
-            <div><h4 class="TheIndex_Ticket_Name TheIndex_Ticket_Name_Black">U25割引チケット</h4></div>
-            <p class="TheIndex_Ticket_Text">
-            <a href="https://nomeets2024.peatix.com/" class="TheIndex_Ticket_Link TheIndex_Ticket_Link_Blue" target="_blank">購入ページへ</a>
-              2000円
-            </p>
-          </div>
-          <div class="TheIndex_Ticket_Countainer">
-            <div><h4 class="TheIndex_Ticket_Name TheIndex_Ticket_Name_Black">U18割引チケット</h4></div>
-            <p class="TheIndex_Ticket_Text">
-            <a href="https://nomeets2024.peatix.com/" class="TheIndex_Ticket_Link TheIndex_Ticket_Link_Blue" target="_blank">購入ページへ</a>
-              1000円
-            </p>
-          </div>
-        </div>
-     </div> -->
-     <p class="TheIndex_Ticket_Text_Small">
-       【『むこうのくに』公演概要】<br>
-        ＜公演日＞7月23日(木)・24日（金）・25日（土）・26日（日） 15:00 / 21:00 (全8回)<br>
-        ＜場所＞ Zoomにて生配信上演<br>
-        ＜チケット販売＞<br>
-        ・5月12日(火)より特典付き先行チケット数量限定発売<br>
-        先行限定チケット：2200円<br>
-        一般チケット：2800円、<br>
-        RT割引チケット：2500円、U18割引チケット：500円<br>
-        ※各種チケット詳細・申込み方法はむこうのくに公式Peatixページにてご確認ください。</p>
+        <p class="TheIndex_Ticket_Information_Text">
+        ＜チケット＞<br>
+        　Peatixにて、7月1日12時発売開始<br>
+        　https://mukounokuni.peatix.com/<br>
+        　・一般チケット：¥2,800<br>
+        　・先行限定チケット：¥2,200<br>
+        　　※先着1,000枚限定、なくなり次第終了<br>
+        　　※購入者限定生配信ライブ特典つき<br>
+        　・RT割引チケット：¥2,500<br>
+        　・U18チケット：¥500<br>
+        ※各種チケット詳細・申込み方法はむこうのくに公式Peatixページにてご確認ください。<br>
+        </p>
+      </div>
+      </div>
+      </div>
     </div>
+
+
     <div class="TheIndex_Goods">
       <div class="TheIndex_Goods_Countainer">
         <h2 class="TheIndex_Text TheIndex_Header TheIndex_Goods_Header">SUZURI OFFICIAL SITE</h2>
@@ -416,18 +397,18 @@
     <div class="TheIndex_Message">
       <div class="TheIndex_Message_Container">
          <p class="TheIndex_Message_Text">
-           会わないで作る以上、<br>
-          どんなに素晴らしいチームワークで力を合わせようとも、<br>
+           会わないで作る以上、<br class="Sp_Brank">
+          どんなに素晴らしいチームワークで力を合わせようとも、<br class="Sp_Brank">
           画面の隔たりを超えることはできません。<br>
           それが、リモートエンタメの宿命です。<br>
-          でも実は、直接会って作品を作っていた頃と、<br>
+          でも実は、直接会って作品を作っていた頃と、<br class="Sp_Brank">
           そんなに変わらないのかもしれないなと、最近は思います。<br>
-          思い返せば同じ空間にいても、いつもなんらかの隔たりはあって、<br>
-          ものづくりというのは、その隔たりをなんとか乗り越えていこう<br>
+          思い返せば同じ空間にいても、いつもなんらかの隔たりはあって、<br class="Sp_Brank">
+          ものづくりというのは、その隔たりをなんとか乗り越えていこう<br class="Sp_Brank">
           とする営みのことを言うのではないか、と考えたりするのです。<br>
-          今回もメンバーと直接会うことはありませんが、<br>
-          画面を超えるくらいの気持ちで心を合わせ、<br>
-          オンラインエンタメの限界、<br>
+          今回もメンバーと直接会うことはありませんが、<br class="Sp_Brank">
+          画面を超えるくらいの気持ちで心を合わせ、<br class="Sp_Brank">
+          オンラインエンタメの限界、<br class="Sp_Brank">
           そのむこうがわを目指していきたいと思います。<br>
         </p>
         <p class="TheIndex_Message_Name">
@@ -447,11 +428,11 @@
         </a>
         <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
           <div><p class="TheIndex_Staff_Member_Role">主宰/企画・プロデュース</p></div>
-          <div><p class="TheIndex_Staff_Member_Name">小御門優一郎</p></div>
+          <div><p class="TheIndex_Staff_Member_Name">林健太郎</p></div>
         </a>
          <a class="TheIndex_Staff_Member" href="https://twitter.com/KentarooH">
            <div><p class="TheIndex_Staff_Member_Role">主宰/脚本・演出</p></div>
-           <div><p class="TheIndex_Staff_Member_Name">林健太郎</p></div>
+           <div><p class="TheIndex_Staff_Member_Name">小御門優一郎</p></div>
         </a>
         <a class="TheIndex_Staff_Member" href="https://twitter.com/Ganamiii">
            <div><p class="TheIndex_Staff_Member_Role">制作・プロデュース</p></div>
@@ -1035,6 +1016,7 @@ export default Vue.extend({
   font-size: 16px;
   background: #ffffff;
   font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
+  /* font-family: a-otf-ryumin-pr6n, serif; */
   font-weight: 600;
   font-style: normal;
   /* position: absolute;
@@ -1049,6 +1031,7 @@ export default Vue.extend({
   font-size: 16px;
   background: #ffffff;
   font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
+  /* font-family: a-otf-ryumin-pr6n, serif; */
   font-weight: 600;
   font-style: normal;
   /* position: absolute;
@@ -1094,6 +1077,9 @@ export default Vue.extend({
   left: 40%; */
   font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
 }
+.The_Index_Cast_Name_Small_Group{
+  font-size: 20px;
+}
 .The_Index_Cast_Role_Small{
   display: inline-block;
   font-size: 32px;
@@ -1132,26 +1118,36 @@ export default Vue.extend({
 
 
 .TheIndex_Ticket{
-  background: #04abff;
-  /* background: #D9E5FD; */
+  /* background: #04abff; */
+  background: #ffffff;
+  padding: 20px 20px;
+   
+}
+.TheIndex_Ticket_Container{
+  background: #d7e5ff;
+  background: #ebeef4;
+  /* background: #ffffff; */
   padding: 80px 120px;
 }
 .TheIndex_Ticket_Header{
   font-family: din-2014, sans-serif;
   font-weight: 700;
   font-style: normal;
-  color: #ffffff;
+  color: #000000;
 }
 .TheIndex_Ticket_Countainer{
   margin-bottom: 40px;
   margin-right: 24px;
+}
+.TheIndex_Ticket_Countainer_Opacity{
+  opacity: 0.4;
 }
 .TheIndex_Ticket_Date{
   font-size: 60px;
   font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
   font-weight: 600;
   font-style: normal;
-  color: #ffffff;
+  color: #000000;
 }
 .TheIndex_Ticket_Day{
   font-size: 24px;
@@ -1165,13 +1161,13 @@ export default Vue.extend({
   font-weight: 600;
   font-style: normal;
   transition: 0.6s;
-  background: #ff1e26;
+  background: #ff3e72;
   color: #ffffff;
   margin-top: 12px;
 }
 .TheIndex_Ticket_Name_White{
-  background: #ffffff;
-  color: #000000;
+  background: #9b9b9b;
+  color: #ffffff;
    font-size: 40px;
 }
 .TheIndex_Ticket_Name_Black{
@@ -1183,7 +1179,7 @@ export default Vue.extend({
 .TheIndex_Ticket_Text{
   margin-top: 24px;
   font-size: 28px;
-  color: #ffffff;
+  color: #000000;
 }
 .TheIndex_Ticket_Link{
   position: relative;
@@ -1191,23 +1187,32 @@ export default Vue.extend({
   margin-top: 12px;
   font-size: 32px;
   color: #ffffff;
-  background: #ff1e26;
+  background: #ff3e72;
   padding: 12px 24px;
   border-radius: 30px;
   text-decoration: none;
   box-sizing: content-box;
   font-size: 20px;
   /* border-bottom: solid 8px #d1151b; */
-  box-shadow: 0 8px 0 #d1151b;
+  box-shadow: 0 8px 0 #dd2959;
   transition: none;
   margin-right: 12px;
   /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 1.0); */
 }
 .TheIndex_Ticket_Link:hover{
-  box-shadow: 0 4px 0 #d1151b;
+  box-shadow: 0 4px 0 #dd2959;
   top: 0px;
   /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 1.0); */
 }
+
+.TheIndex_Ticket_Countainer_Opacity{
+   pointer-events: none;
+}
+.TheIndex_Ticket_Countainer_Opacity .TheIndex_Ticket_Text .TheIndex_Ticket_Link:hover{
+   box-shadow: 0 8px 0 #0074ad;
+   top: -4px;
+}
+
 .TheIndex_Ticket_Link_Blue{
   background: #008fd6;
   box-shadow: 0 8px 0 #0074ad;
@@ -1224,9 +1229,12 @@ export default Vue.extend({
   margin-bottom: 40px;
 }
 .TheIndex_Ticket_Text_Small{
-  color: #ffffff;
+  color: #000000;
   font-size: 24px;
   margin-top: 4px;
+  font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
+  /* font-family: a-otf-ryumin-pr6n, serif; */
+  
   /* font-weight: 900; */
 }
 .TheIndex_Ticket_Date_Small{
@@ -1236,9 +1244,39 @@ export default Vue.extend({
   font-size: 40px;
   background: #ff1e26;
 }
+.TheIndex_Ticket_Information{
+  margin-top: 20px;
+  /* width: 0%; */
+  margin-bottom: 20px;
+  background: #ffffff;
+  background: #fafafa;
+  padding: 20px;
+  border-radius: 8px;
+  color: #272727;
+}
+.TheIndex_Ticket_Information_Header{
+  /* background: #000000;
+  color: #ffffff; */
+  display: inline-block;
+  font-size: 32px;
+}
+.TheIndex_Ticket_Text_Flexbox{
+  display: flex;
+  justify-content: flex-start;
+}
+.TheIndex_Ticket_Information_Text{
+  margin-top: 20px;
+  margin-right: 20px;
+  font-size: 20px;
+  display: inline-block;
+}
+
+
+
 
 .TheIndex_Goods{
   background: #d7e5ff;
+  /* background: #ebeef4; */
   padding: 80px 120px;
 }
 .TheIndex_Goods_Countainer{
@@ -1293,27 +1331,35 @@ export default Vue.extend({
 
 .TheIndex_Message{
   padding: 80px 0px;
+  display: flex;
+  justify-content: center;
 }
 .TheIndex_Message_Container{
-  margin: 0 auto;
-  width: 84%;
+  /* margin: 0 auto; */
+  /* width: 84%; */
 }
 .TheIndex_Message_Text{
-  font-size: 40px;
-  font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
-  font-weight: 600;
-  font-style: normal;
-  background: #000000;
-  color: #ffffff;
-  display: inline;
+  font-size: 24px;
+  line-height: 40px;
+  /* font-family: a-otf-midashi-go-mb31-pr6n, sans-serif; */
+  font-family: a-otf-ryumin-pr6n, serif;
+  /* font-family: a-otf-midashi-go-mb31-pr6n, sans-serif; */
+  /* font-weight: 600;
+  font-style: normal; */
+  /* background: #000000; */
+  color: #000000;
+  display: block;
+  /* margin: 0 auto; */
 }
 .TheIndex_Message_Name{
   margin-top: 20px;
-  font-size: 20px;
+  font-size: 28px;
   font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
   font-weight: 600;
   font-style: normal;
-  color: #000000;
+  color: #ffffff;
+  background: #000000;
+  display: inline-block;
 }
 
 .TheIndex_Song{
@@ -1338,7 +1384,8 @@ export default Vue.extend({
 
 .TheIndex_Staff{
   /* background: #c4c4c4; */
-  background: #d1d1d1;
+  /* background: #d1d1d1; */
+  background: #ebeef4;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -1422,6 +1469,7 @@ export default Vue.extend({
 .TheIndex_Contact{
   width: 100%;
   background: #d7e5ff;
+  /* background: #ebeef4; */
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -1496,6 +1544,12 @@ export default Vue.extend({
   height: 100%;
   object-fit: cover;
 }
+.The_Index_Cast_Name_Small_Group{
+  font-size: 20px;
+}
+.TheIndex_Ticket_Container{
+  padding: 40px 60px;
+}
 }
 
 
@@ -1518,7 +1572,7 @@ export default Vue.extend({
     padding-right: 40px;
   }
   .TheIndex_Information_Text{
-    font-size: 40px;
+    font-size: 32px;
   }
   .TheIndex_Ticket_Link{
     font-size: 12px;
@@ -1610,16 +1664,25 @@ export default Vue.extend({
     font-size: 20px;
     line-height: 32px;
   }
+  .The_Index_Cast_Name_Small_Group{
+  font-size: 20px;
+}
+.TheIndex_Ticket{
+  padding: 20px 20px;
+}
+.TheIndex_Ticket_Information_Text{
+  font-size: 18px;
+}
 }
 @media screen and (max-width: 768px) {
   .TheIndex_Header{
     font-size: 48px;
   }
   .TheIndex_Information_Text{
-    font-size: 36px;
+    font-size: 28px;
   }
   .TheIndex_Information_Text_Small{
-    font-size: 24px;
+    font-size: 20px;
   }
   .TheIndex_Ticket_Flexbox{
     display: block;
@@ -1679,6 +1742,15 @@ export default Vue.extend({
   .The_Index_Cast_Role_Small{
     font-size: 24px;
   }
+  .The_Index_Cast_Name_Small_Group{
+  font-size: 20px;
+}
+.TheIndex_Ticket{
+  padding: 20px 20px;
+}
+.TheIndex_Ticket_Information_Text{
+  font-size: 18px;
+}
 }
 @media screen and (max-width: 480px) {
   .TheIndex_Hero_Img_Copy{
@@ -1744,6 +1816,7 @@ export default Vue.extend({
 
   .TheIndex_Cast{
   background: #d7e5ff;
+   background: #ebeef4;
   padding: 40px 20px;
   }
   .TheIndex_Cast_Text{
@@ -1836,10 +1909,10 @@ export default Vue.extend({
     margin-bottom: 4px;
   }
   .TheIndex_Information_Text{
-    font-size: 17px;
+    font-size: 12px;
   }
   .TheIndex_Information_Text_Small{
-    font-size: 13px;
+    font-size: 11px;
   }
 
   .TheIndex_Ticket_Link{
@@ -1872,7 +1945,8 @@ export default Vue.extend({
     width: 100%;
   }
   .TheIndex_Message_Text{
-    font-size: 20px;
+    font-size: 16px;
+    line-height: 30px;
   }
   .TheIndex_Message_Name{
     font-size: 14px;
@@ -1945,6 +2019,27 @@ export default Vue.extend({
 .TheIndex_Ticket_Text{
   margin-top: 12px;
 }
+.The_Index_Cast_Name_Small_Group{
+  font-size: 12px;
+}
+.TheIndex_Ticket{
+  padding: 12px 12px;
+}
+.TheIndex_Ticket_Information_Text{
+  font-size: 18px;
+}
+.TheIndex_Ticket_Container{
+  padding: 12px 12px;
+}
+.TheIndex_Ticket_Information_Header{
+  font-size: 20px;
+}
+.TheIndex_Ticket_Information_Text{
+  font-size: 16px;
+}
+.TheIndex_Ticket_Text_Flexbox{
+  display: block;
+}
 }
 @media screen and (max-width: 320px) {
   .TheIndex_Nav{
@@ -1993,12 +2088,30 @@ export default Vue.extend({
 .TheIndex_Staff_Member{
   width: 120px;
 }
+.TheIndex_Information_Header{
+  font-size: 16px;
+}
 .TheIndex_Information_Text{
-    font-size: 14px;
+    font-size: 10px;
   }
   .TheIndex_Information_Text_Small{
-    font-size: 12px;
+    font-size: 10px;
   }
+  .The_Index_Cast_Name_Small_Group{
+  font-size: 10px;
+}
+.TheIndex_Ticket_Container{
+  padding: 12px 12px;
+}
+.TheIndex_Ticket_Information_Header{
+  font-size: 16px;
+}
+.TheIndex_Ticket_Information_Text{
+  font-size: 12px;
+}
+.TheIndex_Ticket_Text_Flexbox{
+  display: block;
+}
 
 }
 </style>
