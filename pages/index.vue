@@ -111,14 +111,14 @@
             <div>
               <p class="The_Index_Cast_Name">尾崎由香</p>
             </div>
-             <div><p class="The_Index_Cast_Role">スズカ役</p></div>
+             <div><p class="The_Index_Cast_Role">スズ役</p></div>
             
              <div><p class="The_Index_Cast_Message">
-              スズカ役を演じます、尾崎由香です。今回出演が決定したことを聞いた時は、本当に驚きました！オーディションの時、リモートに慣れていなく、目の当たりにしたリモートでのお芝居に衝撃を受けたのを覚えています。リモート演劇は、新しい可能性が沢山詰まっていてワクワクしますし、まだ経験のない私は本当に0からスタートです！私がオーディションで体感した衝撃を、観劇して頂く多くの方にも感じて頂けるよう、この夏全力で頑張ります。自分自身も楽しみたいですし、観ていただく皆さんにも楽しんでいただきたいです！
+              スズ役を演じます、尾崎由香です。今回出演が決定したことを聞いた時は、本当に驚きました！オーディションの時、リモートに慣れていなく、目の当たりにしたリモートでのお芝居に衝撃を受けたのを覚えています。リモート演劇は、新しい可能性が沢山詰まっていてワクワクしますし、まだ経験のない私は本当に0からスタートです！私がオーディションで体感した衝撃を、観劇して頂く多くの方にも感じて頂けるよう、この夏全力で頑張ります。自分自身も楽しみたいですし、観ていただく皆さんにも楽しんでいただきたいです！
               </p></div>
           </div>
            <div><p class="The_Index_Cast_Message_Sp">
-              スズカ役を演じます、尾崎由香です。今回出演が決定したことを聞いた時は、本当に驚きました！オーディションの時、リモートに慣れていなく、目の当たりにしたリモートでのお芝居に衝撃を受けたのを覚えています。リモート演劇は、新しい可能性が沢山詰まっていてワクワクしますし、まだ経験のない私は本当に0からスタートです！私がオーディションで体感した衝撃を、観劇して頂く多くの方にも感じて頂けるよう、この夏全力で頑張ります。自分自身も楽しみたいですし、観ていただく皆さんにも楽しんでいただきたいです！
+              スズ役を演じます、尾崎由香です。今回出演が決定したことを聞いた時は、本当に驚きました！オーディションの時、リモートに慣れていなく、目の当たりにしたリモートでのお芝居に衝撃を受けたのを覚えています。リモート演劇は、新しい可能性が沢山詰まっていてワクワクしますし、まだ経験のない私は本当に0からスタートです！私がオーディションで体感した衝撃を、観劇して頂く多くの方にも感じて頂けるよう、この夏全力で頑張ります。自分自身も楽しみたいですし、観ていただく皆さんにも楽しんでいただきたいです！
               </p></div>
         </a>
         <a class="The_Index_Cast_Member" href="https://twitter.com/milkan10_" target="_blank">
@@ -144,7 +144,7 @@
               <div>
                 <p class="The_Index_Cast_Name The_Index_Cast_Name_Small">オツハタ</p>
               </div>
-              <div><p class="The_Index_Cast_Role The_Index_Cast_Role_Small">フランカーのリーダー役</p></div>
+              <div><p class="The_Index_Cast_Role The_Index_Cast_Role_Small">リーダー役</p></div>
             </div>
             <div><p class="The_Index_Cast_Message_Small">
                   皆様、こんにちは。劇団ノーミーツのオツハタと申します。名前を聞き間違えられやすく、また読み間違えられやすいため、カタカナの芸名にしました。絶対に絶対に今やる価値のある公演です。今観る価値ある公演だったとお客様に感じてもらえるよう、精一杯演じます。みなさまの毎日が、健やかなものでありますように！
@@ -156,7 +156,7 @@
               <div>
                 <p class="The_Index_Cast_Name The_Index_Cast_Name_Small">そら</p>
               </div>
-              <div><p class="The_Index_Cast_Role The_Index_Cast_Role_Small">フランカーのギーク役</p></div>
+              <div><p class="The_Index_Cast_Role The_Index_Cast_Role_Small">ソウスケ役</p></div>
             </div>
             <div><p class="The_Index_Cast_Message_Small">
            皆さん初めまして、アバンティーズのそらと言います。実は、あまり知られていませんが大学時代は演劇を専攻していました。しかし、演劇にしっかりと携わるのは今回が初めてです（笑）YouTube黎明期からネットと密に生きてきた僕だからこそ、この作品で濃く強く輝く瞬間があると思っています。よろしくお願いします。
@@ -168,7 +168,7 @@
               <div>
                 <p class="The_Index_Cast_Name The_Index_Cast_Name_Small">大山実音</p>
               </div>
-              <div><p class="The_Index_Cast_Role The_Index_Cast_Role_Small">フランカーのギーク役</p></div>
+              <div><p class="The_Index_Cast_Role The_Index_Cast_Role_Small">マミ役</p></div>
             </div>
             <div><p class="The_Index_Cast_Message_Small">
                オンライン舞台という全く新しいエンターテインメントに、胸が躍って眠れません！画面を通して、観てくださっている皆さんの心に何か変化を与えることができたなら…そんな思いで劇団の仲間と「むこうのくに」を創りあげたいと思います！
@@ -181,7 +181,7 @@
               <div>
                 <p class="The_Index_Cast_Name The_Index_Cast_Name_Small">出口晴臣</p>
               </div>
-              <div><p class="The_Index_Cast_Role The_Index_Cast_Role_Small">フランカーのギーク役</p></div>
+              <div><p class="The_Index_Cast_Role The_Index_Cast_Role_Small">タイチ役</p></div>
             </div>
             <div><p class="The_Index_Cast_Message_Small">
                   皆様はじめまして！今回メグル役を演じます夏海です。<br>
@@ -206,7 +206,7 @@
               <div>
                 <p class="The_Index_Cast_Name The_Index_Cast_Name_Small">鍛治本大樹</p>
               </div>
-              <div><p class="The_Index_Cast_Role The_Index_Cast_Role_Small">側近役</p></div>
+              <div><p class="The_Index_Cast_Role The_Index_Cast_Role_Small">バトラー役</p></div>
             </div>
             <div><p class="The_Index_Cast_Message_Small">
                 コロナ禍で活動を制限された演劇界。何も出来ない自分が悔しかったです。そんな中、いち早くオンライン演劇という新しい可能性を見つけ出して表現した劇団ノーミーツさんに衝撃を受けました。そもそも演劇は制限があってなんぼ。それを面白がれるかが演劇を面白くする要素の一つだと改めて気付かせてくれました。今回一緒にたくさん面白がって新しい演劇をまた一つ作りたいと思っています。
@@ -218,7 +218,7 @@
               <div>
                 <p class="The_Index_Cast_Name The_Index_Cast_Name_Small">河内美里</p>
               </div>
-              <div><p class="The_Index_Cast_Role The_Index_Cast_Role_Small">側近役</p></div>
+              <div><p class="The_Index_Cast_Role The_Index_Cast_Role_Small">ピコ役</p></div>
             </div>
             <div><p class="The_Index_Cast_Message_Small">
                 ピコ役で出演させて頂きます、河内美里です。劇団ノーミーツさんの第2回公演、私自身も作品の一部として関わらせて頂けることにドキドキワクワクしております。"NO蜜で濃密なひととき"をより多くの方に体験して頂けますように、丁寧に物語を紡いでいきたいと思います。ぜひ、上演を楽しみに待っていて下さい！
@@ -230,7 +230,7 @@
               <div>
                 <p class="The_Index_Cast_Name The_Index_Cast_Name_Small">青山郁代</p>
               </div>
-              <div><p class="The_Index_Cast_Role The_Index_Cast_Role_Small">理事長役</p></div>
+              <div><p class="The_Index_Cast_Role The_Index_Cast_Role_Small">議員役</p></div>
             </div>
             <div><p class="The_Index_Cast_Message_Small">
               ダミーテキスト（画像も差し替え必）
@@ -242,7 +242,7 @@
               <div>
                 <p class="The_Index_Cast_Name The_Index_Cast_Name_Small">淺場万矢</p>
               </div>
-              <div><p class="The_Index_Cast_Role The_Index_Cast_Role_Small">？？？役</p></div>
+              <div><p class="The_Index_Cast_Role The_Index_Cast_Role_Small">議員役</p></div>
             </div>
             <div><p class="The_Index_Cast_Message_Small">
               新型コロナの渦中ではありますが、そんな機会でもなければ、出会えなかったかもしれない皆様との創作は、まさに奇跡です。濃厚なメンバーでお送りする、濃密な時間。お客様に存分にお楽しみいただければ幸いです。
@@ -254,7 +254,7 @@
               <div>
                 <p class="The_Index_Cast_Name The_Index_Cast_Name_Small">水石亜飛夢</p>
               </div>
-              <div><p class="The_Index_Cast_Role The_Index_Cast_Role_Small">理事長の手先役</p></div>
+              <div><p class="The_Index_Cast_Role The_Index_Cast_Role_Small">秘書役</p></div>
             </div>
             <div><p class="The_Index_Cast_Message_Small">
               ダミーテキスト（画像も差し替え必）
@@ -266,7 +266,7 @@
               <div>
                 <p class="The_Index_Cast_Name The_Index_Cast_Name_Small">安藤聡海</p>
               </div>
-              <div><p class="The_Index_Cast_Role The_Index_Cast_Role_Small">スズカ役</p></div>
+              <div><p class="The_Index_Cast_Role The_Index_Cast_Role_Small">リィン役</p></div>
             </div>
             <div><p class="The_Index_Cast_Message_Small">
               この作品は私にとっておそらく挑戦的なことが多く、だからこそ今からとてもワクワクしています。キャスト・スタッフの全員力で、オンライン演劇ならではの、今までにない体験をお届けできたらと思います。楽しみにしていてください！！
