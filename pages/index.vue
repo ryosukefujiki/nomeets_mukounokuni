@@ -304,6 +304,7 @@
       </div>
     </div>
     <div class="TheIndex_Ticket" id="ticket">
+      <div class="TheIndex_Ticket_Container">
       <h2 class="TheIndex_Text TheIndex_Header TheIndex_Ticket_Header">TICKET <span class="TheIndex_Header_Jp">チケット情報</span></h2>
       <div class="TheIndex_Ticket_Section">
         <div class="TheIndex_Ticket_Countainer">
@@ -315,7 +316,7 @@
           </p>
         </div>
         <div class="TheIndex_Ticket_Flexbox">
-           <div class="TheIndex_Ticket_Countainer">
+           <div class="TheIndex_Ticket_Countainer TheIndex_Ticket_Countainer_Opacity">
           <div><h4 class="TheIndex_Ticket_Name TheIndex_Ticket_Name_White">一般チケット</h4></div>
           <p class="TheIndex_Ticket_Text_Small">＊近日OPEN</p>
           <p class="TheIndex_Ticket_Text">
@@ -323,7 +324,7 @@
             2800円
           </p>
           </div>
-          <div class="TheIndex_Ticket_Countainer">
+          <div class="TheIndex_Ticket_Countainer TheIndex_Ticket_Countainer_Opacity">
             <div><h4 class="TheIndex_Ticket_Name TheIndex_Ticket_Name_Black">RT割引チケット</h4></div>
             <p class="TheIndex_Ticket_Text_Small">＊近日OPEN</p>
             <p class="TheIndex_Ticket_Text">
@@ -331,7 +332,7 @@
               2500円
             </p>
           </div>
-          <div class="TheIndex_Ticket_Countainer">
+          <div class="TheIndex_Ticket_Countainer TheIndex_Ticket_Countainer_Opacity">
             <div><h4 class="TheIndex_Ticket_Name TheIndex_Ticket_Name_Black">U18割引チケット</h4></div>
             <p class="TheIndex_Ticket_Text_Small">＊近日OPEN</p>
             <p class="TheIndex_Ticket_Text">
@@ -340,13 +341,20 @@
             </p>
           </div>
       </div>
-      <p class="TheIndex_Ticket_Text_Small">
-       【『むこうのくに』公演概要】<br>
-        ＜公演日＞<br>
-        　2020年7月23日（木・祝）〜7月26日（日）4日間<br>
-        　14:00/20:00 (全8回)<br>
-        ＜場所＞<br>
-        　特設サイトにてオンライン生配信上演<br>
+      <div class="TheIndex_Ticket_Information">
+        <h4 class="TheIndex_Ticket_Information_Header">【『むこうのくに』公演概要】</h4>
+        <div class="TheIndex_Ticket_Text_Flexbox">
+          <p class="TheIndex_Ticket_Information_Text">
+            ＜公演日＞<br>
+          　2020年7月23日（木・祝）〜7月26日（日）4日間<br>
+          　14:00/20:00 (全8回)<br>
+          </p>
+          <p class="TheIndex_Ticket_Information_Text">
+              ＜場所＞<br>
+          　特設サイトにてオンライン生配信上演<br>
+          </p>
+        </div>
+        <p class="TheIndex_Ticket_Information_Text">
         ＜チケット＞<br>
         　Peatixにて、7月1日12時発売開始<br>
         　https://mukounokuni.peatix.com/<br>
@@ -358,6 +366,8 @@
         　・U18チケット：¥500<br>
         ※各種チケット詳細・申込み方法はむこうのくに公式Peatixページにてご確認ください。<br>
         </p>
+      </div>
+      </div>
       </div>
     </div>
 
@@ -1110,14 +1120,15 @@ export default Vue.extend({
 .TheIndex_Ticket{
   /* background: #04abff; */
   background: #ffffff;
-  /* padding: 20px 20px; */
-   padding: 80px 120px;
+  padding: 20px 20px;
+   
 }
-/* .TheIndex_Ticket_Container{
+.TheIndex_Ticket_Container{
   background: #d7e5ff;
   background: #ebeef4;
-  background: #ffffff;
-} */
+  /* background: #ffffff; */
+  padding: 80px 120px;
+}
 .TheIndex_Ticket_Header{
   font-family: din-2014, sans-serif;
   font-weight: 700;
@@ -1127,6 +1138,9 @@ export default Vue.extend({
 .TheIndex_Ticket_Countainer{
   margin-bottom: 40px;
   margin-right: 24px;
+}
+.TheIndex_Ticket_Countainer_Opacity{
+  opacity: 0.4;
 }
 .TheIndex_Ticket_Date{
   font-size: 60px;
@@ -1190,6 +1204,15 @@ export default Vue.extend({
   top: 0px;
   /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 1.0); */
 }
+
+.TheIndex_Ticket_Countainer_Opacity{
+   pointer-events: none;
+}
+.TheIndex_Ticket_Countainer_Opacity .TheIndex_Ticket_Text .TheIndex_Ticket_Link:hover{
+   box-shadow: 0 8px 0 #0074ad;
+   top: -4px;
+}
+
 .TheIndex_Ticket_Link_Blue{
   background: #008fd6;
   box-shadow: 0 8px 0 #0074ad;
@@ -1221,9 +1244,39 @@ export default Vue.extend({
   font-size: 40px;
   background: #ff1e26;
 }
+.TheIndex_Ticket_Information{
+  margin-top: 20px;
+  /* width: 0%; */
+  margin-bottom: 20px;
+  background: #ffffff;
+  background: #fafafa;
+  padding: 20px;
+  border-radius: 8px;
+  color: #272727;
+}
+.TheIndex_Ticket_Information_Header{
+  /* background: #000000;
+  color: #ffffff; */
+  display: inline-block;
+  font-size: 32px;
+}
+.TheIndex_Ticket_Text_Flexbox{
+  display: flex;
+  justify-content: flex-start;
+}
+.TheIndex_Ticket_Information_Text{
+  margin-top: 20px;
+  margin-right: 20px;
+  font-size: 20px;
+  display: inline-block;
+}
+
+
+
 
 .TheIndex_Goods{
   background: #d7e5ff;
+  /* background: #ebeef4; */
   padding: 80px 120px;
 }
 .TheIndex_Goods_Countainer{
@@ -1416,6 +1469,7 @@ export default Vue.extend({
 .TheIndex_Contact{
   width: 100%;
   background: #d7e5ff;
+  /* background: #ebeef4; */
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -1492,6 +1546,9 @@ export default Vue.extend({
 }
 .The_Index_Cast_Name_Small_Group{
   font-size: 20px;
+}
+.TheIndex_Ticket_Container{
+  padding: 40px 60px;
 }
 }
 
@@ -1610,6 +1667,12 @@ export default Vue.extend({
   .The_Index_Cast_Name_Small_Group{
   font-size: 20px;
 }
+.TheIndex_Ticket{
+  padding: 20px 20px;
+}
+.TheIndex_Ticket_Information_Text{
+  font-size: 18px;
+}
 }
 @media screen and (max-width: 768px) {
   .TheIndex_Header{
@@ -1681,6 +1744,12 @@ export default Vue.extend({
   }
   .The_Index_Cast_Name_Small_Group{
   font-size: 20px;
+}
+.TheIndex_Ticket{
+  padding: 20px 20px;
+}
+.TheIndex_Ticket_Information_Text{
+  font-size: 18px;
 }
 }
 @media screen and (max-width: 480px) {
@@ -1953,6 +2022,24 @@ export default Vue.extend({
 .The_Index_Cast_Name_Small_Group{
   font-size: 12px;
 }
+.TheIndex_Ticket{
+  padding: 12px 12px;
+}
+.TheIndex_Ticket_Information_Text{
+  font-size: 18px;
+}
+.TheIndex_Ticket_Container{
+  padding: 12px 12px;
+}
+.TheIndex_Ticket_Information_Header{
+  font-size: 20px;
+}
+.TheIndex_Ticket_Information_Text{
+  font-size: 16px;
+}
+.TheIndex_Ticket_Text_Flexbox{
+  display: block;
+}
 }
 @media screen and (max-width: 320px) {
   .TheIndex_Nav{
@@ -2012,6 +2099,18 @@ export default Vue.extend({
   }
   .The_Index_Cast_Name_Small_Group{
   font-size: 10px;
+}
+.TheIndex_Ticket_Container{
+  padding: 12px 12px;
+}
+.TheIndex_Ticket_Information_Header{
+  font-size: 16px;
+}
+.TheIndex_Ticket_Information_Text{
+  font-size: 12px;
+}
+.TheIndex_Ticket_Text_Flexbox{
+  display: block;
 }
 
 }
