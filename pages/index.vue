@@ -137,11 +137,11 @@
             </div>
              <div><p class="The_Index_Cast_Role">コトリ役</p></div>
              <div><p class="The_Index_Cast_Message">
-              はじめまして。コトリ役を演じさせていただきます、イトウハルヒです。今回の物語はオンライン上でのコミュニケーションが多くなった私たちに起こるかもしれない未来…。みなさんに想像して楽しんでいただけるよう、精一杯がんばります。よろしくお願いいたします！
+               はじめまして。コトリ役を演じさせていただきます、イトウハルヒです。今回の物語はオンライン上でのコミュニケーションが多くなった私たちに起こるかもしれない未来。みなさんに未来を想像してもらい、リモートだからこそ作れる世界を楽しんでいただけるよう、仲間たちと物語を創っていきたいと思います。全力でがんばりますので、よろしくお願いいたします！
               </p></div>
           </div>
           <div><p class="The_Index_Cast_Message_Sp">
-              はじめまして。コトリ役を演じさせていただきます、イトウハルヒです。今回の物語はオンライン上でのコミュニケーションが多くなった私たちに起こるかもしれない未来…。みなさんに想像して楽しんでいただけるよう、精一杯がんばります。よろしくお願いいたします！
+              はじめまして。コトリ役を演じさせていただきます、イトウハルヒです。今回の物語はオンライン上でのコミュニケーションが多くなった私たちに起こるかもしれない未来。みなさんに未来を想像してもらい、リモートだからこそ作れる世界を楽しんでいただけるよう、仲間たちと物語を創っていきたいと思います。全力でがんばりますので、よろしくお願いいたします！
               </p></div>
         </a>
 
@@ -312,7 +312,7 @@
           <p class="TheIndex_Ticket_Text_Small">＊先行チケット限定の特典付き</p>
           <p class="TheIndex_Ticket_Text">
           <a href="https://mukounokuni.peatix.com/" class="TheIndex_Ticket_Link" target="_blank">購入ページへ</a>
-            2200円（1000枚限定）
+            2200円（1000枚限定1000枚限定・特典つき）
           </p>
         </div>
         <div class="TheIndex_Ticket_Flexbox">
@@ -347,24 +347,27 @@
           <p class="TheIndex_Ticket_Information_Text">
             ＜公演日＞<br>
           　2020年7月23日（木・祝）〜7月26日（日）4日間<br>
-          　14:00/20:00 (全8回)<br>
+          <!-- 　14:00/20:00 (全8回)<br> -->
           </p>
           <p class="TheIndex_Ticket_Information_Text">
-              ＜場所＞<br>
+            ＜場所＞<br>
           　特設サイトにてオンライン生配信上演<br>
           </p>
         </div>
         <p class="TheIndex_Ticket_Information_Text">
         ＜チケット＞<br>
-        　Peatixにて、7月1日12時発売開始<br>
-        　https://mukounokuni.peatix.com/<br>
-        　・一般チケット：¥2,800<br>
-        　・先行限定チケット：¥2,200<br>
-        　　※先着1,000枚限定、なくなり次第終了<br>
-        　　※購入者限定生配信ライブ特典つき<br>
-        　・RT割引チケット：¥2,500<br>
-        　・U18チケット：¥500<br>
-        ※各種チケット詳細・申込み方法はむこうのくに公式Peatixページにてご確認ください。<br>
+          　Peatixにて、7月1日12時発売開始<br>
+          　https://mukounokuni.peatix.com/<br>
+          　・先行早割チケット（1000枚限定・特典つき）：¥2,200〈7月1日12時販売開始〉<br>
+          ※先着1,000枚限定、なくなり次第終了<br>
+          ※購入者限定生配信特典つき<br>
+          　・一般チケット：¥2,800〈7月3日12時販売開始〉<br>
+          　・RT割引チケット：¥2,500〈7月3日12時販売開始〉<br>
+          ※RT割引チケットをご購入の方は下記の投稿をご自身のTwitterアカウントでリツイートをお願いいたします。<br>
+          　・U18チケット：¥500〈7月3日12時販売開始〉<br>
+          ※『むこうのくに』公式サイト（http://no.meets.ltd/mukounokuni/）のU18チケット購入申請フォームよりお申し込みください。<br>
+          事務局にて年齢の確認後、U18専用チケットページをご案内致します。<br>
+          ↑こちらがチケット概要最新だと思うよ！念の為！<br>
         </p>
       </div>
       </div>
@@ -1233,6 +1236,8 @@ export default Vue.extend({
   font-size: 24px;
   margin-top: 4px;
   font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
+  font-weight: 600;
+  font-style: normal;
   /* font-family: a-otf-ryumin-pr6n, serif; */
   
   /* font-weight: 900; */
@@ -1782,6 +1787,9 @@ export default Vue.extend({
   }
   .TheIndex_Header_Jp{
     font-size: 16px;
+    font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
+  font-weight: 600;
+  font-style: normal;
   }
 
   .TheIndex_Copy{
