@@ -41,6 +41,7 @@
       </div>
       <img :src="keyVisualImg_Sp" alt="" class="TheIndex_Hero_Img_Sp">
       <img :src="keyVisualImg" alt="" class="TheIndex_Hero_Img">
+
       <!-- <v-lazy-image  class="TheIndex_Hero_Img" :src="keyVisualGif" :src-placeholder="keyVisualImg" /> -->
     </div>
     <div class="TheIndex_Copy" id="about">
@@ -702,6 +703,7 @@ export default Vue.extend({
 }
 .TheIndex {
   width: 100%;
+  height: 100%;
   /* min-height: 100%; */
   /* margin: 0 auto;
   min-height: 100%;
@@ -788,6 +790,7 @@ export default Vue.extend({
   height: 100%;
   background: #000000;
   position: relative;
+
   /* display: flex;
   align-items: center;
   justify-content: center; */
@@ -797,7 +800,7 @@ export default Vue.extend({
   display: block;
   width: 100%;
   height: 100%;
-  /* object-fit: cover; */
+  object-fit: cover;
   /* position: absolute;
   top: 0;
   left: 0; */
