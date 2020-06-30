@@ -162,6 +162,7 @@
             <img :src="castImg05" alt="" class="The_Index_Cast_Member_Img The_Index_Cast_Member_Img_Small">
             <div class="The_Index_Cast_Member_Countainer The_Index_Cast_Member_Countainer_Small">
               <div>
+                <p class="The_Index_Cast_Name The_Index_Cast_Name_Small The_Index_Cast_Name_Small_Group">アバンティーズ</p><br>
                 <p class="The_Index_Cast_Name The_Index_Cast_Name_Small">そら</p>
               </div>
               <div><p class="The_Index_Cast_Role The_Index_Cast_Role_Small">ソウスケ役</p></div>
@@ -209,6 +210,7 @@
             <img :src="castImg09" alt="" class="The_Index_Cast_Member_Img The_Index_Cast_Member_Img_Small">
             <div class="The_Index_Cast_Member_Countainer The_Index_Cast_Member_Countainer_Small">
               <div>
+                <p class="The_Index_Cast_Name The_Index_Cast_Name_Small The_Index_Cast_Name_Small_Group">演劇集団キャラメルボックス</p><br>
                 <p class="The_Index_Cast_Name The_Index_Cast_Name_Small">鍛治本大樹</p>
               </div>
               <div><p class="The_Index_Cast_Role The_Index_Cast_Role_Small">バトラー役</p></div>
@@ -245,6 +247,7 @@
             <img :src="castImg12" alt="" class="The_Index_Cast_Member_Img The_Index_Cast_Member_Img_Small">
             <div class="The_Index_Cast_Member_Countainer The_Index_Cast_Member_Countainer_Small">
               <div>
+                 <p class="The_Index_Cast_Name The_Index_Cast_Name_Small The_Index_Cast_Name_Small_Group">柿喰う客</p><br>
                 <p class="The_Index_Cast_Name The_Index_Cast_Name_Small">淺場万矢</p>
               </div>
               <div><p class="The_Index_Cast_Role The_Index_Cast_Role_Small">議員役</p></div>
@@ -1094,6 +1097,9 @@ export default Vue.extend({
   left: 40%; */
   font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
 }
+.The_Index_Cast_Name_Small_Group{
+  font-size: 20px;
+}
 .The_Index_Cast_Role_Small{
   display: inline-block;
   font-size: 32px;
@@ -1496,6 +1502,9 @@ export default Vue.extend({
   height: 100%;
   object-fit: cover;
 }
+.The_Index_Cast_Name_Small_Group{
+  font-size: 20px;
+}
 }
 
 
@@ -1610,6 +1619,9 @@ export default Vue.extend({
     font-size: 20px;
     line-height: 32px;
   }
+  .The_Index_Cast_Name_Small_Group{
+  font-size: 20px;
+}
 }
 @media screen and (max-width: 768px) {
   .TheIndex_Header{
@@ -1679,6 +1691,9 @@ export default Vue.extend({
   .The_Index_Cast_Role_Small{
     font-size: 24px;
   }
+  .The_Index_Cast_Name_Small_Group{
+  font-size: 20px;
+}
 }
 @media screen and (max-width: 480px) {
   .TheIndex_Hero_Img_Copy{
@@ -1945,6 +1960,9 @@ export default Vue.extend({
 .TheIndex_Ticket_Text{
   margin-top: 12px;
 }
+.The_Index_Cast_Name_Small_Group{
+  font-size: 12px;
+}
 }
 @media screen and (max-width: 320px) {
   .TheIndex_Nav{
@@ -2002,6 +2020,9 @@ export default Vue.extend({
   .TheIndex_Information_Text_Small{
     font-size: 10px;
   }
+  .The_Index_Cast_Name_Small_Group{
+  font-size: 10px;
+}
 
 }
 </style>
