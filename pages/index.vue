@@ -167,7 +167,7 @@
               <div><p class="The_Index_Cast_Role The_Index_Cast_Role_Small">ソウスケ役</p></div>
             </div>
             <div><p class="The_Index_Cast_Message_Small">
-           皆さん初めまして、アバンティーズのそらと言います。実は、あまり知られていませんが大学時代は演劇を専攻していました。しかし、演劇にしっかりと携わるのは今回が初めてです（笑）YouTube黎明期からネットと密に生きてきた僕だからこそ、この作品で濃く強く輝く瞬間があると思っています。よろしくお願いします。
+           　　皆さん初めまして、アバンティーズのそらと言います。実は、あまり知られていませんが大学時代は演劇を専攻していました。しかし、演劇にしっかりと携わるのは今回が初めてです（笑）YouTube黎明期からネットと密に生きてきた僕だからこそ、この作品で濃く強く輝く瞬間があると思っています。よろしくお願いします。
             </p></div>
           </a>
           <a class="The_Index_Cast_Member The_Index_Cast_Member_Small" href="https://twitter.com/milkan10_" target="_blank">
@@ -180,7 +180,6 @@
             </div>
             <div><p class="The_Index_Cast_Message_Small">
                オンライン舞台という全く新しいエンターテインメントに、胸が躍って眠れません！画面を通して、観てくださっている皆さんの心に何か変化を与えることができたなら…そんな思いで劇団の仲間と「むこうのくに」を創りあげたいと思います！
-
             </p></div>
           </a>
           <a class="The_Index_Cast_Member The_Index_Cast_Member_Small" href="https://twitter.com/milkan10_" target="_blank">
@@ -192,8 +191,7 @@
               <div><p class="The_Index_Cast_Role The_Index_Cast_Role_Small">タイチ役</p></div>
             </div>
             <div><p class="The_Index_Cast_Message_Small">
-                  皆様はじめまして！今回メグル役を演じます夏海です。<br>
-              今作のお話は、これからの日本に怒るかもしれない、もしくはすでに起こっている事態を元に作られています。私自身、ずっと家にいて気が滅入っていました。その中ノーミーツの動画を観てとても勇気付けられました。皆さんに元気を届けられるよう、精一杯演じます。沢山の肩に観ていただきたいです！どうぞよろしくお願いいたします。
+                初めまして！出口晴臣です。劇団ノーミーツさんの作品は最初からずっと拝見していたので、出演する側で関われること光栄です。今回初めて演劇に出演するので、自分にとって一生忘れない大切な作品になると思います。若輩者ですが、やる気は誰にも負けないつもりなので、沢山吸収して、その分、自分の持つエネルギーを全部ぶつけたいと思います。精一杯頑張ります！自粛期間中に、劇団ノーミーツさんの作品を観て自分が勇気をもらったように、誰かの気持ちを動かせればと思います。よろしくお願いします！
             </p></div>
           </a>
           <a class="The_Index_Cast_Member The_Index_Cast_Member_Small" href="https://twitter.com/milkan10_" target="_blank">
