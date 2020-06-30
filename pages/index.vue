@@ -82,10 +82,10 @@
       </div> -->
       <div class="TheIndex_Information_Contents">
         <h3 class="TheIndex_Information_Header">公演日程</h3>
-        <p class="TheIndex_Information_Text"><span class="Color_Yellow">7.23</span> <span class="TheIndex_Information_Text_Small">木</span>　昼の部<span class="TheIndex_Information_Text_Small">（15:00~）</span>/ 夜の部<span class="TheIndex_Information_Text_Small">（21:00~）</span></p>
-        <p class="TheIndex_Information_Text"><span class="Color_Yellow">7.24</span> <span class="TheIndex_Information_Text_Small">金</span>　昼の部<span class="TheIndex_Information_Text_Small">（15:00~）</span>/ 夜の部<span class="TheIndex_Information_Text_Small">（21:00~）</span></p>
-        <p class="TheIndex_Information_Text"><span class="Color_Yellow">7.25</span> <span class="TheIndex_Information_Text_Small">木</span>　昼の部<span class="TheIndex_Information_Text_Small">（15:00~）</span>/ 夜の部<span class="TheIndex_Information_Text_Small">（21:00~）</span></p>
-        <p class="TheIndex_Information_Text"><span class="Color_Yellow">7.26</span> <span class="TheIndex_Information_Text_Small">金</span>　昼の部<span class="TheIndex_Information_Text_Small">（15:00~）</span>/ 夜の部<span class="TheIndex_Information_Text_Small">（21:00~）</span></p>
+        <p class="TheIndex_Information_Text"><span class="Color_Yellow">7.23</span> <span class="TheIndex_Information_Text_Small">木</span> 昼公演：14:00 <span class="TheIndex_Information_Text_Small">(開場13:30)</span> / 夜公演：20:00<span class="TheIndex_Information_Text_Small"> (開場19:30)</span></p>
+        <p class="TheIndex_Information_Text"><span class="Color_Yellow">7.24</span> <span class="TheIndex_Information_Text_Small">金</span> 昼公演：14:00 <span class="TheIndex_Information_Text_Small">(開場13:30)</span> / 夜公演：20:00<span class="TheIndex_Information_Text_Small"> (開場19:30)</span></p>
+        <p class="TheIndex_Information_Text"><span class="Color_Yellow">7.25</span> <span class="TheIndex_Information_Text_Small">木</span> 昼公演：14:00 <span class="TheIndex_Information_Text_Small">(開場13:30)</span> / 夜公演：20:00<span class="TheIndex_Information_Text_Small"> (開場19:30)</span></p>
+        <p class="TheIndex_Information_Text"><span class="Color_Yellow">7.26</span> <span class="TheIndex_Information_Text_Small">金</span> 昼公演：14:00 <span class="TheIndex_Information_Text_Small">(開場13:30)</span> / 夜公演：20:00<span class="TheIndex_Information_Text_Small"> (開場19:30)</span></p>
       </div>
       <!-- <div class="TheIndex_Information_Contents">
         <h3 class="TheIndex_Information_Header Color_Blue">場所</h3>
@@ -417,11 +417,19 @@
     <div class="TheIndex_Message">
       <div class="TheIndex_Message_Container">
          <p class="TheIndex_Message_Text">
-          この時代だからこそ生まれる物語」を書きました。<br>
-          その物語を実際に会ったことのない座組みで、<br>
-          画面を隔てたコミュニケーションで立ち上げていきます。<br>
-          きっと映画でも演劇でもない新しい何かが生まれるのだと思いますが、<br>
-          逆境に負けない人間の強さが滲んだたくましいエンタメにしていきたいです。
+           会わないで作る以上、<br>
+          どんなに素晴らしいチームワークで力を合わせようとも、<br>
+          画面の隔たりを超えることはできません。<br>
+          それが、リモートエンタメの宿命です。<br>
+          でも実は、直接会って作品を作っていた頃と、<br>
+          そんなに変わらないのかもしれないなと、最近は思います。<br>
+          思い返せば同じ空間にいても、いつもなんらかの隔たりはあって、<br>
+          ものづくりというのは、その隔たりをなんとか乗り越えていこう<br>
+          とする営みのことを言うのではないか、と考えたりするのです。<br>
+          今回もメンバーと直接会うことはありませんが、<br>
+          画面を超えるくらいの気持ちで心を合わせ、<br>
+          オンラインエンタメの限界、<br>
+          そのむこうがわを目指していきたいと思います。<br>
         </p>
         <p class="TheIndex_Message_Name">
           劇団ノーミーツ主宰、脚本・演出 小御門優一郎
@@ -439,11 +447,11 @@
            <div><p class="TheIndex_Staff_Member_Name">広屋佑規</p></div>
         </a>
         <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
-          <div><p class="TheIndex_Staff_Member_Role">主宰/脚本・演出</p></div>
+          <div><p class="TheIndex_Staff_Member_Role">主宰/企画・プロデュース</p></div>
           <div><p class="TheIndex_Staff_Member_Name">小御門優一郎</p></div>
         </a>
          <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
-           <div><p class="TheIndex_Staff_Member_Role">主宰/企画・プロデュース</p></div>
+           <div><p class="TheIndex_Staff_Member_Role">主宰/脚本・演出</p></div>
            <div><p class="TheIndex_Staff_Member_Name">林健太郎</p></div>
         </a>
         <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
@@ -451,15 +459,15 @@
            <div><p class="TheIndex_Staff_Member_Name">菅波和也</p></div>
         </a>
         <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
-           <div><p class="TheIndex_Staff_Member_Role">プロデューサー・舞台監督</p></div>
+           <div><p class="TheIndex_Staff_Member_Role">プロデュース・舞台監督</p></div>
            <div><p class="TheIndex_Staff_Member_Name">梅田ゆりか</p></div>
         </a>
          <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
-          <div><p class="TheIndex_Staff_Member_Role">作家・演出家</p></div>
+          <div><p class="TheIndex_Staff_Member_Role">よりどころ</p></div>
           <div><p class="TheIndex_Staff_Member_Name ">岩崎裕介</p></div>
         </a>
          <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
-           <div><p class="TheIndex_Staff_Member_Role">俳優</p></div>
+           <div><p class="TheIndex_Staff_Member_Role">俳優・演出助手</p></div>
            <div><p class="TheIndex_Staff_Member_Name">オツハタ</p></div>
         </a>
         <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
@@ -470,26 +478,39 @@
           <div><p class="TheIndex_Staff_Member_Role TheIndex_Staff_Member_Role_Small">クリエイティブディレクター/コピーライター</p></div>
           <div><p class="TheIndex_Staff_Member_Name">鈴木健太</p></div>
         </a>
+        <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+          <div><p class="TheIndex_Staff_Member_Role">テクニカルディレクター</p></div>
+          <div><p class="TheIndex_Staff_Member_Name">藤原遼</p></div>
+        </a>
+         <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+          <div><p class="TheIndex_Staff_Member_Role">UI/UXデザイナー</p></div>
+          <div><p class="TheIndex_Staff_Member_Name">藤木良祐</p></div>
+        </a>
          <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
           <div><p class="TheIndex_Staff_Member_Role">企画・宣伝</p></div>
           <div><p class="TheIndex_Staff_Member_Name">小野寺正人</p></div>
         </a>
          <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
-          <div><p class="TheIndex_Staff_Member_Role">広報・PR</p></div>
+          <div><p class="TheIndex_Staff_Member_Role">広報</p></div>
           <div><p class="TheIndex_Staff_Member_Name">オギユカ</p></div>
         </a>
-         <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
-          <div><p class="TheIndex_Staff_Member_Role">テクニカルディレクター</p></div>
-          <div><p class="TheIndex_Staff_Member_Name">藤原遼</p></div>
+        <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+          <div><p class="TheIndex_Staff_Member_Role">広報</p></div>
+          <div><p class="TheIndex_Staff_Member_Name">さとうみずは</p></div>
         </a>
+         <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+          <div><p class="TheIndex_Staff_Member_Role">広報</p></div>
+          <div><p class="TheIndex_Staff_Member_Name ">平岡祐子</p></div>
+        </a>
+         <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+          <div><p class="TheIndex_Staff_Member_Role">スタイリスト</p></div>
+          <div><p class="TheIndex_Staff_Member_Name">石塚愛理</p></div>
+        </a>
+         
         <!-- <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
           <div><p class="TheIndex_Staff_Member_Role">劇伴</p></div>
           <div><p class="TheIndex_Staff_Member_Name TheIndex_Staff_Member_Name_Small">サクライケンタ</p></div>
         </a> -->
-        <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
-          <div><p class="TheIndex_Staff_Member_Role">UI/UXデザイナー</p></div>
-          <div><p class="TheIndex_Staff_Member_Name">藤木良祐</p></div>
-        </a>
         <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
           <div><p class="TheIndex_Staff_Member_Role">映像ディレクター</p></div>
           <div><p class="TheIndex_Staff_Member_Name">松永つぐみ</p></div>
@@ -499,53 +520,41 @@
           <div><p class="TheIndex_Staff_Member_Name">林大智</p></div>
         </a>
         <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
-          <div><p class="TheIndex_Staff_Member_Role">スイッチング監修</p></div>
+          <div><p class="TheIndex_Staff_Member_Role">映像技術・美術</p></div>
           <div><p class="TheIndex_Staff_Member_Name">水落大</p></div>
         </a>
         <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
-          <div><p class="TheIndex_Staff_Member_Role">カメラワーク監修</p></div>
+          <div><p class="TheIndex_Staff_Member_Role">技術監修</p></div>
           <div><p class="TheIndex_Staff_Member_Name">松永夏紀</p></div>
         </a>
         <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
-          <div><p class="TheIndex_Staff_Member_Role">カメラワーク監修</p></div>
+          <div><p class="TheIndex_Staff_Member_Role">技術監修</p></div>
           <div><p class="TheIndex_Staff_Member_Name">鈴木健太</p></div>
         </a>
          <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
-          <div><p class="TheIndex_Staff_Member_Role">技術協力</p></div>
+          <div><p class="TheIndex_Staff_Member_Role">技術監修</p></div>
           <div><p class="TheIndex_Staff_Member_Name">田中義丸</p></div>
         </a>
          <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
-          <div><p class="TheIndex_Staff_Member_Role">広報・PR</p></div>
-          <div><p class="TheIndex_Staff_Member_Name">さとうみずは</p></div>
-        </a>
-         <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
-          <div><p class="TheIndex_Staff_Member_Role">広報・PR</p></div>
-          <div><p class="TheIndex_Staff_Member_Name ">平岡祐子</p></div>
-        </a>
-        <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
-          <div><p class="TheIndex_Staff_Member_Role">衣装</p></div>
-          <div><p class="TheIndex_Staff_Member_Name">石塚愛理</p></div>
-        </a>
-        <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
-          <div><p class="TheIndex_Staff_Member_Role">美術</p></div>
-          <div><p class="TheIndex_Staff_Member_Name ">石坪明希子</p></div>
-        </a>
-         <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
           <div><p class="TheIndex_Staff_Member_Role">AI監修</p></div>
-          <div><p class="TheIndex_Staff_Member_Name">岸裕真</p></div>
+          <div><p class="TheIndex_Staff_Member_Name">kishi yuma</p></div>
+        </a>
+        <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+          <div><p class="TheIndex_Staff_Member_Role">美術・小道具</p></div>
+          <div><p class="TheIndex_Staff_Member_Name ">カミヒラ</p></div>
         </a>
          <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
           <div><p class="TheIndex_Staff_Member_Role">フォトグラファー</p></div>
-          <div><p class="TheIndex_Staff_Member_Name">ヤンス・キム</p></div>
+          <div><p class="TheIndex_Staff_Member_Name">yansuKIM</p></div>
         </a>
-        <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+        <!-- <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
           <div><p class="TheIndex_Staff_Member_Role">劇伴</p></div>
            <div><p class="TheIndex_Staff_Member_Name TheIndex_Staff_Member_Name_Small">パソコン音楽クラブ</p></div>
-        </a>
-         <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+        </a> -->
+         <!-- <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
           <div><p class="TheIndex_Staff_Member_Role">企画・製作</p></div>
           <div><p class="TheIndex_Staff_Member_Name TheIndex_Staff_Member_Name_Small">劇団ノーミーツ</p></div>
-        </a>
+        </a> -->
       </div>
     </div>
     <div class="TheIndex_Sns">
@@ -927,11 +936,11 @@ export default Vue.extend({
   font-family: a-otf-ryumin-pr6n, serif;
   /* color: #ffffff; */
   color: #6E88AF;
-  font-size: 48px;
+  font-size: 40px;
   /* font-weight: 900; */
 }
 .TheIndex_Information_Text_Small{
-  font-size: 40px;
+  font-size: 24px;
 }
 .Color_Blue{
   color: #04abff;
