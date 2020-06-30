@@ -97,7 +97,7 @@
       <h2 class="TheIndex_Text TheIndex_Header">CAST <span class="TheIndex_Header_Jp">キャスト</span></h2>
       <p class="TheIndex_Cast_Text">メインキャストは劇団ノーミーツの出演俳優を除き、 ZOOM上でのオーディションにより400名を超える応募者の中から選出。</p>
       <div class="The_Index_Cast_Flexbox">
-        <a class="The_Index_Cast_Member" href="https://twitter.com/milkan10_" target="_blank">
+        <a class="The_Index_Cast_Member" href="" target="_blank">
           <img :src="castImg01" alt="" class="The_Index_Cast_Member_Img">
           <div class="The_Index_Cast_Member_Countainer">
             <div>
@@ -113,7 +113,7 @@
              はじめまして。今回、マナブ役を演じさせていただく竹田光稀と申します。時代が大きく変わっていくこの時期に、何かがきっかけで少しでも前向きに皆様が生活できるように。そう願いながら、自分自身もこの作品とともに精進していきます。観ていただいた方に観て良かったと思っていただけるよう、全力で頑張りますので、よろしくお願いいたします。
               </p></div>
         </a>
-        <a class="The_Index_Cast_Member" href="https://twitter.com/milkan10_" target="_blank">
+        <a class="The_Index_Cast_Member" href="" target="_blank">
           <img :src="castImg02" alt="" class="The_Index_Cast_Member_Img">
           <div class="The_Index_Cast_Member_Countainer">
             <div>
@@ -129,7 +129,7 @@
               スズ役を演じます、尾崎由香です。今回出演が決定したことを聞いた時は、本当に驚きました！オーディションの時、リモートに慣れていなく、目の当たりにしたリモートでのお芝居に衝撃を受けたのを覚えています。リモート演劇は、新しい可能性が沢山詰まっていてワクワクしますし、まだ経験のない私は本当に0からスタートです！私がオーディションで体感した衝撃を、観劇して頂く多くの方にも感じて頂けるよう、この夏全力で頑張ります。自分自身も楽しみたいですし、観ていただく皆さんにも楽しんでいただきたいです！
               </p></div>
         </a>
-        <a class="The_Index_Cast_Member" href="https://twitter.com/milkan10_" target="_blank">
+        <a class="The_Index_Cast_Member" href="" target="_blank">
           <img :src="castImg03" alt="" class="The_Index_Cast_Member_Img">
           <div class="The_Index_Cast_Member_Countainer">
             <div>
@@ -146,7 +146,7 @@
         </a>
 
          <div class="The_Index_Cast_Flexbox">
-          <a class="The_Index_Cast_Member The_Index_Cast_Member_Small" href="https://twitter.com/milkan10_" target="_blank">
+          <a class="The_Index_Cast_Member The_Index_Cast_Member_Small" href="" target="_blank">
             <img :src="castImg04" alt="" class="The_Index_Cast_Member_Img The_Index_Cast_Member_Img_Small">
             <div class="The_Index_Cast_Member_Countainer The_Index_Cast_Member_Countainer_Small">
               <div>
@@ -158,7 +158,7 @@
                   皆様、こんにちは。劇団ノーミーツのオツハタと申します。名前を聞き間違えられやすく、また読み間違えられやすいため、カタカナの芸名にしました。絶対に絶対に今やる価値のある公演です。今観る価値ある公演だったとお客様に感じてもらえるよう、精一杯演じます。みなさまの毎日が、健やかなものでありますように！
             </p></div>
           </a>
-          <a class="The_Index_Cast_Member The_Index_Cast_Member_Small" href="https://twitter.com/milkan10_" target="_blank">
+          <a class="The_Index_Cast_Member The_Index_Cast_Member_Small" href="" target="_blank">
             <img :src="castImg05" alt="" class="The_Index_Cast_Member_Img The_Index_Cast_Member_Img_Small">
             <div class="The_Index_Cast_Member_Countainer The_Index_Cast_Member_Countainer_Small">
               <div>
@@ -169,7 +169,7 @@
             <div><p class="The_Index_Cast_Message_Small">皆さん初めまして、アバンティーズのそらと言います。実は、あまり知られていませんが大学時代は演劇を専攻していました。しかし、演劇にしっかりと携わるのは今回が初めてです（笑）YouTube黎明期からネットと密に生きてきた僕だからこそ、この作品で濃く強く輝く瞬間があると思っています。よろしくお願いします。
             </p></div>
           </a>
-          <a class="The_Index_Cast_Member The_Index_Cast_Member_Small" href="https://twitter.com/milkan10_" target="_blank">
+          <a class="The_Index_Cast_Member The_Index_Cast_Member_Small" href="" target="_blank">
             <img :src="castImg06" alt="" class="The_Index_Cast_Member_Img The_Index_Cast_Member_Img_Small">
             <div class="The_Index_Cast_Member_Countainer The_Index_Cast_Member_Countainer_Small">
               <div>
@@ -181,7 +181,7 @@
                オンライン舞台という全く新しいエンターテインメントに、胸が躍って眠れません！画面を通して、観てくださっている皆さんの心に何か変化を与えることができたなら…そんな思いで劇団の仲間と「むこうのくに」を創りあげたいと思います！
             </p></div>
           </a>
-          <a class="The_Index_Cast_Member The_Index_Cast_Member_Small" href="https://twitter.com/milkan10_" target="_blank">
+          <a class="The_Index_Cast_Member The_Index_Cast_Member_Small" href="" target="_blank">
             <img :src="castImg07" alt="" class="The_Index_Cast_Member_Img The_Index_Cast_Member_Img_Small">
             <div class="The_Index_Cast_Member_Countainer The_Index_Cast_Member_Countainer_Small">
               <div>
@@ -193,7 +193,7 @@
                 初めまして！出口晴臣です。劇団ノーミーツさんの作品は最初からずっと拝見していたので、出演する側で関われること光栄です。今回初めて演劇に出演するので、自分にとって一生忘れない大切な作品になると思います。若輩者ですが、やる気は誰にも負けないつもりなので、沢山吸収して、その分、自分の持つエネルギーを全部ぶつけたいと思います。精一杯頑張ります！自粛期間中に、劇団ノーミーツさんの作品を観て自分が勇気をもらったように、誰かの気持ちを動かせればと思います。よろしくお願いします！
             </p></div>
           </a>
-          <a class="The_Index_Cast_Member The_Index_Cast_Member_Small" href="https://twitter.com/milkan10_" target="_blank">
+          <a class="The_Index_Cast_Member The_Index_Cast_Member_Small" href="" target="_blank">
             <img :src="castImg08" alt="" class="The_Index_Cast_Member_Img The_Index_Cast_Member_Img_Small">
             <div class="The_Index_Cast_Member_Countainer The_Index_Cast_Member_Countainer_Small">
               <div>
@@ -205,7 +205,7 @@
             DJめがね役を演じさせていただきます！めがねです！ノーミーツさんをSNSで初めて見た時、体の中にオモシロ衝撃がズドーンと走り、すぐに自分のYouTubチャンネルの動画に落とし込んで、「リモート会議」という作品を作ってしまいました。そんな新しい演劇を見せてくれるノーミーツさんの「むこうの国」。まだどんな役になるかは想像しきれていないですが、ノーミーツ色に染まって、みんなの体の中にズドーンと衝撃が走る演者になることをここに誓います。
             </p></div>
           </a>
-          <a class="The_Index_Cast_Member The_Index_Cast_Member_Small" href="https://twitter.com/milkan10_" target="_blank">
+          <a class="The_Index_Cast_Member The_Index_Cast_Member_Small" href="" target="_blank">
             <img :src="castImg09" alt="" class="The_Index_Cast_Member_Img The_Index_Cast_Member_Img_Small">
             <div class="The_Index_Cast_Member_Countainer The_Index_Cast_Member_Countainer_Small">
               <div>
@@ -217,7 +217,7 @@
                 コロナ禍で活動を制限された演劇界。何も出来ない自分が悔しかったです。そんな中、いち早くオンライン演劇という新しい可能性を見つけ出して表現した劇団ノーミーツさんに衝撃を受けました。そもそも演劇は制限があってなんぼ。それを面白がれるかが演劇を面白くする要素の一つだと改めて気付かせてくれました。今回一緒にたくさん面白がって新しい演劇をまた一つ作りたいと思っています。
             </p></div>
           </a>
-          <a class="The_Index_Cast_Member The_Index_Cast_Member_Small" href="https://twitter.com/milkan10_" target="_blank">
+          <a class="The_Index_Cast_Member The_Index_Cast_Member_Small" href="" target="_blank">
             <img :src="castImg10" alt="" class="The_Index_Cast_Member_Img The_Index_Cast_Member_Img_Small">
             <div class="The_Index_Cast_Member_Countainer The_Index_Cast_Member_Countainer_Small">
               <div>
@@ -229,7 +229,7 @@
                 ピコ役で出演させて頂きます、河内美里です。劇団ノーミーツさんの第2回公演、私自身も作品の一部として関わらせて頂けることにドキドキワクワクしております。"NO蜜で濃密なひととき"をより多くの方に体験して頂けますように、丁寧に物語を紡いでいきたいと思います。ぜひ、上演を楽しみに待っていて下さい！
             </p></div>
           </a>
-          <a class="The_Index_Cast_Member The_Index_Cast_Member_Small" href="https://twitter.com/milkan10_" target="_blank">
+          <a class="The_Index_Cast_Member The_Index_Cast_Member_Small" href="" target="_blank">
             <img :src="castImg11" alt="" class="The_Index_Cast_Member_Img The_Index_Cast_Member_Img_Small">
             <div class="The_Index_Cast_Member_Countainer The_Index_Cast_Member_Countainer_Small">
               <div>
@@ -237,11 +237,11 @@
               </div>
               <div><p class="The_Index_Cast_Role The_Index_Cast_Role_Small">議員役</p></div>
             </div>
-            <!-- <div><p class="The_Index_Cast_Message_Small">
-              ダミーテキスト（画像も差し替え必）
-            </p></div> -->
+            <div><p class="The_Index_Cast_Message_Small">
+              STAY HOMEの中、どうか俳優として生きさせてくださいと願った。あの日、パソコンの画面ごしにオーディション応募ボタンをポチッとした私の人差し指を、よしよしと撫で回して褒めたい。でかした！と。劇団ノーミーツさんとの出逢いは、あまりに味わい深く刺激的で、それはもう言うなれば＜蜜＞で＜密＞だ。「オンラインであることを、容赦しない」本番パソコンの画面に向かい、俳優として生きる。濃蜜で濃密な２０２０年夏を、生きる。
+            </p></div>
           </a>
-           <a class="The_Index_Cast_Member The_Index_Cast_Member_Small" href="https://twitter.com/milkan10_" target="_blank">
+           <a class="The_Index_Cast_Member The_Index_Cast_Member_Small" href="" target="_blank">
             <img :src="castImg12" alt="" class="The_Index_Cast_Member_Img The_Index_Cast_Member_Img_Small">
             <div class="The_Index_Cast_Member_Countainer The_Index_Cast_Member_Countainer_Small">
               <div>
@@ -253,7 +253,7 @@
               新型コロナの渦中ではありますが、そんな機会でもなければ、出会えなかったかもしれない皆様との創作は、まさに奇跡です。濃厚なメンバーでお送りする、濃密な時間。お客様に存分にお楽しみいただければ幸いです。
             </p></div>
           </a>
-           <a class="The_Index_Cast_Member The_Index_Cast_Member_Small" href="https://twitter.com/milkan10_" target="_blank">
+           <a class="The_Index_Cast_Member The_Index_Cast_Member_Small" href="" target="_blank">
             <img :src="castImg13" alt="" class="The_Index_Cast_Member_Img The_Index_Cast_Member_Img_Small">
             <div class="The_Index_Cast_Member_Countainer The_Index_Cast_Member_Countainer_Small">
               <div>
@@ -261,11 +261,11 @@
               </div>
               <div><p class="The_Index_Cast_Role The_Index_Cast_Role_Small">秘書役</p></div>
             </div>
-            <!-- <div><p class="The_Index_Cast_Message_Small">
-              ダミーテキスト（画像も差し替え必）
-            </p></div> -->
+            <div><p class="The_Index_Cast_Message_Small">
+              またご一緒させていただけることを素直に嬉しく思います！常にチャレンジを続け、リモートの可能性を信じられないくらい広げてゆく劇団ノーミーツさん。新たな演劇（Live）の形を、素敵な皆さまと探っていける日々に胸が躍ります。今回も皆さんの想像を遥かに超えてゆくはず。楽しみにしていてください。
+            </p></div>
           </a>
-          <a class="The_Index_Cast_Member The_Index_Cast_Member_Small" href="https://twitter.com/milkan10_" target="_blank">
+          <a class="The_Index_Cast_Member The_Index_Cast_Member_Small" href="" target="_blank">
             <img :src="castImg14" alt="" class="The_Index_Cast_Member_Img The_Index_Cast_Member_Img_Small">
             <div class="The_Index_Cast_Member_Countainer The_Index_Cast_Member_Countainer_Small">
               <div>
@@ -277,13 +277,13 @@
               zoomによるリモートオーディションでの一言。「リモートにはリモートの演技があり、劇団ノーミーツではそれを追求していきたい」画面越しに語りかけられたこの一言にシビれました。ガジェット、ネットの進歩に四苦八苦する中年の役柄同様に、画面に向かって四苦八苦するであろう自分。楽しみに満ち満ちた挑戦です。劇団ノーミーツの追求を共にできることに感謝。そして是非、この追求を見つめに来てください。
             </p></div>
           </a>
-           <a class="The_Index_Cast_Member The_Index_Cast_Member_Small" href="https://twitter.com/milkan10_" target="_blank">
+           <a class="The_Index_Cast_Member The_Index_Cast_Member_Small" href="" target="_blank">
             <img :src="castImg15" alt="" class="The_Index_Cast_Member_Img The_Index_Cast_Member_Img_Small">
             <div class="The_Index_Cast_Member_Countainer The_Index_Cast_Member_Countainer_Small">
               <div>
                 <p class="The_Index_Cast_Name The_Index_Cast_Name_Small">安藤聡海</p>
               </div>
-              <div><p class="The_Index_Cast_Role The_Index_Cast_Role_Small">リィン・カーネーション役</p></div>
+              <div><p class="The_Index_Cast_Role The_Index_Cast_Role_Small Letter_Spacing">リィン・カーネーション<span class="Letter_Spacing_Out">役</span></p></div>
             </div>
             <div><p class="The_Index_Cast_Message_Small">
               この作品は私にとっておそらく挑戦的なことが多く、だからこそ今からとてもワクワクしています。キャスト・スタッフの全員力で、オンライン演劇ならではの、今までにない体験をお届けできたらと思います。楽しみにしていてください！！
@@ -441,7 +441,7 @@
     <div class="TheIndex_Staff" id="staff">
       <h2 class="TheIndex_Text TheIndex_Staff_Header">STAFF <span class="TheIndex_Staff_Header_Jp">スタッフ</span></h2>
       <div class="TheIndex_Staff_Staff_Container">
-         <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+         <a class="TheIndex_Staff_Member" href="https://twitter.com/hiroyayuki">
            <div><p class="TheIndex_Staff_Member_Role">主宰/製作総指揮</p></div>
            <div><p class="TheIndex_Staff_Member_Name">広屋佑規</p></div>
         </a>
@@ -449,19 +449,19 @@
           <div><p class="TheIndex_Staff_Member_Role">主宰/企画・プロデュース</p></div>
           <div><p class="TheIndex_Staff_Member_Name">小御門優一郎</p></div>
         </a>
-         <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+         <a class="TheIndex_Staff_Member" href="https://twitter.com/KentarooH">
            <div><p class="TheIndex_Staff_Member_Role">主宰/脚本・演出</p></div>
            <div><p class="TheIndex_Staff_Member_Name">林健太郎</p></div>
         </a>
-        <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+        <a class="TheIndex_Staff_Member" href="https://twitter.com/Ganamiii">
            <div><p class="TheIndex_Staff_Member_Role">制作・プロデュース</p></div>
            <div><p class="TheIndex_Staff_Member_Name">菅波和也</p></div>
         </a>
-        <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+        <a class="TheIndex_Staff_Member" href="https://twitter.com/yuri_____flower">
            <div><p class="TheIndex_Staff_Member_Role">プロデュース・舞台監督</p></div>
            <div><p class="TheIndex_Staff_Member_Name">梅田ゆりか</p></div>
         </a>
-         <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+         <a class="TheIndex_Staff_Member" href="https://twitter.com/iwsk_">
           <div><p class="TheIndex_Staff_Member_Role">よりどころ</p></div>
           <div><p class="TheIndex_Staff_Member_Name ">岩崎裕介</p></div>
         </a>
@@ -469,39 +469,39 @@
            <div><p class="TheIndex_Staff_Member_Role">俳優・演出助手</p></div>
            <div><p class="TheIndex_Staff_Member_Name">オツハタ</p></div>
         </a>
-        <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+        <a class="TheIndex_Staff_Member" href="https://twitter.com/minamimag">
           <div><p class="TheIndex_Staff_Member_Role">デザイナー・宣伝美術</p></div> 
           <div><p class="TheIndex_Staff_Member_Name">目黒水海</p></div>
         </a>
-        <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+        <a class="TheIndex_Staff_Member" href="https://twitter.com/suzkikenta">
           <div><p class="TheIndex_Staff_Member_Role TheIndex_Staff_Member_Role_Small">クリエイティブディレクター/コピーライター</p></div>
           <div><p class="TheIndex_Staff_Member_Name">鈴木健太</p></div>
         </a>
-        <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+        <a class="TheIndex_Staff_Member" href="">
           <div><p class="TheIndex_Staff_Member_Role">テクニカルディレクター</p></div>
           <div><p class="TheIndex_Staff_Member_Name">藤原遼</p></div>
         </a>
-         <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+         <a class="TheIndex_Staff_Member" href="https://twitter.com/rfuji625">
           <div><p class="TheIndex_Staff_Member_Role">UI/UXデザイナー</p></div>
           <div><p class="TheIndex_Staff_Member_Name">藤木良祐</p></div>
         </a>
-         <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+         <a class="TheIndex_Staff_Member" href="">
           <div><p class="TheIndex_Staff_Member_Role">企画・宣伝</p></div>
           <div><p class="TheIndex_Staff_Member_Name">小野寺正人</p></div>
         </a>
-         <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+         <a class="TheIndex_Staff_Member" href="https://twitter.com/ogiyuca">
           <div><p class="TheIndex_Staff_Member_Role">広報</p></div>
           <div><p class="TheIndex_Staff_Member_Name">オギユカ</p></div>
         </a>
-        <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+        <a class="TheIndex_Staff_Member" href="">
           <div><p class="TheIndex_Staff_Member_Role">広報</p></div>
           <div><p class="TheIndex_Staff_Member_Name">さとうみずは</p></div>
         </a>
-         <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+         <a class="TheIndex_Staff_Member" href="">
           <div><p class="TheIndex_Staff_Member_Role">広報</p></div>
           <div><p class="TheIndex_Staff_Member_Name ">平岡祐子</p></div>
         </a>
-         <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+         <a class="TheIndex_Staff_Member" href="">
           <div><p class="TheIndex_Staff_Member_Role">スタイリスト</p></div>
           <div><p class="TheIndex_Staff_Member_Name">石塚愛理</p></div>
         </a>
@@ -510,11 +510,11 @@
           <div><p class="TheIndex_Staff_Member_Role">劇伴</p></div>
           <div><p class="TheIndex_Staff_Member_Name TheIndex_Staff_Member_Name_Small">サクライケンタ</p></div>
         </a> -->
-        <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+        <a class="TheIndex_Staff_Member" href="">
           <div><p class="TheIndex_Staff_Member_Role">映像ディレクター</p></div>
           <div><p class="TheIndex_Staff_Member_Name">松永つぐみ</p></div>
         </a>
-         <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+         <a class="TheIndex_Staff_Member" href="">
           <div><p class="TheIndex_Staff_Member_Role">撮影監督</p></div>
           <div><p class="TheIndex_Staff_Member_Name">林大智</p></div>
         </a>
@@ -522,27 +522,27 @@
           <div><p class="TheIndex_Staff_Member_Role">映像技術・美術</p></div>
           <div><p class="TheIndex_Staff_Member_Name">水落大</p></div>
         </a>
-        <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+        <a class="TheIndex_Staff_Member" href="">
           <div><p class="TheIndex_Staff_Member_Role">技術監修</p></div>
           <div><p class="TheIndex_Staff_Member_Name">松永夏紀</p></div>
         </a>
-        <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+        <a class="TheIndex_Staff_Member" href="">
           <div><p class="TheIndex_Staff_Member_Role">技術監修</p></div>
           <div><p class="TheIndex_Staff_Member_Name">鈴木健太</p></div>
         </a>
-         <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+         <a class="TheIndex_Staff_Member" href="">
           <div><p class="TheIndex_Staff_Member_Role">技術監修</p></div>
           <div><p class="TheIndex_Staff_Member_Name">田中義丸</p></div>
         </a>
-         <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+         <a class="TheIndex_Staff_Member" href="">
           <div><p class="TheIndex_Staff_Member_Role">AI監修</p></div>
           <div><p class="TheIndex_Staff_Member_Name">kishi yuma</p></div>
         </a>
-        <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+        <a class="TheIndex_Staff_Member" href="">
           <div><p class="TheIndex_Staff_Member_Role">美術・小道具</p></div>
           <div><p class="TheIndex_Staff_Member_Name ">カミヒラ</p></div>
         </a>
-         <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+         <a class="TheIndex_Staff_Member" href="">
           <div><p class="TheIndex_Staff_Member_Role">フォトグラファー</p></div>
           <div><p class="TheIndex_Staff_Member_Name">yansuKIM</p></div>
         </a>
@@ -566,7 +566,7 @@
     </div>
     <div class="TheIndex_Contact">
       <h2 class="TheIndex_Text TheIndex_Header">CONTACT <span class="TheIndex_Header_Jp">お問い合わせ</span></h2>
-      <a class="TheIndex_Text TheIndex_Contact_MailLink" href="nomeets2020@gmail.com">nomeets2020@gmail.com</a>
+      <a class="TheIndex_Text TheIndex_Contact_MailLink" href="mailto:nomeets2020@gmail.com">nomeets2020@gmail.com</a>
       <p class="TheIndex_Text">担当：オギ ユカ</p>
     </div>
     <footer class="TheIndex_Footer">
@@ -984,12 +984,13 @@ export default Vue.extend({
   /* margin: 0 auto; */
   margin-top: 40px;
   position: relative;
-  transition: 0.2;
+  /* transition: 0.2; */
   color: #000000;
   text-decoration: none;
+  pointer-events: none;
 }
 .The_Index_Cast_Member:hover{
-  opacity: 0.6;
+  /* opacity: 0.6; */
 }
 .The_Index_Cast_Member_Countainer{
   width: 100%;
@@ -1117,6 +1118,15 @@ export default Vue.extend({
   margin-top: 0;
   padding: 20px 20px;
 }
+
+.Letter_Spacing{
+  letter-spacing: -4px;
+  font-size: 24px;
+}
+.Letter_Spacing_Out{
+  letter-spacing: 0px;
+}
+
 
 
 
