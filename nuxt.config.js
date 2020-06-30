@@ -25,7 +25,7 @@ export default {
       { property: 'twitter:image', content: 'https://nomeets-mukounokuni-lp.netlify.app/home/ogp.jpg' },
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/mukounokuni/favicon.ico' }
     ],
     script: [
       { src: 'https://use.typekit.net/adq4juz.js' }
