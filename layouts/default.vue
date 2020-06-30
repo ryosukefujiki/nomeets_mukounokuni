@@ -16,7 +16,12 @@ export default {
     // Nav
   },
   mounted() {
-    Typekit.load({async: true})
+      try{
+        Typekit.load({ async: true });
+        console.log("LOAD FONT")
+      } catch(e){
+        console.log("[error]load typekit.")
+      }
   }
 }
 </script>
