@@ -33,6 +33,10 @@
 
     <div class="TheIndex_Hero">
       <!-- <h1 class="TheIndex_Hero_Dummy_Text">KEY VISUAL</h1> -->
+      <img :src="heroLogoImg" alt="" class="TheIndex_Hero_Img_Logo">
+      <img :src="heroCopyImg" alt="" class="TheIndex_Hero_Img_Copy">
+      <img :src="heroDateImg" alt="" class="TheIndex_Hero_Img_Date">
+      <img :src="heroTitleImg" alt="" class="TheIndex_Hero_Img_Title">
       <img :src="keyVisualImg" alt="" class="TheIndex_Hero_Img">
       <!-- <v-lazy-image  class="TheIndex_Hero_Img" :src="keyVisualGif" :src-placeholder="keyVisualImg" /> -->
     </div>
@@ -587,6 +591,11 @@ export default Vue.extend({
   },
   data() {
     return {
+      heroCopyImg: "/home/hero_copy.png",
+      heroLogoImg: "/home/hero_logo.png",
+      heroDateImg: "/home/hero_date.png",
+      heroTitleImg: "/home/hero_title.png",
+      logoImg: "/home/logo.png",
       logoImg: "/home/logo.png",
       keyVisualImg: "/home/keyvisual.png",
       keyVisualGif: "/home/keyvisual.gif",
@@ -783,6 +792,29 @@ export default Vue.extend({
   width: 100vw;
   height: 100vh;
   object-fit: cover;
+}
+.TheIndex_Hero_Img_Title{
+  width: 45%;
+  position: absolute;
+}
+.TheIndex_Hero_Img_Logo{
+  width: 16%;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+.TheIndex_Hero_Img_Copy{
+ /* width: 20%; */
+  height: 70%;
+  position: absolute;
+  top: 60px;
+  right: 40px;
+}
+.TheIndex_Hero_Img_Date{
+  width: 20%;
+  position: absolute;
+  bottom: 20px;
+  left: 0px;
 }
 .TheIndex_Hero_Dummy_Text{
   color: #eaeaea;
