@@ -610,7 +610,7 @@ export default Vue.extend({
       keyVisualImg: "/home/keyvisual.png",
       keyVisualImg_Sp: "/home/keyvisual_sp.png",
       keyVisualGif: "/home/keyvisual.gif",
-      aboutImg: "/home/about_Img.png",
+      aboutImg: "/home/about_img.jpg",
       copyImg: "/home/copy.svg",
       copyTitleImg: "/home/copy_title.svg",
       castImg01: "/home/cast/cast1.jpg",
