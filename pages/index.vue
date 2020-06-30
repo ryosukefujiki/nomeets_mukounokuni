@@ -84,8 +84,8 @@
         <h3 class="TheIndex_Information_Header">公演日程</h3>
         <p class="TheIndex_Information_Text"><span class="Color_Yellow">7.23</span> <span class="TheIndex_Information_Text_Small">木</span> 昼公演：14:00 <span class="TheIndex_Information_Text_Small">(開場13:30)</span> / 夜公演：20:00<span class="TheIndex_Information_Text_Small"> (開場19:30)</span></p>
         <p class="TheIndex_Information_Text"><span class="Color_Yellow">7.24</span> <span class="TheIndex_Information_Text_Small">金</span> 昼公演：14:00 <span class="TheIndex_Information_Text_Small">(開場13:30)</span> / 夜公演：20:00<span class="TheIndex_Information_Text_Small"> (開場19:30)</span></p>
-        <p class="TheIndex_Information_Text"><span class="Color_Yellow">7.25</span> <span class="TheIndex_Information_Text_Small">木</span> 昼公演：14:00 <span class="TheIndex_Information_Text_Small">(開場13:30)</span> / 夜公演：20:00<span class="TheIndex_Information_Text_Small"> (開場19:30)</span></p>
-        <p class="TheIndex_Information_Text"><span class="Color_Yellow">7.26</span> <span class="TheIndex_Information_Text_Small">金</span> 昼公演：14:00 <span class="TheIndex_Information_Text_Small">(開場13:30)</span> / 夜公演：20:00<span class="TheIndex_Information_Text_Small"> (開場19:30)</span></p>
+        <p class="TheIndex_Information_Text"><span class="Color_Yellow">7.25</span> <span class="TheIndex_Information_Text_Small">土</span> 昼公演：14:00 <span class="TheIndex_Information_Text_Small">(開場13:30)</span> / 夜公演：20:00<span class="TheIndex_Information_Text_Small"> (開場19:30)</span></p>
+        <p class="TheIndex_Information_Text"><span class="Color_Yellow">7.26</span> <span class="TheIndex_Information_Text_Small">日</span> 昼公演：14:00 <span class="TheIndex_Information_Text_Small">(開場13:30)</span> / 夜公演：20:00<span class="TheIndex_Information_Text_Small"> (開場19:30)</span></p>
       </div>
       <!-- <div class="TheIndex_Information_Contents">
         <h3 class="TheIndex_Information_Header Color_Blue">場所</h3>
@@ -155,7 +155,7 @@
               <div><p class="The_Index_Cast_Role The_Index_Cast_Role_Small">ゲン役</p></div>
             </div>
             <div><p class="The_Index_Cast_Message_Small">
-                  皆様、こんにちは。劇団ノーミーツのオツハタと申します。名前を聞き間違えられやすく、また読み間違えられやすいため、カタカナの芸名にしました。絶対に絶対に今やる価値のある公演です。今観る価値ある公演だったとお客様に感じてもらえるよう、精一杯演じます。みなさまの毎日が、健やかなものでありますように！
+              皆様、こんにちは。劇団ノーミーツ所属俳優であります、オツハタと申します。旗揚げ公演に続き、今作も出演させていただきます。ホッとしています。これまで僕は、人との繋がりや人同士の輪というものは、きっとすごく力のあるものなんだろうなぁとボンヤリ考えながら生きて参りました。ここ最近、そのボンヤリとしていた考えが、力強い確信に変わりつつあります。奇しくも、実際に人と顔を合わせずして。今作をご覧いただく皆様には、沢山のワクワクと共に、そんな人同士の繋がりやその力について、考えていただけたらいいなと思っています。作品としても公演としても新しいこと満載でお送りいたします。ぜひご来場くださいませ！
             </p></div>
           </a>
           <a class="The_Index_Cast_Member The_Index_Cast_Member_Small" href="" target="_blank">
@@ -237,7 +237,7 @@
               <div>
                 <p class="The_Index_Cast_Name The_Index_Cast_Name_Small">青山郁代</p>
               </div>
-              <div><p class="The_Index_Cast_Role The_Index_Cast_Role_Small">議員役</p></div>
+              <div><p class="The_Index_Cast_Role The_Index_Cast_Role_Small">議員役(Wキャスト)</p></div>
             </div>
             <div><p class="The_Index_Cast_Message_Small">
               STAY HOMEの中、どうか俳優として生きさせてくださいと願った。あの日、パソコンの画面ごしにオーディション応募ボタンをポチッとした私の人差し指を、よしよしと撫で回して褒めたい。でかした！と。劇団ノーミーツさんとの出逢いは、あまりに味わい深く刺激的で、それはもう言うなれば＜蜜＞で＜密＞だ。「オンラインであることを、容赦しない」本番パソコンの画面に向かい、俳優として生きる。濃蜜で濃密な２０２０年夏を、生きる。
@@ -250,10 +250,10 @@
                  <p class="The_Index_Cast_Name The_Index_Cast_Name_Small The_Index_Cast_Name_Small_Group">柿喰う客</p><br>
                 <p class="The_Index_Cast_Name The_Index_Cast_Name_Small">淺場万矢</p>
               </div>
-              <div><p class="The_Index_Cast_Role The_Index_Cast_Role_Small">議員役</p></div>
+              <div><p class="The_Index_Cast_Role The_Index_Cast_Role_Small">議員役(Wキャスト)</p></div>
             </div>
             <div><p class="The_Index_Cast_Message_Small">
-              新型コロナの渦中ではありますが、そんな機会でもなければ、出会えなかったかもしれない皆様との創作は、まさに奇跡です。濃厚なメンバーでお送りする、濃密な時間。お客様に存分にお楽しみいただければ幸いです。
+              前回の公演に引き続き、今回もこうして劇団ノーミーツさんの長編公演に出演させていただけることを、大変嬉しく思っております。世界観もメンバーもまるで前回とは違う公演。更に没入感のある作品になるのではないかという予感がしています。私自身も前回の自分を越えて、皆さまと共に忘れられない作品を創っていきたいと思っております。「むこうのくに」で、皆様のご来場をお待ちしております。
             </p></div>
           </a>
            <a class="The_Index_Cast_Member The_Index_Cast_Member_Small" href="" target="_blank">
@@ -308,11 +308,12 @@
       <h2 class="TheIndex_Text TheIndex_Header TheIndex_Ticket_Header">TICKET <span class="TheIndex_Header_Jp">チケット情報</span></h2>
       <div class="TheIndex_Ticket_Section">
         <div class="TheIndex_Ticket_Countainer">
-          <div><h4 class="TheIndex_Ticket_Name">先行限定</h4></div>
-          <p class="TheIndex_Ticket_Text_Small">＊先行チケット限定の特典付き</p>
+          <!-- <div><h4 class="TheIndex_Ticket_Name">先行早割チケット</h4></div> -->
+          <h3 class="TheIndex_Ticket_Date">7.01<span class="TheIndex_Ticket_Day">水</span> <span class="TheIndex_Ticket_Date_Small">発売</span> <span class="TheIndex_Ticket_Date_Small_Red">先行早割チケット</span> </h3>
+          <p class="TheIndex_Ticket_Text_Small">※1000枚限定/購入者限定生配信ライブ特典つき</p>
           <p class="TheIndex_Ticket_Text">
           <a href="https://mukounokuni.peatix.com/" class="TheIndex_Ticket_Link" target="_blank">購入ページへ</a>
-            2200円（1000枚限定1000枚限定・特典つき）
+            2,200円
           </p>
         </div>
         <div class="TheIndex_Ticket_Flexbox">
@@ -321,7 +322,7 @@
           <p class="TheIndex_Ticket_Text_Small">＊近日OPEN</p>
           <p class="TheIndex_Ticket_Text">
           <a href="https://mukounokuni.peatix.com/" class="TheIndex_Ticket_Link TheIndex_Ticket_Link_Blue" target="_blank">購入ページへ</a>
-            2800円
+            2,800円
           </p>
           </div>
           <div class="TheIndex_Ticket_Countainer TheIndex_Ticket_Countainer_Opacity">
@@ -329,7 +330,7 @@
             <p class="TheIndex_Ticket_Text_Small">＊近日OPEN</p>
             <p class="TheIndex_Ticket_Text">
             <a href="https://mukounokuni.peatix.com/" class="TheIndex_Ticket_Link TheIndex_Ticket_Link_Blue" target="_blank">購入ページへ</a>
-              2500円
+              2,500円
             </p>
           </div>
           <div class="TheIndex_Ticket_Countainer TheIndex_Ticket_Countainer_Opacity">
@@ -355,19 +356,16 @@
           </p>
         </div>
         <p class="TheIndex_Ticket_Information_Text">
-        ＜チケット＞<br>
-          　Peatixにて、7月1日12時発売開始<br>
-          　https://mukounokuni.peatix.com/<br>
-          　・先行早割チケット（1000枚限定・特典つき）：¥2,200〈7月1日12時販売開始〉<br>
-          ※先着1,000枚限定、なくなり次第終了<br>
-          ※購入者限定生配信特典つき<br>
-          　・一般チケット：¥2,800〈7月3日12時販売開始〉<br>
-          　・RT割引チケット：¥2,500〈7月3日12時販売開始〉<br>
-          ※RT割引チケットをご購入の方は下記の投稿をご自身のTwitterアカウントでリツイートをお願いいたします。<br>
-          　・U18チケット：¥500〈7月3日12時販売開始〉<br>
-          ※『むこうのくに』公式サイト（http://no.meets.ltd/mukounokuni/）のU18チケット購入申請フォームよりお申し込みください。<br>
-          事務局にて年齢の確認後、U18専用チケットページをご案内致します。<br>
-          ↑こちらがチケット概要最新だと思うよ！念の為！<br>
+          ＜チケット＞<br>
+            ■7月1日(水)12時より先行早割チケット数量限定発売<br>
+            ・先行早割チケット：¥2,200<br>
+            ※1000枚限定/購入者限定生配信ライブ特典つき<br>
+            ■7月3日(金)12時より一般チケット発売<br>
+            ・一般チケット：¥2,800<br>
+            ・RT割引チケット：¥2,500<br>
+            ※RT割引チケットをご購入の方は下記投稿をご自身のTwitterアカウントでリツイートした後、上記購入ページよりお申し込みください。<br>
+            ・U18チケット：¥500<br>
+            ※上記購入ページよりお申し込みください。事務局にて年齢確認後、U18専用チケットページをご案内致します。<br>
         </p>
       </div>
       </div>
@@ -378,14 +376,14 @@
     <div class="TheIndex_Goods">
       <div class="TheIndex_Goods_Countainer">
         <h2 class="TheIndex_Text TheIndex_Header TheIndex_Goods_Header">SUZURI OFFICIAL SITE</h2>
-      <p class="TheIndex_Text TheIndex_Goods_Text">（Tシャツ・ポスター・ステッカーetc）</p>
+      <p class="TheIndex_Text TheIndex_Goods_Text">（Tシャツ、ステッカー、オツハタグッズetc）</p>
       <a href="https://suzuri.jp/nomeets" target="_blank" class="TheIndex_Text TheIndex_Goods_Link">購入ページ</a>
       </div>
-      <div class="TheIndex_Goods_Countainer">
+      <!-- <div class="TheIndex_Goods_Countainer">
         <h2 class="TheIndex_Text TheIndex_Header TheIndex_Goods_Header">STORE OFFICIAL SITE</h2>
         <p class="TheIndex_Text TheIndex_Goods_Text">（公式パンフレット）</p>
         <a href="https://nomeets.stores.jp/" target="_blank" class="TheIndex_Text TheIndex_Goods_Link">購入ページ</a>
-      </div>
+      </div> -->
     </div>
     <!-- <div class="TheIndex_Twitter">
       <div class="TheIndex_Twitter_Container">
@@ -429,11 +427,11 @@
            <div><p class="TheIndex_Staff_Member_Role">主宰/製作総指揮</p></div>
            <div><p class="TheIndex_Staff_Member_Name">広屋佑規</p></div>
         </a>
-        <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+        <a class="TheIndex_Staff_Member" href="https://twitter.com/KentarooH">
           <div><p class="TheIndex_Staff_Member_Role">主宰/企画・プロデュース</p></div>
           <div><p class="TheIndex_Staff_Member_Name">林健太郎</p></div>
         </a>
-         <a class="TheIndex_Staff_Member" href="https://twitter.com/KentarooH">
+         <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
            <div><p class="TheIndex_Staff_Member_Role">主宰/脚本・演出</p></div>
            <div><p class="TheIndex_Staff_Member_Name">小御門優一郎</p></div>
         </a>
@@ -461,7 +459,7 @@
           <div><p class="TheIndex_Staff_Member_Role TheIndex_Staff_Member_Role_Small">クリエイティブディレクター/コピーライター</p></div>
           <div><p class="TheIndex_Staff_Member_Name">鈴木健太</p></div>
         </a>
-        <a class="TheIndex_Staff_Member" href="">
+        <a class="TheIndex_Staff_Member" href="https://twitter.com/ryofuji_wara">
           <div><p class="TheIndex_Staff_Member_Role">テクニカルディレクター</p></div>
           <div><p class="TheIndex_Staff_Member_Name">藤原遼</p></div>
         </a>
@@ -469,7 +467,7 @@
           <div><p class="TheIndex_Staff_Member_Role">UI/UXデザイナー</p></div>
           <div><p class="TheIndex_Staff_Member_Name">藤木良祐</p></div>
         </a>
-         <a class="TheIndex_Staff_Member" href="">
+         <a class="TheIndex_Staff_Member" href="https://twitter.com/onodera__m">
           <div><p class="TheIndex_Staff_Member_Role">企画・宣伝</p></div>
           <div><p class="TheIndex_Staff_Member_Name">小野寺正人</p></div>
         </a>
@@ -477,7 +475,7 @@
           <div><p class="TheIndex_Staff_Member_Role">広報</p></div>
           <div><p class="TheIndex_Staff_Member_Name">オギユカ</p></div>
         </a>
-        <a class="TheIndex_Staff_Member" href="">
+        <a class="TheIndex_Staff_Member" href="https://twitter.com/mzb_yk83">
           <div><p class="TheIndex_Staff_Member_Role">広報</p></div>
           <div><p class="TheIndex_Staff_Member_Name">さとうみずは</p></div>
         </a>
@@ -494,15 +492,15 @@
           <div><p class="TheIndex_Staff_Member_Role">劇伴</p></div>
           <div><p class="TheIndex_Staff_Member_Name TheIndex_Staff_Member_Name_Small">サクライケンタ</p></div>
         </a> -->
-        <a class="TheIndex_Staff_Member" href="">
+        <a class="TheIndex_Staff_Member" href="https://twitter.com/x_fanpy">
           <div><p class="TheIndex_Staff_Member_Role">映像ディレクター</p></div>
           <div><p class="TheIndex_Staff_Member_Name">松永つぐみ</p></div>
         </a>
-         <a class="TheIndex_Staff_Member" href="">
+         <a class="TheIndex_Staff_Member" href="https://twitter.com/NEST68">
           <div><p class="TheIndex_Staff_Member_Role">撮影監督</p></div>
           <div><p class="TheIndex_Staff_Member_Name">林大智</p></div>
         </a>
-        <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+        <a class="TheIndex_Staff_Member" href="https://twitter.com/_mizumasa">
           <div><p class="TheIndex_Staff_Member_Role">映像技術・美術</p></div>
           <div><p class="TheIndex_Staff_Member_Name">水落大</p></div>
         </a>
@@ -510,7 +508,7 @@
           <div><p class="TheIndex_Staff_Member_Role">技術監修</p></div>
           <div><p class="TheIndex_Staff_Member_Name">松永夏紀</p></div>
         </a>
-        <a class="TheIndex_Staff_Member" href="">
+        <a class="TheIndex_Staff_Member" href="https://twitter.com/the_ksds">
           <div><p class="TheIndex_Staff_Member_Role">技術監修</p></div>
           <div><p class="TheIndex_Staff_Member_Name">鈴木健太</p></div>
         </a>
@@ -518,7 +516,7 @@
           <div><p class="TheIndex_Staff_Member_Role">技術監修</p></div>
           <div><p class="TheIndex_Staff_Member_Name">田中義丸</p></div>
         </a>
-         <a class="TheIndex_Staff_Member" href="">
+         <a class="TheIndex_Staff_Member" href="https://twitter.com/obake_ai">
           <div><p class="TheIndex_Staff_Member_Role">AI監修</p></div>
           <div><p class="TheIndex_Staff_Member_Name">kishi yuma</p></div>
         </a>
@@ -526,7 +524,7 @@
           <div><p class="TheIndex_Staff_Member_Role">美術・小道具</p></div>
           <div><p class="TheIndex_Staff_Member_Name ">カミヒラ</p></div>
         </a>
-         <a class="TheIndex_Staff_Member" href="">
+         <a class="TheIndex_Staff_Member" href="https://twitter.com/yansukim">
           <div><p class="TheIndex_Staff_Member_Role">フォトグラファー</p></div>
           <div><p class="TheIndex_Staff_Member_Name">yansuKIM</p></div>
         </a>
@@ -1153,7 +1151,7 @@ export default Vue.extend({
   color: #000000;
 }
 .TheIndex_Ticket_Day{
-  font-size: 24px;
+  font-size: 28px;
   position: relative;
   top: -2px;
 }
@@ -1183,6 +1181,9 @@ export default Vue.extend({
   margin-top: 24px;
   font-size: 28px;
   color: #000000;
+  font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
+  font-weight: 600;
+  font-style: normal;
 }
 .TheIndex_Ticket_Link{
   position: relative;
@@ -1247,7 +1248,8 @@ export default Vue.extend({
 }
 .TheIndex_Ticket_Date_Small_Red{
   font-size: 40px;
-  background: #ff1e26;
+  background: #ff3e72;
+  color: #ffffff;
 }
 .TheIndex_Ticket_Information{
   margin-top: 20px;
