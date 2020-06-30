@@ -152,7 +152,7 @@
               <div>
                 <p class="The_Index_Cast_Name The_Index_Cast_Name_Small">オツハタ</p>
               </div>
-              <div><p class="The_Index_Cast_Role The_Index_Cast_Role_Small">リーダー役</p></div>
+              <div><p class="The_Index_Cast_Role The_Index_Cast_Role_Small">ゲン役</p></div>
             </div>
             <div><p class="The_Index_Cast_Message_Small">
                   皆様、こんにちは。劇団ノーミーツのオツハタと申します。名前を聞き間違えられやすく、また読み間違えられやすいため、カタカナの芸名にしました。絶対に絶対に今やる価値のある公演です。今観る価値ある公演だったとお客様に感じてもらえるよう、精一杯演じます。みなさまの毎日が、健やかなものでありますように！
@@ -166,8 +166,7 @@
               </div>
               <div><p class="The_Index_Cast_Role The_Index_Cast_Role_Small">ソウスケ役</p></div>
             </div>
-            <div><p class="The_Index_Cast_Message_Small">
-           　　皆さん初めまして、アバンティーズのそらと言います。実は、あまり知られていませんが大学時代は演劇を専攻していました。しかし、演劇にしっかりと携わるのは今回が初めてです（笑）YouTube黎明期からネットと密に生きてきた僕だからこそ、この作品で濃く強く輝く瞬間があると思っています。よろしくお願いします。
+            <div><p class="The_Index_Cast_Message_Small">皆さん初めまして、アバンティーズのそらと言います。実は、あまり知られていませんが大学時代は演劇を専攻していました。しかし、演劇にしっかりと携わるのは今回が初めてです（笑）YouTube黎明期からネットと密に生きてきた僕だからこそ、この作品で濃く強く輝く瞬間があると思っています。よろしくお願いします。
             </p></div>
           </a>
           <a class="The_Index_Cast_Member The_Index_Cast_Member_Small" href="https://twitter.com/milkan10_" target="_blank">
@@ -231,16 +230,16 @@
             </p></div>
           </a>
           <a class="The_Index_Cast_Member The_Index_Cast_Member_Small" href="https://twitter.com/milkan10_" target="_blank">
-            <img :src="castImg10" alt="" class="The_Index_Cast_Member_Img The_Index_Cast_Member_Img_Small">
+            <img :src="castImg11" alt="" class="The_Index_Cast_Member_Img The_Index_Cast_Member_Img_Small">
             <div class="The_Index_Cast_Member_Countainer The_Index_Cast_Member_Countainer_Small">
               <div>
                 <p class="The_Index_Cast_Name The_Index_Cast_Name_Small">青山郁代</p>
               </div>
               <div><p class="The_Index_Cast_Role The_Index_Cast_Role_Small">議員役</p></div>
             </div>
-            <div><p class="The_Index_Cast_Message_Small">
+            <!-- <div><p class="The_Index_Cast_Message_Small">
               ダミーテキスト（画像も差し替え必）
-            </p></div>
+            </p></div> -->
           </a>
            <a class="The_Index_Cast_Member The_Index_Cast_Member_Small" href="https://twitter.com/milkan10_" target="_blank">
             <img :src="castImg12" alt="" class="The_Index_Cast_Member_Img The_Index_Cast_Member_Img_Small">
@@ -255,39 +254,39 @@
             </p></div>
           </a>
            <a class="The_Index_Cast_Member The_Index_Cast_Member_Small" href="https://twitter.com/milkan10_" target="_blank">
-            <img :src="castImg12" alt="" class="The_Index_Cast_Member_Img The_Index_Cast_Member_Img_Small">
+            <img :src="castImg13" alt="" class="The_Index_Cast_Member_Img The_Index_Cast_Member_Img_Small">
             <div class="The_Index_Cast_Member_Countainer The_Index_Cast_Member_Countainer_Small">
               <div>
                 <p class="The_Index_Cast_Name The_Index_Cast_Name_Small">水石亜飛夢</p>
               </div>
               <div><p class="The_Index_Cast_Role The_Index_Cast_Role_Small">秘書役</p></div>
             </div>
-            <div><p class="The_Index_Cast_Message_Small">
+            <!-- <div><p class="The_Index_Cast_Message_Small">
               ダミーテキスト（画像も差し替え必）
+            </p></div> -->
+          </a>
+          <a class="The_Index_Cast_Member The_Index_Cast_Member_Small" href="https://twitter.com/milkan10_" target="_blank">
+            <img :src="castImg14" alt="" class="The_Index_Cast_Member_Img The_Index_Cast_Member_Img_Small">
+            <div class="The_Index_Cast_Member_Countainer The_Index_Cast_Member_Countainer_Small">
+              <div>
+                <p class="The_Index_Cast_Name The_Index_Cast_Name_Small">渡辺芳博</p>
+              </div>
+              <div><p class="The_Index_Cast_Role The_Index_Cast_Role_Small">刑事役</p></div>
+            </div>
+            <div><p class="The_Index_Cast_Message_Small">
+              zoomによるリモートオーディションでの一言。「リモートにはリモートの演技があり、劇団ノーミーツではそれを追求していきたい」画面越しに語りかけられたこの一言にシビれました。ガジェット、ネットの進歩に四苦八苦する中年の役柄同様に、画面に向かって四苦八苦するであろう自分。楽しみに満ち満ちた挑戦です。劇団ノーミーツの追求を共にできることに感謝。そして是非、この追求を見つめに来てください。
             </p></div>
           </a>
            <a class="The_Index_Cast_Member The_Index_Cast_Member_Small" href="https://twitter.com/milkan10_" target="_blank">
-            <img :src="castImg14" alt="" class="The_Index_Cast_Member_Img The_Index_Cast_Member_Img_Small">
+            <img :src="castImg15" alt="" class="The_Index_Cast_Member_Img The_Index_Cast_Member_Img_Small">
             <div class="The_Index_Cast_Member_Countainer The_Index_Cast_Member_Countainer_Small">
               <div>
                 <p class="The_Index_Cast_Name The_Index_Cast_Name_Small">安藤聡海</p>
               </div>
-              <div><p class="The_Index_Cast_Role The_Index_Cast_Role_Small">リィン役</p></div>
+              <div><p class="The_Index_Cast_Role The_Index_Cast_Role_Small">リィン・カーネーション役</p></div>
             </div>
             <div><p class="The_Index_Cast_Message_Small">
               この作品は私にとっておそらく挑戦的なことが多く、だからこそ今からとてもワクワクしています。キャスト・スタッフの全員力で、オンライン演劇ならではの、今までにない体験をお届けできたらと思います。楽しみにしていてください！！
-            </p></div>
-          </a>
-          <a class="The_Index_Cast_Member The_Index_Cast_Member_Small" href="https://twitter.com/milkan10_" target="_blank">
-            <img :src="castImg14" alt="" class="The_Index_Cast_Member_Img The_Index_Cast_Member_Img_Small Opacity">
-            <div class="The_Index_Cast_Member_Countainer The_Index_Cast_Member_Countainer_Small">
-              <div>
-                <p class="The_Index_Cast_Name The_Index_Cast_Name_Small">and more!</p>
-              </div>
-              <div><p class="The_Index_Cast_Role The_Index_Cast_Role_Small Opacity">理事長役</p></div>
-            </div>
-            <div><p class="The_Index_Cast_Message_Small Opacity">
-              ダミーテキスト（画像も差し替え必）
             </p></div>
           </a>
 
@@ -308,7 +307,7 @@
           <div><h4 class="TheIndex_Ticket_Name">先行限定</h4></div>
           <p class="TheIndex_Ticket_Text_Small">＊先行チケット限定の特典付き</p>
           <p class="TheIndex_Ticket_Text">
-          <a href="https://nomeets2024.peatix.com/" class="TheIndex_Ticket_Link" target="_blank">購入ページへ</a>
+          <a href="https://mukounokuni.peatix.com/" class="TheIndex_Ticket_Link" target="_blank">購入ページへ</a>
             2200円（1000枚限定）
           </p>
         </div>
@@ -316,21 +315,21 @@
            <div class="TheIndex_Ticket_Countainer">
           <div><h4 class="TheIndex_Ticket_Name TheIndex_Ticket_Name_White">一般チケット</h4></div>
           <p class="TheIndex_Ticket_Text">
-          <a href="https://nomeets2024.peatix.com/" class="TheIndex_Ticket_Link TheIndex_Ticket_Link_Blue" target="_blank">購入ページへ</a>
+          <a href="https://mukounokuni.peatix.com/" class="TheIndex_Ticket_Link TheIndex_Ticket_Link_Blue" target="_blank">購入ページへ</a>
             2800円
           </p>
           </div>
           <div class="TheIndex_Ticket_Countainer">
             <div><h4 class="TheIndex_Ticket_Name TheIndex_Ticket_Name_Black">RT割引チケット</h4></div>
             <p class="TheIndex_Ticket_Text">
-            <a href="https://nomeets2024.peatix.com/" class="TheIndex_Ticket_Link TheIndex_Ticket_Link_Blue" target="_blank">購入ページへ</a>
+            <a href="https://mukounokuni.peatix.com/" class="TheIndex_Ticket_Link TheIndex_Ticket_Link_Blue" target="_blank">購入ページへ</a>
               2500円
             </p>
           </div>
           <div class="TheIndex_Ticket_Countainer">
             <div><h4 class="TheIndex_Ticket_Name TheIndex_Ticket_Name_Black">U18割引チケット</h4></div>
             <p class="TheIndex_Ticket_Text">
-            <a href="https://nomeets2024.peatix.com/" class="TheIndex_Ticket_Link TheIndex_Ticket_Link_Blue" target="_blank">購入ページへ</a>
+            <a href="https://mukounokuni.peatix.com/" class="TheIndex_Ticket_Link TheIndex_Ticket_Link_Blue" target="_blank">購入ページへ</a>
               500円
             </p>
           </div>
@@ -628,6 +627,7 @@ export default Vue.extend({
       castImg12: "/home/cast/cast12.jpg",
       castImg13: "/home/cast/cast13.jpg",
       castImg14: "/home/cast/cast14.jpg",
+      castImg15: "/home/cast/cast15.jpg",
       songImg:  "/home/song.svg",
       nomeetsLogoWhiteImg: "/home/Logo_White_GekidanNoMeets.png",
       snsTwitterImg: "/home/twitter.svg",
