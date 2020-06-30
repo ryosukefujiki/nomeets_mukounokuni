@@ -37,6 +37,7 @@
       <img :src="heroCopyImg" alt="" class="TheIndex_Hero_Img_Copy">
       <img :src="heroDateImg" alt="" class="TheIndex_Hero_Img_Date">
       <img :src="heroTitleImg" alt="" class="TheIndex_Hero_Img_Title">
+      <img :src="keyVisualImg_Sp" alt="" class="TheIndex_Hero_Img_Sp">
       <img :src="keyVisualImg" alt="" class="TheIndex_Hero_Img">
       <!-- <v-lazy-image  class="TheIndex_Hero_Img" :src="keyVisualGif" :src-placeholder="keyVisualImg" /> -->
     </div>
@@ -598,6 +599,7 @@ export default Vue.extend({
       logoImg: "/home/logo.png",
       logoImg: "/home/logo.png",
       keyVisualImg: "/home/keyvisual.png",
+      keyVisualImg_Sp: "/home/keyvisual_sp.png",
       keyVisualGif: "/home/keyvisual.gif",
       aboutImg: "/home/about_Img.png",
       copyImg: "/home/copy.svg",
@@ -789,6 +791,13 @@ export default Vue.extend({
   /* border-bottom: 6px solid #eaeaea; */
 }
 .TheIndex_Hero_Img{
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+.TheIndex_Hero_Img_Sp{
+  display: none;
   width: 100vw;
   height: 100vh;
   object-fit: cover;
@@ -1440,6 +1449,18 @@ export default Vue.extend({
   .The_Index_Cast_Name{
     font-size: 48px;
   }
+  .TheIndex_Hero_Img{
+  display: none;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+.TheIndex_Hero_Img_Sp{
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
 }
 
 
@@ -1625,6 +1646,20 @@ export default Vue.extend({
   }
 }
 @media screen and (max-width: 480px) {
+  .TheIndex_Hero_Img_Copy{
+    height: 40%;
+    top: 40px;
+    right: 20px;
+  }
+  .TheIndex_Hero_Img_Logo{
+    width: 32%;
+  }
+  .TheIndex_Hero_Img_Date{
+    width: 40%;
+  }
+  .TheIndex_Hero_Img_Title{
+    width: 60%;
+  }
   .TheIndex_Text{
     font-size: 16px;
   } 
