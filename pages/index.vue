@@ -1518,7 +1518,7 @@ export default Vue.extend({
     padding-right: 40px;
   }
   .TheIndex_Information_Text{
-    font-size: 40px;
+    font-size: 32px;
   }
   .TheIndex_Ticket_Link{
     font-size: 12px;
@@ -1616,10 +1616,10 @@ export default Vue.extend({
     font-size: 48px;
   }
   .TheIndex_Information_Text{
-    font-size: 36px;
+    font-size: 28px;
   }
   .TheIndex_Information_Text_Small{
-    font-size: 24px;
+    font-size: 20px;
   }
   .TheIndex_Ticket_Flexbox{
     display: block;
@@ -1836,10 +1836,10 @@ export default Vue.extend({
     margin-bottom: 4px;
   }
   .TheIndex_Information_Text{
-    font-size: 17px;
+    font-size: 12px;
   }
   .TheIndex_Information_Text_Small{
-    font-size: 13px;
+    font-size: 11px;
   }
 
   .TheIndex_Ticket_Link{
@@ -1993,11 +1993,14 @@ export default Vue.extend({
 .TheIndex_Staff_Member{
   width: 120px;
 }
+.TheIndex_Information_Header{
+  font-size: 16px;
+}
 .TheIndex_Information_Text{
-    font-size: 14px;
+    font-size: 10px;
   }
   .TheIndex_Information_Text_Small{
-    font-size: 12px;
+    font-size: 10px;
   }
 
 }
