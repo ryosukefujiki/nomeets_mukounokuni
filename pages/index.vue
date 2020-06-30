@@ -699,10 +699,10 @@ export default Vue.extend({
   opacity: 0;
 }
 .TheIndex {
-  min-width: 100vw;
-  min-height: 100vh;
+  min-width: 100%;
+  /* min-height: 100%; */
   /* margin: 0 auto;
-  min-height: 100vh;
+  min-height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -713,7 +713,7 @@ export default Vue.extend({
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
+  width: 100%;
   height: 60px;
   /* background: rgba(255, 255, 255, 0); */
   display: flex;
@@ -782,8 +782,8 @@ export default Vue.extend({
   /* font-weight: 500;f */
 }
 .TheIndex_Hero{
-  min-width: 100vw;
-  min-height: 100vh;
+  min-width: 100%;
+  min-height: 100%;
   background: #000000;
   display: flex;
   align-items: center;
@@ -792,14 +792,14 @@ export default Vue.extend({
 }
 .TheIndex_Hero_Img{
   display: block;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 .TheIndex_Hero_Img_Sp{
   display: none;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 .TheIndex_Hero_Img_Title{
@@ -831,8 +831,8 @@ export default Vue.extend({
 }
 
 .TheIndex_Copy{
-  min-width: 100vw;
-  /* min-height: 100vh; */
+  min-width: 100%;
+  /* min-height: 100%; */
   background: #ebeef4;
   /* background: #ffffff; */
   /* display: flex;
@@ -849,8 +849,8 @@ export default Vue.extend({
   width: 45%;
 }
 .TheIndex_Copy_Flexbox{
-  /* min-width: 100vw; */
-  /* min-height: 100vh; */
+  /* min-width: 100%; */
+  /* min-height: 100%; */
   display: flex;
   /* flex-wrap: wrap; */
   justify-content: space-between;
@@ -1385,7 +1385,7 @@ export default Vue.extend({
 }
 
 .TheIndex_Contact{
-  width: 100vw;
+  width: 100%;
   background: #d7e5ff;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -1417,7 +1417,7 @@ export default Vue.extend({
 .TheIndex_Footer{
   padding-top: 60px;
   padding-bottom: 40px;
-  width: 100vw;
+  width: 100%;
   background: black;
 }
 .TheIndex_Footer_Image_Container{
@@ -1451,14 +1451,14 @@ export default Vue.extend({
   }
   .TheIndex_Hero_Img{
   display: none;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 .TheIndex_Hero_Img_Sp{
   display: block;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 }
@@ -1880,7 +1880,7 @@ export default Vue.extend({
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
+  width: 100%;
   height: 32px;
   /* background: #d7e5ff; */
   display: flex;
@@ -1916,7 +1916,7 @@ export default Vue.extend({
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
+  width: 100%;
   height: 32px;
   /* background: #d7e5ff; */
   display: flex;
