@@ -52,18 +52,18 @@
           <p class="TheIndex_Copy_Text">
             現実世界のつながりを絶たれた時代が終わろうとしていた。<br>
             多くの人は喜んで太陽の下へと駆け出したが、<br class="Sp_Brank">
-            ”むこうのくに”に残ることを選んだ人もいた。<br>
+            "むこうのくに"に残ることを選んだ人もいた。<br>
             <br>
             そこは、画面を一枚隔てれば、<br class="Sp_Brank">
             生まれた場所や話す言葉、ヒトかどうかさえも関係ない、<br class="Sp_Brank">
             現実のしがらみが無効化された世界。<br>
             <br>
-            その夏、ぼくは相変わらず画面の前にいて、<br class="Sp_Brank">
-            ”むこうのくに”へアクセスしようとしていた。<br>
+            その夏、ぼくは相変わらず画面の前に居て、<br class="Sp_Brank">
+            "むこうのくに"へアクセスしようとしていた。<br>
+            行方をくらませた、"ともだち"を探すために——<br>
             <br>
-            <span class="TheIndex_Copy_Text_Big">
             劇団ノーミーツ　第二回長編公演<br>
-            「むこうのくに」開演</span>
+            「むこうのくに」開演
           </p>
           <!-- <img :src="copyTitleImg" alt="" class="TheIndex_Copy_Text_Img"> -->
         </div>
@@ -292,13 +292,6 @@
               この作品は私にとっておそらく挑戦的なことが多く、だからこそ今からとてもワクワクしています。キャスト・スタッフの全員力で、オンライン演劇ならではの、今までにない体験をお届けできたらと思います。楽しみにしていてください！！
             </p></div>
           </a>
-
-         
-
-        
-
-      
-
          </div>
 
       </div>
@@ -310,37 +303,38 @@
         <div class="TheIndex_Ticket_Countainer">
            <h3 class="TheIndex_Ticket_Date">7.01<span class="TheIndex_Ticket_Day">（水）</span><span class="TheIndex_Ticket_Date_Small">12:00 発売</span></h3>
           <!-- <span class="TheIndex_Ticket_Date_Small_Red">先行早割チケット</span> </h3> -->
-           <div><h4 class="TheIndex_Ticket_Name">先行早割チケット</h4></div>
+           <div class="TheIndex_Ticket_Name_Flexbox"><h4 class="TheIndex_Ticket_Name">先行早割チケット</h4> <h4 class="TheIndex_Ticket_Money">2,200円</h4> </div>
           <p class="TheIndex_Ticket_Text_Small">※1000枚限定/購入者限定生配信ライブ特典つき</p>
           <p class="TheIndex_Ticket_Text">
           <a href="https://mukounokuni.peatix.com/" class="TheIndex_Ticket_Link" target="_blank">購入ページへ</a>
-            2,200円
+            <!-- 2,200円 -->
           </p>
         </div>
         <h3 class="TheIndex_Ticket_Date">7.03<span class="TheIndex_Ticket_Day">（金）</span><span class="TheIndex_Ticket_Date_Small">12:00 発売</span></h3>
         <div class="TheIndex_Ticket_Flexbox">
            <div class="TheIndex_Ticket_Countainer TheIndex_Ticket_Countainer_Opacity">
-          <div><h4 class="TheIndex_Ticket_Name TheIndex_Ticket_Name_White">一般チケット</h4></div>
+          <div  class="TheIndex_Ticket_Name_Flexbox"><h4 class="TheIndex_Ticket_Name TheIndex_Ticket_Name_White">一般チケット</h4><h4 class="TheIndex_Ticket_Money_White">2,800円</h4></div>
           <!-- <p class="TheIndex_Ticket_Text_Small">＊近日OPEN</p> -->
           <p class="TheIndex_Ticket_Text">
           <a href="https://mukounokuni.peatix.com/" class="TheIndex_Ticket_Link TheIndex_Ticket_Link_Blue" target="_blank">購入ページへ</a>
-            2,800円
+            <!-- 2,800円 -->
           </p>
           </div>
           <div class="TheIndex_Ticket_Countainer TheIndex_Ticket_Countainer_Opacity">
-            <div><h4 class="TheIndex_Ticket_Name TheIndex_Ticket_Name_Black">RT割引チケット</h4></div>
+            <div  class="TheIndex_Ticket_Name_Flexbox"><h4 class="TheIndex_Ticket_Name TheIndex_Ticket_Name_White">RT割引チケット</h4><h4 class="TheIndex_Ticket_Money_White">2,500円</h4></div>
+            <!-- <div><h4 class="TheIndex_Ticket_Name TheIndex_Ticket_Name_Black">RT割引チケット</h4></div> -->
             <!-- <p class="TheIndex_Ticket_Text_Small">＊近日OPEN</p> -->
             <p class="TheIndex_Ticket_Text">
             <a href="https://mukounokuni.peatix.com/" class="TheIndex_Ticket_Link TheIndex_Ticket_Link_Blue" target="_blank">購入ページへ</a>
-              2,500円
+              <!-- 2,500円 -->
             </p>
           </div>
           <div class="TheIndex_Ticket_Countainer TheIndex_Ticket_Countainer_Opacity">
-            <div><h4 class="TheIndex_Ticket_Name TheIndex_Ticket_Name_Black">U18割引チケット</h4></div>
+            <div  class="TheIndex_Ticket_Name_Flexbox"><h4 class="TheIndex_Ticket_Name TheIndex_Ticket_Name_White">U18割引チケット</h4><h4 class="TheIndex_Ticket_Money_White">500円</h4></div>
             <!-- <p class="TheIndex_Ticket_Text_Small">＊近日OPEN</p> -->
             <p class="TheIndex_Ticket_Text">
             <a href="https://mukounokuni.peatix.com/" class="TheIndex_Ticket_Link TheIndex_Ticket_Link_Blue" target="_blank">購入ページへ</a>
-              500円
+              <!-- 500円 -->
             </p>
           </div>
       </div>
@@ -449,7 +443,7 @@
           <div><p class="TheIndex_Staff_Member_Role">よりどころ</p></div>
           <div><p class="TheIndex_Staff_Member_Name ">岩崎裕介</p></div>
         </a>
-         <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+         <a class="TheIndex_Staff_Member" href="https://twitter.com/otsuhatact">
            <div><p class="TheIndex_Staff_Member_Role">俳優・演出助手</p></div>
            <div><p class="TheIndex_Staff_Member_Name">オツハタ</p></div>
         </a>
@@ -551,7 +545,7 @@
     <div class="TheIndex_Contact">
       <h2 class="TheIndex_Text TheIndex_Header">CONTACT <span class="TheIndex_Header_Jp">お問い合わせ</span></h2>
       <a class="TheIndex_Text TheIndex_Contact_MailLink" href="mailto:nomeets2020@gmail.com">nomeets2020@gmail.com</a>
-      <p class="TheIndex_Text">担当：オギ ユカ</p>
+      <p class="TheIndex_Text">担当：菅波（すがなみ）</p>
     </div>
     <footer class="TheIndex_Footer">
       <div class="TheIndex_Footer_Image_Container">
@@ -1164,15 +1158,33 @@ export default Vue.extend({
   font-weight: 600;
   font-style: normal;
   transition: 0.6s;
-  background: #ff3e72;
+  background-color: #ff3e72;
   color: #ffffff;
   margin-top: 12px;
+}
+.TheIndex_Ticket_Money{
+  color: #000000;
+  padding-top: 20px;
+  font-size: 48px;
+  margin-left: 20px;
+  /* background: rgba(0, 0, 0, 0); */
+}
+.TheIndex_Ticket_Name_Flexbox{
+  display: flex;
 }
 .TheIndex_Ticket_Name_White{
   background: #9b9b9b;
   color: #ffffff;
    font-size: 40px;
 }
+.TheIndex_Ticket_Money_White{
+  padding-top: 18px;
+  font-size: 32px;
+  margin-left: 12px;
+}
+/* .TheIndex_Ticket_Name_White{
+  font-size: 28px;
+} */
 .TheIndex_Ticket_Name_Black{
   background: #000000;
   color: #ffffff;
@@ -1563,6 +1575,21 @@ export default Vue.extend({
 .TheIndex_Ticket_Container{
   padding: 40px 60px;
 }
+.TheIndex_Ticket_Name_White{
+  background: #9b9b9b;
+  color: #ffffff;
+   font-size: 36px;
+}
+.TheIndex_Ticket_Money_White{
+  padding-top: 18px;
+  font-size: 32px;
+  margin-left: 12px;
+}
+.TheIndex_Ticket_Name_Black{
+  background: #000000;
+  color: #ffffff;
+  font-size: 40px;
+}
 }
 
 
@@ -1686,6 +1713,23 @@ export default Vue.extend({
 .TheIndex_Ticket_Information_Text{
   font-size: 18px;
 }
+.TheIndex_Ticket_Flexbox{
+  display: block;
+}
+.TheIndex_Ticket_Name{
+  font-size: 48px;
+}
+.TheIndex_Ticket_Money{
+  padding-top: 4px;
+}
+.TheIndex_Ticket_Money_White{
+  font-size: 40px;
+}
+.TheIndex_Ticket_Text{
+  margin-top: 8px;
+}
+
+
 }
 @media screen and (max-width: 768px) {
   .TheIndex_Header{
@@ -1763,6 +1807,9 @@ export default Vue.extend({
 }
 .TheIndex_Ticket_Information_Text{
   font-size: 18px;
+}
+.TheIndex_Ticket_Information{
+  margin-top: 40px;
 }
 }
 @media screen and (max-width: 480px) {
@@ -2071,6 +2118,19 @@ font-size: 16px;
 .TheIndex_Ticket_Text_Flexbox{
   display: block;
 }
+.TheIndex_Ticket_Money{
+  font-size: 24px;
+}
+.TheIndex_Ticket_Money_White{
+  padding-top: 4px;
+  font-size: 24px;
+}
+.TheIndex_Ticket_Money{
+  margin-left: 8px;
+}
+.TheIndex_Ticket_Text_Small{
+  font-size: 12px;
+}
 }
 @media screen and (max-width: 320px) {
   .TheIndex_Nav{
@@ -2151,6 +2211,23 @@ font-size: 20px;
 }
 .TheIndex_Ticket_Text_Flexbox{
   display: block;
+}
+
+.TheIndex_Ticket_Name{
+  font-size: 16px;
+}
+.TheIndex_Ticket_Money{
+  font-size: 16px;
+}
+.TheIndex_Ticket_Money_White{
+  padding-top: 4px;
+  font-size: 16px;
+}
+.TheIndex_Ticket_Money{
+  margin-left: 8px;
+}
+.TheIndex_Ticket_Text_Small{
+  font-size: 12px;
 }
 
 }
