@@ -308,18 +308,20 @@
       <h2 class="TheIndex_Text TheIndex_Header TheIndex_Ticket_Header">TICKET <span class="TheIndex_Header_Jp">チケット情報</span></h2>
       <div class="TheIndex_Ticket_Section">
         <div class="TheIndex_Ticket_Countainer">
-          <!-- <div><h4 class="TheIndex_Ticket_Name">先行早割チケット</h4></div> -->
-          <h3 class="TheIndex_Ticket_Date">7.01<span class="TheIndex_Ticket_Day">水</span> <span class="TheIndex_Ticket_Date_Small">発売</span> <span class="TheIndex_Ticket_Date_Small_Red">先行早割チケット</span> </h3>
+           <h3 class="TheIndex_Ticket_Date">7.01<span class="TheIndex_Ticket_Day">（水）</span><span class="TheIndex_Ticket_Date_Small">12:00 発売</span></h3>
+          <!-- <span class="TheIndex_Ticket_Date_Small_Red">先行早割チケット</span> </h3> -->
+           <div><h4 class="TheIndex_Ticket_Name">先行早割チケット</h4></div>
           <p class="TheIndex_Ticket_Text_Small">※1000枚限定/購入者限定生配信ライブ特典つき</p>
           <p class="TheIndex_Ticket_Text">
           <a href="https://mukounokuni.peatix.com/" class="TheIndex_Ticket_Link" target="_blank">購入ページへ</a>
             2,200円
           </p>
         </div>
+        <h3 class="TheIndex_Ticket_Date">7.03<span class="TheIndex_Ticket_Day">（金）</span><span class="TheIndex_Ticket_Date_Small">12:00 発売</span></h3>
         <div class="TheIndex_Ticket_Flexbox">
            <div class="TheIndex_Ticket_Countainer TheIndex_Ticket_Countainer_Opacity">
           <div><h4 class="TheIndex_Ticket_Name TheIndex_Ticket_Name_White">一般チケット</h4></div>
-          <p class="TheIndex_Ticket_Text_Small">＊近日OPEN</p>
+          <!-- <p class="TheIndex_Ticket_Text_Small">＊近日OPEN</p> -->
           <p class="TheIndex_Ticket_Text">
           <a href="https://mukounokuni.peatix.com/" class="TheIndex_Ticket_Link TheIndex_Ticket_Link_Blue" target="_blank">購入ページへ</a>
             2,800円
@@ -327,7 +329,7 @@
           </div>
           <div class="TheIndex_Ticket_Countainer TheIndex_Ticket_Countainer_Opacity">
             <div><h4 class="TheIndex_Ticket_Name TheIndex_Ticket_Name_Black">RT割引チケット</h4></div>
-            <p class="TheIndex_Ticket_Text_Small">＊近日OPEN</p>
+            <!-- <p class="TheIndex_Ticket_Text_Small">＊近日OPEN</p> -->
             <p class="TheIndex_Ticket_Text">
             <a href="https://mukounokuni.peatix.com/" class="TheIndex_Ticket_Link TheIndex_Ticket_Link_Blue" target="_blank">購入ページへ</a>
               2,500円
@@ -335,7 +337,7 @@
           </div>
           <div class="TheIndex_Ticket_Countainer TheIndex_Ticket_Countainer_Opacity">
             <div><h4 class="TheIndex_Ticket_Name TheIndex_Ticket_Name_Black">U18割引チケット</h4></div>
-            <p class="TheIndex_Ticket_Text_Small">＊近日OPEN</p>
+            <!-- <p class="TheIndex_Ticket_Text_Small">＊近日OPEN</p> -->
             <p class="TheIndex_Ticket_Text">
             <a href="https://mukounokuni.peatix.com/" class="TheIndex_Ticket_Link TheIndex_Ticket_Link_Blue" target="_blank">購入ページへ</a>
               500円
@@ -1250,6 +1252,7 @@ export default Vue.extend({
   font-size: 40px;
   background: #ff3e72;
   color: #ffffff;
+  display: inline-block;
 }
 .TheIndex_Ticket_Information{
   margin-top: 20px;
@@ -1935,18 +1938,33 @@ export default Vue.extend({
   .TheIndex_Ticket_Link_Blue{
     box-shadow: 0 4px 0 #0074ad;
   }
-  .TheIndex_Ticket_Date{
-    font-size: 40px;
+  .TheIndex_Ticket_Name{
+  margin-top: 4px;
+}
+.TheIndex_Ticket_Text{
+  margin-top: 16px;
+}
+.The_Index_Cast_Name{
+    font-size: 20px;
   }
-  .TheIndex_Ticket_Text{
-    font-size: 16px;
-  }
-  .TheIndex_Ticket_Date_Small{
-    font-size: 28px;
-  }
-  .TheIndex_Ticket_Date_Small_Red{
-    font-size: 28px;
-  }
+.TheIndex_Ticket_Date{
+  font-size: 28px;
+}
+.TheIndex_Ticket_Date_Small{
+  font-size: 20px;
+}
+.TheIndex_Ticket_Day{
+font-size: 16px;
+}
+.TheIndex_Ticket_Name{
+  font-size: 24px;
+}
+.TheIndex_Ticket_Text{
+  font-size: 12px;
+}
+.TheIndex_Ticket_Text_Small{
+  font-size: 14px;
+}
 
 
 
@@ -2080,14 +2098,23 @@ export default Vue.extend({
   font-weight: 900;
   transition: 0.2s;
 }
+.TheIndex_Ticket_Name{
+  margin-top: 4px;
+}
+.TheIndex_Ticket_Text{
+  margin-top: 16px;
+}
 .The_Index_Cast_Name{
     font-size: 20px;
   }
 .TheIndex_Ticket_Date{
-  font-size: 32px;
+  font-size: 24px;
 }
 .TheIndex_Ticket_Date_Small{
-  font-size: 24px;
+  font-size: 20px;
+}
+.TheIndex_Ticket_Day{
+font-size: 20px;
 }
 .TheIndex_Ticket_Name{
   font-size: 24px;
