@@ -301,7 +301,7 @@
       <h2 class="TheIndex_Text TheIndex_Header TheIndex_Ticket_Header">TICKET <span class="TheIndex_Header_Jp">チケット情報</span></h2>
       <div class="TheIndex_Ticket_Section">
         <div class="TheIndex_Ticket_Countainer">
-           <h3 class="TheIndex_Ticket_Date">7.01<span class="TheIndex_Ticket_Day">（水）</span><span class="TheIndex_Ticket_Date_Small">12:00 発売</span> <span class="TheIndex_Ticket_Fin">完売御礼</span> </h3>
+           <h3 class="TheIndex_Ticket_Date">7.01<span class="TheIndex_Ticket_Day">（水）</span><span class="TheIndex_Ticket_Date_Small">12:00 発売</span> <span class="TheIndex_Ticket_Fin">販売終了</span> </h3>
           <!-- <span class="TheIndex_Ticket_Date_Small_Red">先行早割チケット</span> </h3> -->
           <div class="TheIndex_Ticket_Name_Flexbox TheIndex_Ticket_Countainer_Opacity"><h4 class="TheIndex_Ticket_Name">先行早割チケット</h4> <h4 class="TheIndex_Ticket_Money">2,200円</h4> </div>
             <p class="TheIndex_Ticket_Text_Small TheIndex_Ticket_Countainer_Opacity">※※1000枚限定/購入者限定生配信ライブ特典つき</p>
