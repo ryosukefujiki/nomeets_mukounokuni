@@ -333,7 +333,7 @@
             <div  class="TheIndex_Ticket_Name_Flexbox"><h4 class="TheIndex_Ticket_Name TheIndex_Ticket_Name_White">U18割引チケット</h4><h4 class="TheIndex_Ticket_Money_White">500円</h4></div>
             <!-- <p class="TheIndex_Ticket_Text_Small">＊近日OPEN</p> -->
             <p class="TheIndex_Ticket_Text">
-            <a href="https://form.run/@nomeets-mukounokuni" class="TheIndex_Ticket_Link TheIndex_Ticket_Link_Blue" target="_blank">購入ページへ</a>
+            <a href="https://form.run/@nomeets-mukounokuni" class="TheIndex_Ticket_Link TheIndex_Ticket_Link_Blue" target="_blank">申込フォームへ</a>
               <!-- 500円 -->
             </p>
           </div>
@@ -1174,7 +1174,7 @@ export default Vue.extend({
   display: flex;
 }
 .TheIndex_Ticket_Name_White{
-  background: #9b9b9b;
+  background: #008fd6;
   color: #ffffff;
    font-size: 40px;
 }
@@ -1187,7 +1187,7 @@ export default Vue.extend({
   font-size: 28px;
 } */
 .TheIndex_Ticket_Name_Black{
-  background: #000000;
+  background: #0074ad;
   color: #ffffff;
   font-size: 40px;
 }
