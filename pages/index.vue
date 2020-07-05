@@ -82,10 +82,41 @@
       </div> -->
       <div class="TheIndex_Information_Contents">
         <h3 class="TheIndex_Information_Header">公演日程</h3>
-        <p class="TheIndex_Information_Text"><span class="Color_Yellow">7.23</span> <span class="TheIndex_Information_Text_Small">木</span> 昼公演：14:00 <span class="TheIndex_Information_Text_Small">(開場13:30)</span> / 夜公演：20:00<span class="TheIndex_Information_Text_Small"> (開場19:30)</span></p>
+        <table class="TheIndex_Date_Table">
+        <thead>
+            <tr>
+              <td></td>
+                <th scope="col">7/23（木）</th>
+                <th scope="col">7/24（金)</th>
+                <th scope="col">7/25（土)</th>
+                <th scope="col">7/26（日)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+               <th>昼公演</th>
+                <td data-label="time" class="txt">14:00 <br>(開場13:30) <br><span class="Color_Pink">●</span></td>
+                <td data-label="time" class="txt">14:00 <br>(開場13:30) <br><span class="Color_Blue">●</span></td>
+                <td data-label="time" class="txt">14:00 <br>(開場13:30) <br><span class="Color_Pink">●</span></td>
+                <td data-label="time" class="txt">14:00 <br>(開場13:30) <br><span class="Color_Blue">●</span></td>
+            </tr>
+            <tr>
+                <th>夜公演</th>
+                <td data-label="time" class="txt">20:00<br>(開場19:30)<br><span class="Color_Blue">●</span></td>
+                 <td data-label="time" class="txt">20:00<br>(開場19:30)<br><span class="Color_Pink">●</span></td>
+                  <td data-label="time" class="txt">20:00<br>(開場19:30)<br><span class="Color_Pink">●</span></td>
+                   <td data-label="time" class="txt">20:00<br>(開場19:30)<br><span class="Color_Pink">●</span></td>
+            </tr>
+        </tbody>
+    </table>  
+    <p class="TheIndex_Information_Text">
+      <span class="Color_Pink">●</span>：青山郁代 出演回 <span class="Opacity">●●</span><span class="Color_Blue">●</span>：淺場万矢 出演回
+    </p> 
+
+        <!-- <p class="TheIndex_Information_Text"><span class="Color_Yellow">7.23</span> <span class="TheIndex_Information_Text_Small">木</span> 昼公演：14:00 <span class="TheIndex_Information_Text_Small">(開場13:30)</span> / 夜公演：20:00<span class="TheIndex_Information_Text_Small"> (開場19:30)</span></p>
         <p class="TheIndex_Information_Text"><span class="Color_Yellow">7.24</span> <span class="TheIndex_Information_Text_Small">金</span> 昼公演：14:00 <span class="TheIndex_Information_Text_Small">(開場13:30)</span> / 夜公演：20:00<span class="TheIndex_Information_Text_Small"> (開場19:30)</span></p>
         <p class="TheIndex_Information_Text"><span class="Color_Yellow">7.25</span> <span class="TheIndex_Information_Text_Small">土</span> 昼公演：14:00 <span class="TheIndex_Information_Text_Small">(開場13:30)</span> / 夜公演：20:00<span class="TheIndex_Information_Text_Small"> (開場19:30)</span></p>
-        <p class="TheIndex_Information_Text"><span class="Color_Yellow">7.26</span> <span class="TheIndex_Information_Text_Small">日</span> 昼公演：14:00 <span class="TheIndex_Information_Text_Small">(開場13:30)</span> / 夜公演：20:00<span class="TheIndex_Information_Text_Small"> (開場19:30)</span></p>
+        <p class="TheIndex_Information_Text"><span class="Color_Yellow">7.26</span> <span class="TheIndex_Information_Text_Small">日</span> 昼公演：14:00 <span class="TheIndex_Information_Text_Small">(開場13:30)</span> / 夜公演：20:00<span class="TheIndex_Information_Text_Small"> (開場19:30)</span></p> -->
       </div>
       <!-- <div class="TheIndex_Information_Contents">
         <h3 class="TheIndex_Information_Header Color_Blue">場所</h3>
@@ -296,6 +327,8 @@
 
       </div>
     </div>
+
+    
     <div class="TheIndex_Ticket" id="ticket">
       <div class="TheIndex_Ticket_Container">
       <h2 class="TheIndex_Text TheIndex_Header TheIndex_Ticket_Header">TICKET <span class="TheIndex_Header_Jp">チケット情報</span></h2>
@@ -338,6 +371,7 @@
             </p>
           </div>
       </div>
+      <!-- <p class="TheIndex_Ticket_Text">*peatixの予約完了メールが届いてない方は、一度メールの設定をご確認下さい</p> -->
       <div class="TheIndex_Ticket_Information">
         <h4 class="TheIndex_Ticket_Information_Header">【『むこうのくに』公演概要】</h4>
         <div class="TheIndex_Ticket_Text_Flexbox">
@@ -371,7 +405,7 @@
 
     <div class="TheIndex_Goods">
       <div class="TheIndex_Goods_Countainer">
-        <h2 class="TheIndex_Text TheIndex_Header TheIndex_Goods_Header">SUZURI OFFICIAL SITE</h2>
+        <h2 class="TheIndex_Text TheIndex_Header TheIndex_Goods_Header">物販公式サイト</h2>
       <p class="TheIndex_Text TheIndex_Goods_Text">（Tシャツ、ステッカー、オツハタグッズetc）</p>
       <a href="https://suzuri.jp/nomeets" target="_blank" class="TheIndex_Text TheIndex_Goods_Link">購入ページ</a>
       </div>
@@ -911,10 +945,11 @@ export default Vue.extend({
 }
 .TheIndex_Information_Text{
   /* color: #ffffff; */
-  font-family: a-otf-ryumin-pr6n, serif;
+  /* font-family: a-otf-ryumin-pr6n, serif; */
   /* color: #ffffff; */
-  color: #6E88AF;
-  font-size: 40px;
+  color: #000000;
+  font-size: 20px;
+  margin-top: 24px;
   /* font-weight: 900; */
 }
 .TheIndex_Information_Text_Small{
@@ -922,6 +957,9 @@ export default Vue.extend({
 }
 .Color_Blue{
   color: #04abff;
+}
+.Color_Pink{
+  color: #ff366b;
 }
 .Color_Yellow{
   /* color: #d7e5ff; */
@@ -1553,6 +1591,86 @@ export default Vue.extend({
   font-weight: bold;
 }
 
+.TheIndex_Date_Table{
+  margin: 0 auto;
+  margin-top: 28px;
+}
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  padding: 0;
+  width: 720px;
+  table-layout: fixed;
+}
+
+table tr {
+  background-color: #fff;
+  border: 1px solid #6E88AF;
+  padding: 20px;
+}
+table th,
+table td {
+  padding: 10px;
+  border-right: 1px solid #6E88AF;
+}
+table th {
+  font-size: 20px;
+}
+table thead tr{
+  background-color: #ebeef4
+}
+.txt{
+   text-align: center;
+   font-size: 20px;
+}
+/* @media screen and (max-width: 600px) {
+  table {
+    border: 0;
+    width:100%
+  }
+  table th{
+    background-color: #eee;
+    display: block;
+    border-right: none;
+  }
+  table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  
+  table tr {
+    display: block;
+    margin-bottom: .625em;
+  }
+  
+  table td {
+    border-bottom: 1px solid #6E88AF;
+    display: block;
+    font-size: .8em;
+    text-align: right;
+    position: relative;
+    padding: .625em .625em .625em 4em;
+    border-right: none;
+  }
+  
+  table td::before {
+    content: attr(data-label);
+    font-weight: bold;
+    position: absolute;
+    left: 10px;
+  }
+  
+  table td:last-child {
+    border-bottom: 0;
+  }
+} */
+
 @media screen and (max-width: 1400px) {
   .TheIndex_Copy_Text{
     font-size: 16px;
@@ -1818,6 +1936,13 @@ export default Vue.extend({
 .TheIndex_Ticket_Fin{
   color: #ff3e72;
   font-size: 40px;
+}
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  padding: 0;
+  width: 600px;
+  table-layout: fixed;
 }
 }
 @media screen and (max-width: 480px) {
@@ -2142,6 +2267,40 @@ font-size: 16px;
 .TheIndex_Ticket_Fin{
   color: #ff3e72;
   font-size: 20px;
+}
+
+
+.TheIndex_Date_Table{
+  margin: 0 auto;
+  margin-top: 12px;
+}
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  padding: 0;
+  width: 300px;
+  table-layout: fixed;
+}
+
+table tr {
+  background-color: #fff;
+  border: 1px solid #6E88AF;
+  padding: 2px;
+}
+table th,
+table td {
+  padding: 2px;
+  border-right: 1px solid #6E88AF;
+}
+table th {
+  font-size: 10px;
+}
+table thead tr{
+  background-color: #ebeef4
+}
+.txt{
+   text-align: center;
+   font-size: 10px;
 }
 }
 @media screen and (max-width: 320px) {
