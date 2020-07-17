@@ -68,9 +68,9 @@ export default {
     '~plugins/vue-youtube',
     '~plugins/v-lazy-image',
   ],
-  router: {
-    base: '/mukounokuni/'
-  },
+  // router: {
+  //   base: '/mukounokuni/'
+  // },
   /*
   ** Build configuration
   */

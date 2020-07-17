@@ -371,6 +371,11 @@
             </p>
           </div>
       </div>
+       <div class="TheIndex_Ticket_Countainer">
+         <h3 class="TheIndex_Ticket_Attention_Header">注意事項</h3>
+            <p class="TheIndex_Text TheIndex_Text_Attention">1. Peatixの予約完了メールが届いてない方は、<span class="Color_Pink">一度メールの設定をご確認下さい。</span></p>
+            <p class="TheIndex_Text TheIndex_Text_Attention">2. 公演URLは<span class="Color_Pink">開場時間の30分前</span>の送付を予定しております。</p>
+        </div>
       <!-- <p class="TheIndex_Ticket_Text">*peatixの予約完了メールが届いてない方は、一度メールの設定をご確認下さい</p> -->
       <div class="TheIndex_Ticket_Information">
         <h4 class="TheIndex_Ticket_Information_Header">【『むこうのくに』公演概要】</h4>
@@ -447,9 +452,12 @@
         </p>
       </div>
     </div>
-     <!-- <div class="TheIndex_Song">
-      <p class="TheIndex_Song_Text"><span class="TheIndex_Song_Text_Small">主題歌</span>　重力の虹 / lie</p>
-    </div> -->
+
+     <div class="TheIndex_Song">
+      <p class="TheIndex_Song_Text"><span class="TheIndex_Song_Text_Small">劇伴：</span>パソコン音楽クラブ</p>
+      <p class="TheIndex_Song_Text"><span class="TheIndex_Song_Text_Small">主題歌：</span>ハルジオン / YOASOBI</p>
+    </div>
+
     <div class="TheIndex_Staff" id="staff">
       <h2 class="TheIndex_Text TheIndex_Staff_Header">STAFF <span class="TheIndex_Staff_Header_Jp">スタッフ</span></h2>
       <div class="TheIndex_Staff_Staff_Container">
@@ -795,6 +803,11 @@ export default Vue.extend({
   font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
   font-weight: 600;
   font-style: normal;
+}
+.TheIndex_Text_Attention{
+  text-align: left;
+  font-size: 24px;
+  /* color: #ff3e72; */
 }
 .TheIndex_Header{
   font-family: din-2014, sans-serif;
@@ -1437,7 +1450,7 @@ export default Vue.extend({
 .TheIndex_Song_Text{
   color: #000000;
   text-align: center;
-  font-size: 80px;
+  font-size: 60px;
   font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;;
 }
 .TheIndex_Song_Text_Small{
