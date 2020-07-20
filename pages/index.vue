@@ -376,6 +376,7 @@
             <p class="TheIndex_Text TheIndex_Text_Attention">1. Peatixの予約完了メールが届いてない方は、<span class="Color_Pink">一度メールの設定をご確認下さい。</span></p>
             <p class="TheIndex_Text TheIndex_Text_Attention">2. 公演URLは<span class="Color_Pink">開場時間の30分前</span>の送付を予定しております。</p>
         </div>
+        <iframe class="TheIndex_Ticket_Movie" src="https://www.youtube.com/embed/Fl68uSoibjk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       <!-- <p class="TheIndex_Ticket_Text">*peatixの予約完了メールが届いてない方は、一度メールの設定をご確認下さい</p> -->
       <div class="TheIndex_Ticket_Information">
         <h4 class="TheIndex_Ticket_Information_Header">【『むこうのくに』公演概要】</h4>
@@ -462,40 +463,32 @@
       <h2 class="TheIndex_Text TheIndex_Staff_Header">STAFF <span class="TheIndex_Staff_Header_Jp">スタッフ</span></h2>
       <div class="TheIndex_Staff_Staff_Container">
          <a class="TheIndex_Staff_Member" href="https://twitter.com/hiroyayuki">
-           <div><p class="TheIndex_Staff_Member_Role">主宰/製作総指揮</p></div>
+           <div><p class="TheIndex_Staff_Member_Role">製作総指揮</p></div>
            <div><p class="TheIndex_Staff_Member_Name">広屋佑規</p></div>
         </a>
         <a class="TheIndex_Staff_Member" href="https://twitter.com/KentarooH">
-          <div><p class="TheIndex_Staff_Member_Role">主宰/企画・プロデュース</p></div>
+          <div><p class="TheIndex_Staff_Member_Role">企画・プロデュース</p></div>
           <div><p class="TheIndex_Staff_Member_Name">林健太郎</p></div>
-        </a>
-         <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
-           <div><p class="TheIndex_Staff_Member_Role">主宰/脚本・演出</p></div>
-           <div><p class="TheIndex_Staff_Member_Name">小御門優一郎</p></div>
-        </a>
-        <a class="TheIndex_Staff_Member" href="https://twitter.com/Ganamiii">
-           <div><p class="TheIndex_Staff_Member_Role">制作・プロデュース</p></div>
-           <div><p class="TheIndex_Staff_Member_Name">菅波和也</p></div>
         </a>
         <a class="TheIndex_Staff_Member" href="https://twitter.com/yuri_____flower">
            <div><p class="TheIndex_Staff_Member_Role">プロデュース・舞台監督</p></div>
            <div><p class="TheIndex_Staff_Member_Name">梅田ゆりか</p></div>
         </a>
-         <a class="TheIndex_Staff_Member" href="https://twitter.com/iwsk_">
-          <div><p class="TheIndex_Staff_Member_Role">よりどころ</p></div>
-          <div><p class="TheIndex_Staff_Member_Name ">岩崎裕介</p></div>
-        </a>
-         <a class="TheIndex_Staff_Member" href="https://twitter.com/otsuhatact">
-           <div><p class="TheIndex_Staff_Member_Role">俳優・演出助手</p></div>
-           <div><p class="TheIndex_Staff_Member_Name">オツハタ</p></div>
-        </a>
-        <a class="TheIndex_Staff_Member" href="https://twitter.com/minamimag">
-          <div><p class="TheIndex_Staff_Member_Role">デザイナー・宣伝美術</p></div> 
-          <div><p class="TheIndex_Staff_Member_Name">目黒水海</p></div>
+         <a class="TheIndex_Staff_Member" href="">
+           <div><p class="TheIndex_Staff_Member_Role">制作プロデュース</p></div>
+           <div><p class="TheIndex_Staff_Member_Name">中村加奈</p></div>
         </a>
         <a class="TheIndex_Staff_Member" href="https://twitter.com/suzkikenta">
           <div><p class="TheIndex_Staff_Member_Role TheIndex_Staff_Member_Role_Small">クリエイティブディレクター/コピーライター</p></div>
           <div><p class="TheIndex_Staff_Member_Name">鈴木健太</p></div>
+        </a>
+        <a class="TheIndex_Staff_Member" href="https://twitter.com/m7kenji">
+          <div><p class="TheIndex_Staff_Member_Role TheIndex_Staff_Member_Role_Small">アートディレクション / グラフィックデザイン </p></div>
+          <div><p class="TheIndex_Staff_Member_Name">m7kenji</p></div>
+        </a>
+        <a class="TheIndex_Staff_Member" href="https://twitter.com/dainackwave">
+          <div><p class="TheIndex_Staff_Member_Role">グラフィックデザイン</p></div>
+          <div><p class="TheIndex_Staff_Member_Name">千葉大樹</p></div>
         </a>
         <a class="TheIndex_Staff_Member" href="https://twitter.com/ryofuji_wara">
           <div><p class="TheIndex_Staff_Member_Role">テクニカルディレクター</p></div>
@@ -505,7 +498,44 @@
           <div><p class="TheIndex_Staff_Member_Role">UI/UXデザイナー</p></div>
           <div><p class="TheIndex_Staff_Member_Name">藤木良祐</p></div>
         </a>
-         <a class="TheIndex_Staff_Member" href="https://twitter.com/onodera__m">
+        <a class="TheIndex_Staff_Member" href="https://twitter.com/_mizumasa">
+          <div><p class="TheIndex_Staff_Member_Role TheIndex_Staff_Member_Role_Small">映像技術・美術（映像レイアウト・スイッチング・照明・リモートシステム担当)</p></div>
+          <div><p class="TheIndex_Staff_Member_Name">水落大</p></div>
+        </a>
+        <a class="TheIndex_Staff_Member" href="https://twitter.com/the_ksds">
+          <div><p class="TheIndex_Staff_Member_Role TheIndex_Staff_Member_Role_Small">技術監修(ロボットアーム・カメラスライダー・スマートシステムPM担当)</p></div>
+          <div><p class="TheIndex_Staff_Member_Name TheIndex_Staff_Member_Name_Small">鈴木健太（IAMAS）</p></div>
+        </a>
+        <a class="TheIndex_Staff_Member" href="">
+          <div><p class="TheIndex_Staff_Member_Role TheIndex_Staff_Member_Role_Small">技術監修(ロボットアームハードウェア、ハードウェア現場設営担当)</p></div>
+          <div><p class="TheIndex_Staff_Member_Name">松永夏紀</p></div>
+        </a>
+        <a class="TheIndex_Staff_Member" href="">
+          <div><p class="TheIndex_Staff_Member_Role TheIndex_Staff_Member_Role_Small">技術監修(ロボットアームソフトウェア担当)</p></div>
+          <div><p class="TheIndex_Staff_Member_Name">田中義丸</p></div>
+        </a>
+        <a class="TheIndex_Staff_Member" href="https://twitter.com/NEST68">
+          <div><p class="TheIndex_Staff_Member_Role">撮影監督/照明</p></div>
+          <div><p class="TheIndex_Staff_Member_Name">林大智</p></div>
+        </a>
+        <a class="TheIndex_Staff_Member" href="https://twitter.com/x_fanpy">
+          <div><p class="TheIndex_Staff_Member_Role">映像ディレクター</p></div>
+          <div><p class="TheIndex_Staff_Member_Name">松永つぐみ</p></div>
+        </a>
+         <a class="TheIndex_Staff_Member" href="https://twitter.com/obake_ai">
+          <div><p class="TheIndex_Staff_Member_Role">AI監修</p></div>
+          <div><p class="TheIndex_Staff_Member_Name">kishi yuma</p></div>
+        </a>
+        <a class="TheIndex_Staff_Member" href="">
+          <div><p class="TheIndex_Staff_Member_Role">予告編編集</p></div>
+          <div><p class="TheIndex_Staff_Member_Name">小笹輪太郎</p></div>
+        </a>
+        <a class="TheIndex_Staff_Member" href="https://twitter.com/iwsk_">
+          <div><p class="TheIndex_Staff_Member_Role">しんがり</p></div>
+          <div><p class="TheIndex_Staff_Member_Name ">岩崎裕介</p></div>
+        </a>
+
+        <a class="TheIndex_Staff_Member" href="https://twitter.com/onodera__m">
           <div><p class="TheIndex_Staff_Member_Role">企画・宣伝</p></div>
           <div><p class="TheIndex_Staff_Member_Name">小野寺正人</p></div>
         </a>
@@ -521,58 +551,65 @@
           <div><p class="TheIndex_Staff_Member_Role">広報</p></div>
           <div><p class="TheIndex_Staff_Member_Name ">平岡祐子</p></div>
         </a>
-         <a class="TheIndex_Staff_Member" href="">
-          <div><p class="TheIndex_Staff_Member_Role">スタイリスト</p></div>
-          <div><p class="TheIndex_Staff_Member_Name">石塚愛理</p></div>
+        <a class="TheIndex_Staff_Member" href="https://twitter.com/minamimag">
+          <div><p class="TheIndex_Staff_Member_Role">デザイナー・宣伝美術</p></div> 
+          <div><p class="TheIndex_Staff_Member_Name">目黒水海</p></div>
         </a>
-         
-        <!-- <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
-          <div><p class="TheIndex_Staff_Member_Role">劇伴</p></div>
-          <div><p class="TheIndex_Staff_Member_Name TheIndex_Staff_Member_Name_Small">サクライケンタ</p></div>
-        </a> -->
-        <a class="TheIndex_Staff_Member" href="https://twitter.com/x_fanpy">
-          <div><p class="TheIndex_Staff_Member_Role">映像ディレクター</p></div>
-          <div><p class="TheIndex_Staff_Member_Name">松永つぐみ</p></div>
-        </a>
-         <a class="TheIndex_Staff_Member" href="https://twitter.com/NEST68">
-          <div><p class="TheIndex_Staff_Member_Role">撮影監督</p></div>
-          <div><p class="TheIndex_Staff_Member_Name">林大智</p></div>
-        </a>
-        <a class="TheIndex_Staff_Member" href="https://twitter.com/_mizumasa">
-          <div><p class="TheIndex_Staff_Member_Role">映像技術・美術</p></div>
-          <div><p class="TheIndex_Staff_Member_Name">水落大</p></div>
-        </a>
-        <a class="TheIndex_Staff_Member" href="">
-          <div><p class="TheIndex_Staff_Member_Role">技術監修</p></div>
-          <div><p class="TheIndex_Staff_Member_Name">松永夏紀</p></div>
-        </a>
-        <a class="TheIndex_Staff_Member" href="https://twitter.com/the_ksds">
-          <div><p class="TheIndex_Staff_Member_Role">技術監修</p></div>
-          <div><p class="TheIndex_Staff_Member_Name">鈴木健太</p></div>
-        </a>
-         <a class="TheIndex_Staff_Member" href="">
-          <div><p class="TheIndex_Staff_Member_Role">技術監修</p></div>
-          <div><p class="TheIndex_Staff_Member_Name">田中義丸</p></div>
-        </a>
-         <a class="TheIndex_Staff_Member" href="https://twitter.com/obake_ai">
-          <div><p class="TheIndex_Staff_Member_Role">AI監修</p></div>
-          <div><p class="TheIndex_Staff_Member_Name">kishi yuma</p></div>
-        </a>
-        <a class="TheIndex_Staff_Member" href="">
-          <div><p class="TheIndex_Staff_Member_Role">美術・小道具</p></div>
-          <div><p class="TheIndex_Staff_Member_Name ">カミヒラ</p></div>
-        </a>
+
          <a class="TheIndex_Staff_Member" href="https://twitter.com/yansukim">
           <div><p class="TheIndex_Staff_Member_Role">フォトグラファー</p></div>
           <div><p class="TheIndex_Staff_Member_Name">yansuKIM</p></div>
         </a>
-        <!-- <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
-          <div><p class="TheIndex_Staff_Member_Role">劇伴</p></div>
-           <div><p class="TheIndex_Staff_Member_Name TheIndex_Staff_Member_Name_Small">パソコン音楽クラブ</p></div>
-        </a> -->
-         <!-- <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+        <a class="TheIndex_Staff_Member" href="https://twitter.com/rabbit_machine">
+          <div><p class="TheIndex_Staff_Member_Role">イラストデザイン</p></div>
+          <div><p class="TheIndex_Staff_Member_Name TheIndex_Staff_Member_Name_Small">むつき潤　ラビットマシーン</p></div>
+        </a>
+
+        <a class="TheIndex_Staff_Member" href="">
+          <div><p class="TheIndex_Staff_Member_Role">美術・小道具</p></div>
+          <div><p class="TheIndex_Staff_Member_Name ">カミヒラ</p></div>
+        </a>
+         <a class="TheIndex_Staff_Member" href="">
+          <div><p class="TheIndex_Staff_Member_Role">スタイリスト</p></div>
+          <div><p class="TheIndex_Staff_Member_Name">石塚愛理</p></div>
+        </a>
+        <a class="TheIndex_Staff_Member" href="https://twitter.com/Ganamiii">
+           <div><p class="TheIndex_Staff_Member_Role">販売管理統括</p></div>
+           <div><p class="TheIndex_Staff_Member_Name">菅波和也</p></div>
+        </a>
+         <a class="TheIndex_Staff_Member" href="">
+           <div><p class="TheIndex_Staff_Member_Role">販売管理</p></div>
+           <div><p class="TheIndex_Staff_Member_Name">町田知世</p></div>
+        </a>
+        <a class="TheIndex_Staff_Member" href="">
+           <div><p class="TheIndex_Staff_Member_Role">販売管理</p></div>
+           <div><p class="TheIndex_Staff_Member_Name">石曽根夢真</p></div>
+        </a>
+
+         <a class="TheIndex_Staff_Member" href="">
+           <div><p class="TheIndex_Staff_Member_Role">協賛提供</p></div>
+           <div><p class="TheIndex_Staff_Member_Name TheIndex_Staff_Member_Name_Small">サントリー『ZONe』</p></div>
+        </a>
+         <a class="TheIndex_Staff_Member" href="">
+           <div><p class="TheIndex_Staff_Member_Role">美術提供</p></div>
+           <div><p class="TheIndex_Staff_Member_Name TheIndex_Staff_Member_Name_Small">IKEUCHI ORGANIC</p></div>
+        </a>
+
+        <a class="TheIndex_Staff_Member" href="https://twitter.com/otsuhatact">
+           <div><p class="TheIndex_Staff_Member_Role">演出助手・脚本助手</p></div>
+           <div><p class="TheIndex_Staff_Member_Name">オツハタ</p></div>
+        </a>
+        <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+           <div><p class="TheIndex_Staff_Member_Role">脚本・演出</p></div>
+           <div><p class="TheIndex_Staff_Member_Name">小御門優一郎</p></div>
+        </a>
+        <a class="TheIndex_Staff_Member" href="https://twitter.com/gekidan_nomeets">
           <div><p class="TheIndex_Staff_Member_Role">企画・製作</p></div>
           <div><p class="TheIndex_Staff_Member_Name TheIndex_Staff_Member_Name_Small">劇団ノーミーツ</p></div>
+        </a>
+        <!-- <a class="TheIndex_Staff_Member" href="https://twitter.com/KoMIkado_21g">
+          <div><p class="TheIndex_Staff_Member_Role">劇伴</p></div>
+          <div><p class="TheIndex_Staff_Member_Name TheIndex_Staff_Member_Name_Small">サクライケンタ</p></div>
         </a> -->
       </div>
     </div>
@@ -1683,6 +1720,11 @@ table thead tr{
     border-bottom: 0;
   }
 } */
+.TheIndex_Ticket_Movie{
+  width: 32vw;
+  height: 18vw;
+  margin-bottom: 80px;
+}
 
 @media screen and (max-width: 1400px) {
   .TheIndex_Copy_Text{
@@ -1711,7 +1753,7 @@ table thead tr{
   padding: 40px 60px;
 }
 .TheIndex_Ticket_Name_White{
-  background: #9b9b9b;
+  background: #008fd6;
   color: #ffffff;
    font-size: 36px;
 }
@@ -1862,6 +1904,12 @@ table thead tr{
 }
 .TheIndex_Ticket_Text{
   margin-top: 8px;
+}
+
+.TheIndex_Ticket_Movie{
+  width: 100%;
+  height: 48vw;
+  margin-bottom: 0px;
 }
 
 
