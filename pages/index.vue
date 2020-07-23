@@ -411,9 +411,13 @@
 
     <div class="TheIndex_Goods">
       <div class="TheIndex_Goods_Countainer">
-        <h2 class="TheIndex_Text TheIndex_Header TheIndex_Goods_Header">物販公式サイト</h2>
-      <p class="TheIndex_Text TheIndex_Goods_Text">（Tシャツ、ステッカー、オツハタグッズetc）</p>
-      <a href="https://suzuri.jp/nomeets" target="_blank" class="TheIndex_Text TheIndex_Goods_Link">購入ページ</a>
+        <h2 class="TheIndex_Text TheIndex_Header TheIndex_Goods_Header">OFFICIAL GOODS</h2>
+      <p class="TheIndex_Text TheIndex_Goods_Text">公演オリジナルグッズや、劇団オリジナルグッズを販売中！</p>
+      <!-- <a href="https://nomeets2020.studio.design/goods" target="_blank" class="TheIndex_Text TheIndex_Goods_Link">購入ページへ</a> -->
+       <p class="TheIndex_Ticket_Text">
+           <a href="https://nomeets2020.studio.design/goods" target="_blank" class="TheIndex_Ticket_Link TheIndex_Ticket_Link_Blue TheIndex_Goods_Link">購入ページへ</a>
+              <!-- 2,500円 -->
+            </p>
       </div>
       <!-- <div class="TheIndex_Goods_Countainer">
         <h2 class="TheIndex_Text TheIndex_Header TheIndex_Goods_Header">STORE OFFICIAL SITE</h2>
@@ -474,7 +478,7 @@
            <div><p class="TheIndex_Staff_Member_Role">プロデュース・舞台監督</p></div>
            <div><p class="TheIndex_Staff_Member_Name">梅田ゆりか</p></div>
         </a>
-         <a class="TheIndex_Staff_Member" href="">
+         <a class="TheIndex_Staff_Member" href="https://twitter.com/kana_lulysh">
            <div><p class="TheIndex_Staff_Member_Role">制作プロデュース</p></div>
            <div><p class="TheIndex_Staff_Member_Name">中村加奈</p></div>
         </a>
@@ -547,7 +551,7 @@
           <div><p class="TheIndex_Staff_Member_Role">広報</p></div>
           <div><p class="TheIndex_Staff_Member_Name">さとうみずは</p></div>
         </a>
-         <a class="TheIndex_Staff_Member" href="">
+         <a class="TheIndex_Staff_Member" href="https://twitter.com/ykymdy">
           <div><p class="TheIndex_Staff_Member_Role">広報</p></div>
           <div><p class="TheIndex_Staff_Member_Name ">平岡祐子</p></div>
         </a>
@@ -560,9 +564,13 @@
           <div><p class="TheIndex_Staff_Member_Role">フォトグラファー</p></div>
           <div><p class="TheIndex_Staff_Member_Name">yansuKIM</p></div>
         </a>
-        <a class="TheIndex_Staff_Member" href="https://twitter.com/rabbit_machine">
+        <a class="TheIndex_Staff_Member" href="https://twitter.com/mutsukijune">
           <div><p class="TheIndex_Staff_Member_Role">イラストデザイン</p></div>
-          <div><p class="TheIndex_Staff_Member_Name TheIndex_Staff_Member_Name_Small">むつき潤　ラビットマシーン</p></div>
+          <div><p class="TheIndex_Staff_Member_Name TheIndex_Staff_Member_Name_Small">むつき潤</p></div>
+        </a>
+         <a class="TheIndex_Staff_Member" href="https://twitter.com/rabbit_machine">
+          <div><p class="TheIndex_Staff_Member_Role">イラストデザイン</p></div>
+          <div><p class="TheIndex_Staff_Member_Name TheIndex_Staff_Member_Name_Small">ラビットマシーン</p></div>
         </a>
 
         <a class="TheIndex_Staff_Member" href="">
@@ -586,11 +594,11 @@
            <div><p class="TheIndex_Staff_Member_Name">石曽根夢真</p></div>
         </a>
 
-         <a class="TheIndex_Staff_Member" href="">
+         <a class="TheIndex_Staff_Member" href="https://twitter.com/zone_energy_jp">
            <div><p class="TheIndex_Staff_Member_Role">協賛提供</p></div>
-           <div><p class="TheIndex_Staff_Member_Name TheIndex_Staff_Member_Name_Small">サントリー『ZONe』</p></div>
+           <div><p class="TheIndex_Staff_Member_Name TheIndex_Staff_Member_Name_Small">ZONe DIGITAL PERFORMANCE ENERGY</p></div>
         </a>
-         <a class="TheIndex_Staff_Member" href="">
+         <a class="TheIndex_Staff_Member" href="https://twitter.com/IKEUCHIORGANIC">
            <div><p class="TheIndex_Staff_Member_Role">美術提供</p></div>
            <div><p class="TheIndex_Staff_Member_Name TheIndex_Staff_Member_Name_Small">IKEUCHI ORGANIC</p></div>
         </a>
@@ -1411,7 +1419,7 @@ export default Vue.extend({
   font-size: 28px;
 }
 .TheIndex_Goods_Link{
-  display: inline-block;
+  /* display: inline-block;
   background: #ffffff;
   text-decoration: none !important;
   font-weight: normal;
@@ -1419,8 +1427,8 @@ export default Vue.extend({
   transition: 0.6s;
   font-size: 48px;
   text-align: center;
-  margin: 0 auto;
-  margin-top: 20px;
+  margin: 0 auto; */
+  margin-top: 80px;
 }
 .TheIndex_Goods_Link:hover{
   opacity: 0.6;
