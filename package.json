@@ -11,7 +11,7 @@
     "start": "nuxt-ts start"
   },
   "dependencies": {
-    "gsap": "^3.3.4",
+    "gsap": "^3.6.0",
     "nuxt": "^2.0.0",
     "nuxt-webfontloader": "^1.1.0",
     "raw-loader": "^4.0.1",
