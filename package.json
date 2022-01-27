@@ -16,7 +16,7 @@
     "nuxt-webfontloader": "^1.1.0",
     "raw-loader": "^4.0.1",
     "shuffle-text": "^0.3.0",
-    "three": "^0.117.1",
+    "three": "^0.137.0",
     "v-lazy-image": "^1.4.0",
     "vue-scrollto": "^2.18.1",
     "vue-tweet-embed": "^2.4.0",
